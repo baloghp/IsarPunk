@@ -1,18 +1,26 @@
 # Landscape Research: Comparable Initiatives to IsarPunk
 
-*Research note for seed planning · August 2026 · Sources linked at end*
+*Research note for seed planning · August 2026 (updated for ESU 2027 + wide-workshop strategy) · Sources linked at end*
 
 IsarPunk sits at the intersection of three existing movements: **school Linux / FOSS clubs**, **repair & circular-electronics education**, and **civic youth tech communities** (especially Germany’s Chaos / Jugend hackt ecosystem). This article maps the closest comparable initiatives — what they deliver, what appeals, what worked, and what IsarPunk can steal without reinventing.
+
+**IsarPunk strategy note (current):** consumer Windows 10 ESU now runs to **12 October 2027**, giving more runway. Primary goal is **~6 school workshops over the next school year** — **wide knowledge dispersal and seed-planting**, not guiding one cohort through a full solution. Deep installs / refurb belong to **MuCCC and other existing labs**; IsarPunk’s job is awareness + warm handoff.
 
 ---
 
 ## 1. Why this landscape matters
 
-Windows 10’s EU Extended Security Updates cliff (October 2026) is a time-boxed catalyst, not a unique idea. Peers have already proven that **kids + discarded hardware + open software + a real beneficiary** produces durable outcomes: devices rehomed, confidence gained, schools bridged, and communities recruited.
+Windows 10’s consumer Extended Security Updates cliff (**October 2027**, after an extension from the earlier 2026 plan) remains a time-boxed catalyst, not a unique idea. The extra year is an advantage: sow widely while machines are still patchable, then hand motivated youth and families to hubs before the final cliff.
+
+Peers have already proven that **kids + discarded hardware + open software + a real beneficiary** produces durable outcomes. For IsarPunk’s *dispersal* mode, the closer analogues are **Chaos macht Schule / Restart session packs / Schule & Co** (many short touches) more than a single Penguin-style deep club — though Penguin/Restart still teach messaging, cards, and partner design.
 
 The pattern that repeats across continents:
 
 > Learn the tool → serve someone with it → make the service public → keep a hangout so people return.
+
+**IsarPunk variant for year one:**
+
+> Spark the story in many classrooms → leave a next-step path to MuCCC / repair labs → measure workshops run and referrals made, not machines finished.
 
 ---
 
@@ -217,25 +225,30 @@ Optional later: Labdoo-like intake form; Riot-like parts ledger; Jugend hackt-li
 | Bridge between schools, CCC, and *commercial* repair shops | Deck already lists Munich shops + MuCCC + FabLab |
 | Lightweight FOSS sovereignty (Pi-hole, Nextcloud, Jellyfin) for teens | Beyond “install Mint and stop” |
 
-IsarPunk should not try to out-scale Jugend hackt or out-logistics Labdoo. It should own the **Munich EOL → family rescue → youth builder** corridor and feed surplus energy into existing Labs and repair cafés.
+IsarPunk should not try to out-scale Jugend hackt or out-logistics Labdoo. It should own the **Munich EOL awareness → school dispersal → warm handoff** corridor and treat MuCCC / repair cafés / FabLab as the *solution layer*, not competitors.
 
 ---
 
 ## 8. Implications for a €1,000 / 3-volunteer seed
 
-From the landscape, a credible pilot delivers:
+Given **wide dispersal** (~6 workshops / school year) and the **2027 ESU runway**, a credible seed delivers:
 
-- **1** school cohort (8–12 youth)  
-- **1** public Save Oma / repair afternoon with ≥1 shop or café  
-- **5–15** machines touched (install or soft-repair)  
-- **Replication pack v0** (cards + Elternbrief + partner sheet)  
-- **Hangout** (Matrix or Discord) for survivors — not a custom platform  
+- **~6** school workshops (same core format, many rooms — not one deep cohort)  
+- **Replication pack v0** (90-min cards + Elternbrief + “where to go next” partner sheet)  
+- **Documented handoff** to MuCCC / repair shops / FabLab / Repair Café (flyer, visit slot, or mentor invite)  
+- Optional: **1** joint awareness day *hosted by a partner hub* (IsarPunk brings the story; hub owns tools/liability)  
+- Lightweight list/hangout only if it serves booking the next workshop — **not** a custom platform  
 
-Those outputs match what funders and partners recognise from Penguin / Restart / Riot stories — just at seed scale.
+Success metrics shift from “machines finished by us” to **classrooms reached, take-home materials left, and successful referrals into existing labs**.
+
+Closest peer modes for this shape: **Chaos macht Schule** (many short school touches), **Restart session cards** (teacher-reusable pack), **Schule & Co** (school ↔ repair-café bridge). Deep Penguin/Riot club models remain inspiration for *partners*, not for IsarPunk’s year-one KPI.
 
 ---
 
 ## Sources (selected)
+
+- [Microsoft Windows 10 Extended Security Updates](https://www.microsoft.com/en-us/windows/extended-security-updates) (consumer ESU through **12 October 2027**)  
+- [BleepingComputer – ESU extended to October 2027](https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/)
 
 - [Linux Club Guide – Introduction](https://www.linuxclubguide.com/introduction)  
 - [Asian Penguins close digital divide (Opensource.com)](https://opensource.com/article/19/2/asian-penguins-close-digital-divide)  
