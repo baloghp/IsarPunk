@@ -12,24 +12,27 @@ Millions of still-usable PCs still risk landfill or ransomware exposure afterwar
 
 IsarPunk is a **seed / dispersal** initiative:
 
-1. **Tell the story** — Win10 cliff, e-waste, why Oma is exposed, why FOSS/Linux is a real option  
-2. **Spark agency** — short school workshops that plant curiosity and basic competence  
-3. **Hand off the deep work** — full installs, refurb pipelines, and ongoing labs belong to **MuCCC**, repair shops, FabLab, Repair Cafés, and similar hubs  
+1. **Tell the story** — Win10 cliff, e-waste, circular reuse, why FOSS/Linux is a real option  
+2. **Spark agency** — ~6 school workshops / year (from ~Nov) that raise **confidence**, not only knowledge  
+3. **Hand off the deep work** — repairs and installs go to **repair shops & cafés** first; MuCCC / FabLab / software FOSS partners later  
 
-We go **wide**, not deep: many classrooms touched, not one intensive cohort guided through a complete solution.
+We go **wide**, not deep: many classrooms touched; hubs finish the job.
 
-Project team: 3 volunteers · seed budget: €1,000 · home base: Munich
+Project team: Peter (content), Avanti (outreach), Alex (core) · seed ~€1,000 (Nebenan Stiftung) · Munich
 
 ## Primary goal (school year)
 
-Run about **6 school workshops** over the next school year.
+Run about **6 school workshops** over school year 2026/27.
 
 | We do | We don’t (year one) |
 |--------|---------------------|
-| Knowledge dispersal & seed-planting | Own a full refurb / install service |
-| Repeatable short workshop format | One deep multi-week cohort as the main KPI |
-| Point kids/families to MuCCC & partners | Build a custom youth platform |
-| Leave take-home cheat sheets + next steps | Promise “we’ll finish Oma’s PC ourselves” at scale |
+| Knowledge + **confidence** dispersal | Own a full refurb / install service |
+| Repeatable workshop format (+ circular framing) | One deep multi-week cohort as the main KPI |
+| Point kids/families to **repair shops/cafés** | Give away hardware from the grant |
+| Partner cheat sheet + shop outreach | Promise “we finish Oma’s PC” at scale |
+| Optional later: capped engagement platform | Launch a youth social network on day one |
+
+See [`Meetings/Minutes - Goal Setting.md`](Meetings/Minutes%20-%20Goal%20Setting.md) for decisions.
 
 ## Repo contents
 
@@ -39,18 +42,21 @@ Run about **6 school workshops** over the next school year.
 | [`Concept/Project IsarPunk - Electronics Circle_DE.pdf`](Concept/Project%20IsarPunk%20-%20Electronics%20Circle_DE.pdf) | Concept deck (DE) |
 | `Concept/*.pptx` | Editable PowerPoint sources |
 | [`Concept/Landscape Research - Comparable Initiatives.md`](Concept/Landscape%20Research%20-%20Comparable%20Initiatives.md) | Landscape of peer programs (Penguins, Restart, Jugend hackt, …) |
-| [`Meetings/`](Meetings/) | Meeting prep, agendas, and decision logs |
-| [`Engagement Platform/`](Engagement%20Platform/) | School-team challenge tracker concept (badges, lab verify, tip links) |
+| [`Meetings/`](Meetings/) | Meeting prep, agendas, minutes, transcripts |
+| [`Artifacts/`](Artifacts/) | Working deliverables (partner cheat sheets, handouts, …) |
+| [`Engagement Platform/`](Engagement%20Platform/) | School-team challenge tracker concept (parked — ROI still to prove) |
 
 ## Partners (handoff layer)
 
-- MuCCC (Chaos Computer Club München) and Chaos macht Schule–style outreach  
-- FabLab München, Erfindergarden / Repair Café, local repair shops  
-- Jugend hackt Labs for kids who want to go further into building  
+**Now:** local repair shops & Repair Cafés (reach broadly; aim for a handful engaged)  
+**Also / later:** MuCCC, FabLab München, Erfindergarden, software FOSS (Nextcloud, Tuxedo, …) after ~3–4 workshops  
+**Ecosystem:** Circular Munich, Simplonix / circular electronics network, Local Munich B2C map
 
 ## Status
 
-Early concept + landscape research. Strategy: **wide workshops → partner handoff**, with ESU runway to October 2027. Public archive; contributions and local partners welcome.
+Goal-setting held (Aug 2026). Strategy: **workshops → repair-shop handoff → confidence metrics**, ESU runway to Oct 2027. Engagement platform concept **parked** until partners/workshops exist — see [`Engagement Platform/High-Level Concept.md`](Engagement%20Platform/High-Level%20Concept.md).
+
+Public archive; contributions and local partners welcome.
 
 ## License
 

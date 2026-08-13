@@ -1,194 +1,171 @@
 # IsarPunk — First official meeting prep
-**Type:** Goal-setting · **Team:** 3 volunteers · **Budget seed:** €1,000
+**Type:** Goal-setting · **Team:** Peter, Avanti, Alex · **Budget seed:** €1,000 (Nebenan Stiftung)
 
-Use this as your run-of-show. Aim for **75–90 minutes**. Leave with written goals, owners, and a 90-day plan — not a brainstorm forever.
+> **Status: HELD** (~2 hours, August 2026).  
+> Formal record: [`Minutes - Goal Setting.md`](Minutes%20-%20Goal%20Setting.md) · Raw: [`Meeting Prep - Goal Setting_transcript.md`](Meeting%20Prep%20-%20Goal%20Setting_transcript.md)
 
----
-
-## Before the meeting (you, 15 min)
-
-1. Send pre-read (or share screen): [README](../README.md) + 1-page strategy below.
-2. Print or open this doc; designate a **note-taker** (rotate next time).
-3. Bring: calendar for school year, rough list of school contacts, MuCCC/shop contact status.
-
-### Strategy already agreed (frame, don’t re-debate from zero)
-
-| Locked direction | Meaning |
-|------------------|---------|
-| **Dispersal, not deep cohort** | ~6 school workshops / school year; plant seeds |
-| **Handoff solution layer** | MuCCC / repair shops / FabLab own installs & refurb |
-| **ESU runway to 12 Oct 2027** | Time to sow widely before the final cliff |
-| **Seed budget €1,000** | Buy materials + reach, not a platform |
-
-If someone wants to reopen these, park in a “parking lot” and revisit only if blocked.
+This file remains as the pre-meeting runbook. Decisions below are **filled from the meeting**.
 
 ---
 
-## Meeting agenda (90 min)
+## Before the meeting (archive)
 
-| Min | Block | Outcome |
-|-----|--------|---------|
-| 0–10 | **Check-in + why we’re here** | Shared energy; one sentence each: “I’m in because…” |
-| 10–20 | **Align on mission one-liner** | Agree or tweak the sentence below |
-| 20–40 | **Goals for this school year** | 3–5 written goals (see candidates) |
-| 40–55 | **Success metrics** | How we’ll know we won (numbers) |
-| 55–70 | **Roles & capacity** | Who owns what; honest hours/week |
-| 70–80 | **90-day plan** | Next 3 concrete moves + dates |
-| 80–90 | **Decisions log + next meeting** | Write it down; book #2 |
+1. Send pre-read (or share screen): [README](../README.md) + strategy frame.
+2. Note-taker / recording: recording used; transcript speaker labels unreliable.
+3. Bring: calendar, school/shop contact status.
 
----
+### Strategy frame going in
 
-## Mission one-liner (propose, then edit together)
-
-> **IsarPunk helps Munich schoolkids understand the Windows 10 security cliff and FOSS alternatives, then points them and their families to existing labs (MuCCC, repair cafés, shops) to finish the job.**
-
-Alternate shorter:
-
-> **We sow the Save Oma / upcycle story in schools; hubs harvest the installs.**
+| Locked direction | Meaning | After meeting |
+|------------------|---------|---------------|
+| **Dispersal, not deep cohort** | ~6 school workshops / school year; plant seeds | **Confirmed** (~6; also 5–7 schools/communities) |
+| **Handoff solution layer** | Labs/shops own installs & refurb | **Confirmed** — focus on **repair shops/cafés** first (MuCCC less discussed) |
+| **ESU runway to 12 Oct 2027** | Time to sow widely | **Used** to orient final eval ~Nov 2027 |
+| **Seed budget €1,000** | Materials + reach | **Confirmed** — no hardware giveaways; partner cheat sheet + content/outreach |
 
 ---
 
-## Goal candidates (pick / merge — don’t take all)
+## Meeting agenda (as planned) → what actually happened
 
-Vote or consensus. Mark each **YES / LATER / NO**.
+| Planned block | What happened |
+|---------------|---------------|
+| Check-in | Recording consent; voice intros (Peter, Avanti, Alex) |
+| Mission one-liner | Not locked as a single sentence; substance = workshops + handoff + confidence |
+| Goals | Workshops, confidence, shop partnerships, repeatable content |
+| Metrics | Confidence primary; shop traffic; installs secondary/hard |
+| Roles & capacity | Avanti outreach; Peter content; sync every 1–2 weeks |
+| 90-day plan | Cheat sheet → shop outreach by mid-Sep → content → workshops from ~Nov |
+| Decisions log | See filled log below + [Minutes](Minutes%20-%20Goal%20Setting.md) |
+
+Meeting ran ~**2 hours** (longer than 90 min plan) and covered funding rules in depth.
+
+---
+
+## Mission one-liner
+
+**Not formally voted.** Working sense from discussion:
+
+> School workshops that raise confidence with Linux/FOSS and circular reuse, then send families to repair shops/cafés to finish installs and repairs.
+
+Prep alternatives remain valid for a later polish.
+
+---
+
+## Goal candidates — meeting marks
 
 ### A. Reach (primary)
-1. Deliver **~6 workshops** in Munich-area schools in school year 2026/27.
-2. Reach at least **N students** total (suggest discuss: 80–150?).
-3. Leave every room with the same **take-home pack** (cheat sheet + partner next steps).
+1. Deliver **~6 workshops** in Munich-area schools in school year 2026/27. → **YES**
+2. Reach at least **N students** total → **OPEN** (working assumption ~12/workshop; dream 20)
+3. Leave every room with the same **take-home pack** → **IMPLIED / not detailed**
 
 ### B. Partnerships (handoff)
-4. Formalize **≥2 handoff partners** (ideally MuCCC + one repair/café/FabLab) with a named contact and “how kids/families join.”
-5. Partners appear on materials; at least **one partner visit or guest** in ≥2 workshops.
+4. Formalize handoff partners → **YES in spirit**; target repair shops/cafés; celebrate if ~3–6 engage after reaching out to all known
+5. Partners on materials / guest in workshops → **LATER** (visibility via Local Munich app / Climate Week discussed)
 
 ### C. Materials (repeatability)
-6. Ship **workshop v1** (90–120 min script + slides + safety + Elternbrief).
-7. Keep budget spend tracked; stay within €1,000 unless new money arrives.
+6. Ship **workshop v1** → **YES** (Peter; add circular-economy framing)
+7. Budget discipline / Nebenan rules → **YES** (funding block)
 
-### D. Optional / later (park unless energy is high)
-- Public Save Oma day co-hosted by a hub  
-- Online hangout / Matrix  
-- Own Verein / legal shell  
-- Press / social campaign  
+### D. Optional / later
+- Public Save Oma day → not decided  
+- Online hangout / Matrix → not decided  
+- Own Verein → not decided  
+- Press / social → **partial**: social team wants an in-action photo day when a visit exists  
 
-### E. Engagement platform (propose)
-- Ship **capped** school-team tracker (actions, lab verify, badges; optional tip links) under youth-minimal GDPR design — pilot with workshops 1–3  
-- Pre-read: [`Engagement Platform/High-Level Concept.md`](../Engagement%20Platform/High-Level%20Concept.md)
-
----
-
-## Metrics that fit *dispersal* (avoid vanity)
-
-| Metric | Why it fits |
-|--------|-------------|
-| Workshops delivered (target ~6) | Primary goal |
-| Schools / teachers engaged | Pipeline health |
-| Students present | Reach |
-| Take-home packs distributed | Seed planted |
-| Referrals / intros to MuCCC or shops (even soft: “QR scanned”, “email list to hub”) | Handoff worked |
-| Partner meetings held | Not alone |
-
-**Avoid as year-one KPI:** “PCs we personally installed,” “custom platform users,” “city-wide brand awareness.”
+### E. Engagement platform
+- Capped school-team tracker → **PARKED** this meeting (concept still at [`Engagement Platform/High-Level Concept.md`](../Engagement%20Platform/High-Level%20Concept.md))
 
 ---
 
-## Roles for 3 people (assign names in the meeting)
+## Metrics — agreed lean set
 
-Suggested split — rename to fit skills:
-
-| Role | Owns | Not responsible for |
-|------|------|---------------------|
-| **School lead** | Teacher outreach, booking 6 slots, Elternbrief | Building the deep Linux lab |
-| **Workshop lead** | Script, materials, USB/demo kit, facilitating | All partner politics |
-| **Partner / ops lead** | MuCCC + shops, budget tracker, repo/docs | Being at every school alone |
-
-Rule: every goal has **one owner**. Helpers OK; orphan goals die.
-
-### Capacity check (say out loud)
-Each person: *hours/week I can sustain until summer* + *blackout months*. Design the 6 workshops around the weakest month, not the strongest week.
+| Metric | Meeting stance |
+|--------|----------------|
+| Workshops delivered (~6) | **Primary output** |
+| Confidence pre/post (stickers and/or forms) | **Primary outcome** |
+| Repair-shop referrals / “came via IsarPunk” | **Yes, if measurable** |
+| Schools / communities reached (5–7) | **Working target** |
+| Linux installs | Nice-to-have; hard without partners |
+| NPS | Mentioned, not adopted |
 
 ---
 
-## Decisions to force today (yes/no or named owner)
+## Roles — assigned
 
-1. Confirm dispersal strategy (6 workshops, handoff) — **Y/N**  
-2. Mission one-liner — **final text**  
-3. Top goals for 2026/27 — **list**  
-4. Metrics — **3 numbers**  
-5. Role map — **3 names**  
-6. Workshop length preference — **90 vs 120 vs half-day**  
-7. Age band preference — **~12–15 vs 15–18 vs flexible**  
-8. First workshop target month — **date window**  
-9. Who books first MuCCC coffee — **name + by when**  
-10. Next meeting date — **calendar**  
+| Role | Name | Notes |
+|------|------|-------|
+| **Outreach** (schools + shops) | **Avanti** | Explicitly not primary content creator |
+| **Workshop content** | **Peter** | Deck, demos, FOSS narrative |
+| **Core third** | **Alex** | Present; concrete ownership to clarify next sync |
+| **Partner cheat sheet** | Peter draft → all | Before first shop visits |
+| **Meeting cadence** | Avanti proposes | Every 1–2 weeks |
 
 ---
 
-## 90-day starter plan (fill dates in meeting)
+## Decisions checklist — filled
+
+1. Dispersal strategy (6 workshops, handoff) — **YES**  
+2. Mission one-liner — **not finalised as text**  
+3. Top goals 2026/27 — **workshops + confidence + shop partners + repeatable content**  
+4. Metrics — **confidence; workshops; shop engagement**  
+5. Role map — **Avanti outreach / Peter content / Alex TBD**  
+6. Workshop length — **not decided**  
+7. Age band — **not decided**  
+8. First workshop window — **~November 2026**  
+9. First hub coffee — **repair shops first** (not MuCCC-specific)  
+10. Next meeting — **within 1–2 weeks** (WhatsApp scheduling)
+
+---
+
+## 90-day plan — updated from meeting
 
 | When | Move | Owner |
 |------|------|-------|
-| Week 1–2 | MuCCC (+ optional FabLab) intro: “we seed schools, you own deep path” | Partner lead |
-| Week 2–4 | Workshop v0 script (one session); dry-run with friends/siblings | Workshop lead |
-| Week 3–6 | Lock **school #1** (Informatik teacher / Medienkompetenz / AG) | School lead |
-| By day 90 | Workshop #1 delivered + notes for v1 | All |
-| Parallel | Buy USB sticks / print starter pack within budget cap | Ops |
+| Immediately | Draft **partner cheat sheet** (offer + ask) | Peter → team review |
+| Next 2 weeks | Call/visit repair shops; WhatsApp coord | Avanti (+ team after work) |
+| August → mid-Sep | Workshop content v1 | Peter |
+| By **15 Sep** | Shop/community outreach milestone; schools opening | Avanti |
+| When visit booked | Social media photo/interview day | Avanti + all |
+| From ~**Nov** | Workshop delivery cadence (~monthly) | All |
+| After ~3 workshops | Train-the-trainer path | TBD |
+| After ~3–4 workshops | Software-company outreach (Nextcloud etc.) | TBD |
+| ~**Feb** | Nebenan interim report | Team |
+| Ongoing | Sync every 1–2 weeks | All |
 
 ---
 
-## Facilitation tips (for you as chair)
+## One-page decisions log (filled)
 
-1. **Open with constraints:** “€1k, 3 people, 6 workshops, handoff — that’s the box.”  
-2. **Time-box debates** to 5 minutes; then vote or park.  
-3. **Write goals on a shared doc live** (or whiteboard photo). If it’s not written, it didn’t happen.  
-4. When someone proposes a cool deep project: *“Amazing for MuCCC — how do we *refer* kids there?”*  
-5. End by reading the decisions log aloud. Ask: “Any objections?” Silence = consent.  
-6. Schedule meeting #2 before standing up (2–3 weeks later: workshop draft review).
-
----
-
-## Risks to name once (don’t solve all today)
-
-- No school says yes → need warm teacher intro  
-- Partner unclear on handoff → written one-pager  
-- Scope creep (“also build an app”) → parking lot  
-- Burnout → max 1 workshop every 4–6 weeks cadence  
-- Liability on hardware → soft demo only in schools; hardware at hubs  
-
----
-
-## One-page decisions log (fill during meeting)
-
-**Date:** ___________  
-**Present:** ___________  
+**Date:** August 2026 (confirm exact day)  
+**Present:** Peter Balog, Avanti, Alex Bejarano  
 
 **Mission:**  
-_______________________________________________
+Workshops that raise Linux/FOSS confidence + circular awareness; hand off repairs/installs to shops/cafés.
 
 **School-year goals:**  
-1. ___________________________________________  
-2. ___________________________________________  
-3. ___________________________________________  
-4. ___________________________________________  
+1. ~6 workshops (start ~Nov, monthly-ish)  
+2. Repeatable workshop content (+ circular framing)  
+3. Engage repair shops/cafés (reach all known; hope ~3–6 stick)  
+4. Measure confidence (and shop referrals where possible)  
 
 **Metrics:**  
-- Workshops: ___  
-- Students (approx): ___  
-- Handoff partners: ___  
+- Workshops: **~6**  
+- Students (approx): **~12/workshop working; 20 aspirational**  
+- Handoff partners: **repair shops/cafés (~3–6 engaged)**  
 
 **Roles:**  
-- School lead: ___________  
-- Workshop lead: ___________  
-- Partner/ops: ___________  
+- Outreach: **Avanti**  
+- Workshop content: **Peter**  
+- Core third / TBD: **Alex**  
 
-**First workshop window:** ___________  
-**Next meeting:** ___________  
+**First workshop window:** **~November 2026**  
+**Next meeting:** **1–2 weeks** (Avanti to propose)  
 
 **Parking lot:**  
-- ___________________________________________  
+Engagement platform; MuCCC detail; age band; workshop length; joint food/textile event; GrapheneOS / urban mining side quests  
 
 ---
 
-## Suggested opening script (30 seconds)
+## Facilitation tips / risks
 
-> “Thanks for showing up — this is our first official goal-setting meeting. We’re not designing the perfect movement today. We lock what success means for this school year: about six workshops, wide knowledge dispersal, and handoff to MuCCC and other labs. ESU runs to October 2027, so we have runway. Let’s leave with goals, owners, and a 90-day plan.”
+Kept for reuse in meeting #2+. Risks named in practice: shop bandwidth, need for a crisp shop **offer**, burnout if only three people (hence recruit intent), hardware liability → handoff only.

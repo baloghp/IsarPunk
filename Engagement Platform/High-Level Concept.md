@@ -1,30 +1,48 @@
 # IsarPunk Engagement Platform — High-Level Concept
 
-**Status:** Concept v0 · **Audience:** project team  
-**Spirit:** Small, sharp, fun, compliant — not an enterprise youth network.
+**Status:** Concept v0.1 — **PARKED** after goal-setting (Aug 2026) · not a year-one delivery commitment  
+**Audience:** project team  
+**Spirit:** Small, sharp, fun, compliant — not an enterprise youth network.  
+**Canonical project decisions:** [`Meetings/Minutes - Goal Setting.md`](../Meetings/Minutes%20-%20Goal%20Setting.md)
+
+---
+
+## 0. Fit with goal-setting decisions (review)
+
+| Meeting decision | Implication for this concept |
+|------------------|------------------------------|
+| Primary delivery = **~6 workshops** from ~Nov | Platform is an **amplifier**, not the main KPI |
+| Lead metric = **confidence** (stickers / forms) | Badges should encode confidence/missions, not only installs |
+| Primary partners **now** = **repair shops & cafés** | Verifiers = shops/cafés first; MuCCC optional later |
+| No hardware giveaways; handoff broken devices | Log “sent to repair” / “shop visit” as first-class actions |
+| Software cos (Nextcloud, Tuxedo…) = after ~3–4 workshops | Tip links / deep FOSS projects = **phase 2+** features |
+| Partner **cheat sheet** + outreach by mid-Sep | Do **not** build app before shop relationships exist |
+| Engagement platform **not decided** this meeting | Stay in concept; revisit after workshops 1–3 / shop engagement |
+
+**Verdict after review:** The product idea still fits IsarPunk — but **sequencing changed**. Ship workshops + shop handoff first; use the platform to make confidence and referrals *visible* once partners can actually verify.
 
 ---
 
 ## 1. Why this exists
 
-School workshops sow the *Save Oma / FOSS upcycle* story. Without a place to **show progress**, energy evaporates after the bell.
+School workshops sow the *Save Oma / FOSS upcycle / circular* story. Without a place to **show progress**, energy evaporates after the bell.
 
 The engagement platform is the **scoreboard and clubhouse** for that energy:
 
-- School teams register and track meaningful actions (including Linux installs)
-- Partner labs can **verify** claims
+- School teams register and track meaningful actions (workshop attendance, confidence missions, Linux installs, **repair-shop referrals**)
+- Partner **shops / cafés** (and later labs) can **verify** claims
 - Teams earn **badges** (status, not surveillance)
-- Teams can publish **project ideas** and optional tip links (e.g. Buy Me a Coffee / Ko-fi)
+- Later: teams can publish **project ideas** and optional tip links (e.g. Buy Me a Coffee / Ko-fi)
 
-IsarPunk runs **dispersal workshops** (~6 / school year). Hubs (MuCCC, repair shops, FabLab, Repair Cafés) own deep installs and refurb. The platform **amplifies** that split — it does not replace the hubs.
+IsarPunk runs **dispersal workshops** (~6 / school year). Repair shops, Repair Cafés, and similar hubs own deep installs and refurb. The platform **amplifies** that split — it does not replace the hubs.
 
-**Timeline advantage:** consumer Windows 10 ESU runs to **12 October 2027**. Use the runway to grow a capped, trusted challenge — not a panic app.
+**Timeline advantage:** consumer Windows 10 ESU runs to **12 October 2027**. Use the runway to grow a capped, trusted challenge — not a panic app. Funding calendar (Nebenan): interim ~Feb; final eval oriented ~Nov 2027.
 
 ---
 
 ## 2. One-sentence product
 
-> A **capped school-team challenge tracker** where Munich youth log FOSS / upcycle actions, get lab-verified badges, and optionally crowdfund their own follow-on projects — designed from day one for **minimal youth data**.
+> A **capped school-team challenge tracker** where Munich youth log FOSS / circular-upcycle actions, get **shop- or lab-verified** badges, and later optionally crowdfund follow-on projects — designed from day one for **minimal youth data**.
 
 ---
 
@@ -33,18 +51,20 @@ IsarPunk runs **dispersal workshops** (~6 / school year). Hubs (MuCCC, repair sh
 | Goal | Meaning |
 |------|---------|
 | **Engage** | Give workshop survivors a reason to come back |
-| **Make progress visible** | Installs and missions show up for the team and (lightly) the city |
-| **Route to hubs** | Verification and “go deeper” paths point at MuCCC / labs |
+| **Make progress visible** | Confidence missions, installs, and shop referrals show up for the team |
+| **Route to hubs** | Verification and “go deeper” paths point at **repair shops/cafés** (then MuCCC / software FOSS) |
+| **Support reporting** | Soft evidence for Nebenan impact beyond “we spent the money” |
 | **Stay shippable** | Experienced IT + AI; hard user caps; no social network feature creep |
 | **Earn trust** | Youth + GDPR is the hardest problem — we design for it, not around it |
 
 ### Non-goals (v0)
 
 - Chat, DMs, feeds, likes, or open social graph  
-- Being the install / refurb service  
-- Payment processing (tip links are outbound only)  
+- Being the install / refurb / hardware service  
+- Payment processing (tip links outbound only, and **not in first pilot**)  
 - Unlimited public signup  
-- Replacing Jugend hackt, MuCCC, or school LMS  
+- Replacing Jugend hackt, MuCCC, school LMS, or Local Munich’s B2C map  
+- Launching before ~3 workshops and at least one verifying shop partner  
 
 ---
 
@@ -55,28 +75,29 @@ IsarPunk runs **dispersal workshops** (~6 / school year). Hubs (MuCCC, repair sh
 | **School team** | Klasse, AG, Projektgruppe — the primary identity |
 | **Adult sponsor** | Lehrer:in or Eltern contact; accountable for the team account |
 | **Participants** | Youth who do the work (may have limited or no personal login in v0) |
-| **Lab verifier** | MuCCC / shop / café staff who confirm events |
-| **IsarPunk admin** | Cap users, issue lab accounts, moderate team names / tip links |
+| **Shop / café verifier** | Repair partner who confirms visits, installs, referrals |
+| **Lab verifier (later)** | MuCCC / FabLab if onboarded |
+| **IsarPunk admin** | Cap users, issue verifier accounts, moderate team names |
 
 ---
 
 ## 5. Core loop
 
 ```text
-Workshop spark
+Workshop spark (+ confidence sticker/form)
     → Team registers (sponsor + school)
         → Log actions (claimed)
-            → Lab verifies (optional but badge-gated)
+            → Shop/café verifies (where badge requires it)
                 → Badges unlock
-                    → Team page shows progress (+ optional tip link)
-                        → Curious kids go deeper at the hub
+                    → Team page shows progress
+                        → Curious kids/families go to the repair partner
 ```
 
-**Success looks like:** a teacher says “our AG has three badges”; a lab stamps two installs; a kid asks MuCCC how to finish Oma’s laptop.
+**Success looks like:** a teacher says “our AG has three badges”; a shop confirms two visits; confidence scores rise; a family shows up at a café because the workshop said so.
 
 ---
 
-## 6. Feature pillars (v0)
+## 6. Feature pillars (v0 — when un-parked)
 
 ### 6.1 Team registration
 - Register as a **team**, not as a free-for-all kid social profile  
@@ -84,41 +105,43 @@ Workshop spark
 - Hard **cap** on teams / users (product feature — advertise it)
 
 ### 6.2 Activity log
-Suggested action types (start small):
+Aligned with meeting metrics:
 
-| Action | Claimable in workshop? | Needs lab verify for full badge? |
-|--------|------------------------|----------------------------------|
+| Action | Claimable in workshop? | Needs partner verify for full badge? |
+|--------|------------------------|--------------------------------------|
 | Attended IsarPunk workshop | Yes | No |
-| “Oma talk” / family awareness chat | Yes (honour) | No |
+| Confidence check-in (pre/post) | Yes (workshop ritual) | No |
+| “Oma talk” / family awareness | Yes (honour) | No |
 | Live USB / first boot demo | Yes | Optional |
+| Referred device / family to repair shop | Yes | **Yes** (shop stamp) |
+| Shop / café visit attended | — | **Yes** |
 | Linux install completed | Yes | **Yes** for verified badge |
-| Lab visit / open night attended | — | **Yes** |
-| Custom team project published | Yes | Optional review by admin |
+| Custom team project published | Phase 2 | Optional admin review |
 
-State machine: `claimed → lab_confirmed` (and `rejected` if needed).
+State machine: `claimed → partner_confirmed` (and `rejected` if needed).
 
 ### 6.3 Badges / social credit
-- Badges reward **behaviours we can seed**, not only rare perfect installs  
-- Examples: *Seed Planter*, *Oma Diplomat*, *First Boot*, *Verified Install*, *Lab Explorer*, *Project Starter*  
-- Display on team page; printable sticker twins for IRL workshops later  
-- “Social credit” = **reputation within the challenge**, not a creepy score sold to anyone
+- Badges reward **behaviours we can seed in a 90-min workshop**, not only rare installs  
+- Examples: *Seed Planter*, *Confidence Climber*, *Oma Diplomat*, *First Boot*, *Shop Explorer*, *Verified Install*  
+- Display on team page; **printable sticker twins** for IRL workshops (pairs with door-sticker confidence method)  
+- “Social credit” = reputation within the challenge only
 
-### 6.4 Projects + tip links
-- Team can add a short **project idea** (title, 2–3 sentences, what they’d build)  
-- Optional **Buy Me a Coffee / Ko-fi / similar** URL  
-- IsarPunk never handles money; sponsor responsible for link appropriateness  
-- Better fit for older teens; younger teams may skip funding fields
+### 6.4 Projects + tip links (phase 2+)
+- After workshops 1–3 and clearer student demand (same gate as Nextcloud outreach)  
+- Short project idea + optional Buy Me a Coffee / Ko-fi URL  
+- IsarPunk never handles money  
 
-### 6.5 Lab verification
-- Few privileged **lab accounts**  
-- Labs confirm specific claims (install, visit) — no ID document uploads  
-- Handoff narrative: verification *is* the bridge to the solution layer
+### 6.5 Partner verification
+- Few privileged **shop/café accounts** first  
+- Confirm visits / installs / referrals — no ID uploads  
+- Co-design a **10-second verify** flow as part of the partner cheat sheet conversation  
+- If no shop will verify yet: IsarPunk admin may stub-confirm workshop-only badges only
 
 ---
 
 ## 7. Youth + GDPR as architecture
 
-This is the hardest part — and the design constraint that keeps the product honest.
+Hardest problem — design constraint, not a kill switch.
 
 ### Principles
 1. **Minimal data** — only what the challenge needs  
@@ -130,11 +153,11 @@ This is the hardest part — and the design constraint that keeps the product ho
 
 ### Practical v0 stance
 - Prefer **sponsor login**; youth contribute through the team  
-- If youth logins appear later: age-appropriate consent copy, sponsor acknowledgment, strict parental/guardian rules per GDPR / German practice  
-- Public board shows **team names + badge counts**, not home addresses or birthdates  
-- Publish a one-page privacy notice before pilot  
+- Public board: **team names + badge counts**, not birthdates or addresses  
+- One-page privacy notice before any pilot  
+- Confidence stickers in-room can stay **anonymous aggregates** even if the app later stores team-level scores  
 
-*(Detailed data map, DPIA-lite, and consent flows = follow-up doc.)*
+*(Detailed data map, DPIA-lite, and consent flows = follow-up doc when un-parked.)*
 
 ---
 
@@ -143,11 +166,11 @@ This is the hardest part — and the design constraint that keeps the product ho
 | Control | Intent |
 |---------|--------|
 | Invite / workshop codes | No infinite open internet signup |
-| Max teams / max users | Operationally sane; “exclusive challenge” energy |
-| Lab seats | Handful of trusted verifiers |
-| Feature freeze for pilot | Tracker + badges + tip link; stop |
+| Max teams / max users | Operationally sane; exclusive challenge energy |
+| Verifier seats | Handful of trusted shops/cafés |
+| Feature freeze for pilot | Teams + actions + badges; **no tip links yet** |
 
-Pilot suggestion: workshops **1–3** cohorts only; expand caps when ops feel boring (that’s the green light).
+Pilot suggestion: enable only after **workshop #1–3** and **≥1** verifying partner; expand caps when ops feel boring.
 
 ---
 
@@ -155,72 +178,75 @@ Pilot suggestion: workshops **1–3** cohorts only; expand caps when ops feel bo
 
 | Need | Approach |
 |------|----------|
-| App (auth, teams, logs, badges) | Build thin (IT experience + AI) |
+| App (auth, teams, logs, badges) | Build thin (IT experience + AI) — **after** shop cheat sheet + early outreach |
 | Hosting | EU VPS / managed Postgres |
-| Payments | **Don’t build** — outbound tip links |
-| Chat | **Don’t build** — point to Matrix/hub nights if needed |
-| Email | Transactional only (magic links / verify notices) |
-
-Tech stack: deliberately undecided in this concept doc. Choose boring and fast when engineering starts.
+| Payments | Don’t build |
+| Chat | Don’t build |
+| Confidence capture v0 | May stay **analog** (stickers) or Forms until app exists |
+| Partner visibility | Prefer existing Local Munich B2C map/form — don’t rebuild their map |
 
 ---
 
 ## 10. Success metrics (platform)
 
-| Metric | Why |
-|--------|-----|
+| Metric | Ties to meeting |
+|--------|-----------------|
 | Teams registered (under cap) | Adoption |
-| Actions logged | Engagement |
-| % lab-verified (where required) | Handoff health |
-| Badges unlocked | Motivation working |
-| Tip links added (optional) | Older-teen project energy |
-| Qualitative: hub says “kids showed up because of the board” | Real loop |
+| Confidence-related actions / badges | Lead outcome |
+| Shop referral / visit confirms | Handoff health |
+| Verified installs | Secondary |
+| Qualitative: shop says “kids showed up because of IsarPunk” | Real loop |
 
-Not a vanity metric: raw pageviews without teams.
+Not a vanity metric: pageviews without teams.
 
 ---
 
-## 11. Risks (and chin-up mitigations)
+## 11. Risks (chin-up mitigations)
 
 | Risk | Mitigation |
 |------|------------|
-| Empty board | Launch with workshop #1; seed demo teams |
-| Labs won’t verify | Co-design the 10-second verify UX; start with MuCCC only |
+| Empty board | Don’t launch until workshop #1 + seeded demo team |
+| Shops won’t verify | Co-design verify UX into partner cheat sheet; start with one friendly café (e.g. volunteer-led) |
+| Building too early | Keep **PARKED** until mid-Sep outreach and content v1 exist |
 | GDPR fear from schools | Sponsor model + privacy one-pager + minimal fields |
-| Scope creep | Written non-goals; admin feature veto |
-| Tip-link abuse | Sponsor responsibility + admin takedown |
+| Scope creep | Non-goals; tip links / software FOSS deep-dives wait for phase 2 |
+| Nebenan change control | If platform becomes a funded deliverable, clear it with foundation if it shifts approved content |
 
 ---
 
-## 12. Roadmap sketch
+## 12. Roadmap sketch (re-sequenced)
 
-| Phase | Outcome |
-|-------|---------|
-| **Concept** (this doc) | Team alignment |
-| **Data & consent one-pager** | GDPR checklist + field list |
-| **UX wire skeleton** | Team page, log action, lab verify, badge wall |
-| **Pilot build** | Capped deploy for first workshops |
-| **Learn & tighten** | Badge balance, copy, lab workflow |
-| **Widen** | More schools only after verify loop works |
-
----
-
-## 13. Open questions for the team
-
-1. Age band focus for pilot (12–15 vs 15–18)?  
-2. Hard cap numbers (teams / users) for school year?  
-3. Must MuCCC be verifier on day one, or IsarPunk admins stub verify until labs onboard?  
-4. Public leaderboard vs opt-in team visibility?  
-5. Brand name for the challenge layer (IsarPunk Challenge / Save Oma League / other)?  
+| Phase | Outcome | Gate |
+|-------|---------|------|
+| **Concept** (this doc) | Aligned with minutes | Done |
+| **Partner cheat sheet + shop outreach** | Verifiers possible | By ~15 Sep (team commitment) |
+| **Workshop content v1 + #1 delivered** | Real users exist | From ~Nov |
+| **Un-park decision** | Explicit team YES | After workshops 1–3 *or* strong shop pull |
+| **Data & consent one-pager** | GDPR checklist | Before build |
+| **Pilot build** | Capped deploy | Only after un-park |
+| **Phase 2** | Tip links, software-cos, richer projects | After ~3–4 workshops |
 
 ---
 
-## 14. Decision ask
+## 13. Open questions (still open after meeting)
 
-Propose for goal-setting:
-
-> **Ship a capped engagement platform** (school teams, activity log, lab verify, badges; optional tip links) under a youth-minimal GDPR design; pilot alongside workshops 1–3.
+1. Age band for pilot (12–15 vs 15–18)?  
+2. Hard cap numbers (teams / users)?  
+3. First verifier: which shop/café commits?  
+4. Public leaderboard vs opt-in visibility?  
+5. Challenge brand name?  
+6. Does Nebenan proposal already imply a digital platform, or must we amend if we build one?
 
 ---
 
-*Next doc candidates: `Data Map & Consent.md`, `Badge Ladder.md`, `Lab Verifier Guide.md`.*
+## 14. Decision status
+
+| Ask | Status |
+|-----|--------|
+| Ship capped engagement platform in parallel with workshops 1–3 | **Not agreed** — parked |
+| Keep concept alive and align with shops + confidence metrics | **Yes** (this revision) |
+| Revisit build when? | After partner traction + early workshops, or sooner if team explicitly prioritises |
+
+---
+
+*Next doc candidates (when un-parked): `Data Map & Consent.md`, `Badge Ladder.md`, `Shop Verifier Guide.md` (tied to partner cheat sheet).*
