@@ -1,6 +1,7 @@
 # IsarPunk — Partner-Einverständnis (Listung)
 
-**Hack your life / Save Oma** · München  
+**Hack your life / Save Oma**  
+**IsarPunk** ist ein Projekt von **Circular Munich e.V.** (rechtliche Trägerin) · [circular-munich.com](https://circular-munich.com/)  
 Schul-Workshops (~12–15 J.) zu Windows-10-Supportende, Wiederverwendung und Open Source. Familien werden an lokale Reparaturpartner verwiesen. Wir reparieren selbst keine Geräte, geben keine Kundengarantie und zahlen keine Reparaturen.
 
 ---
@@ -54,7 +55,7 @@ _________________________________________________________________
 
 ## 4. Zusammenarbeit (nicht rechtsverbindlich)
 
-Wir beabsichtigen, im Sinne von IsarPunk / Save Oma zusammenzuarbeiten: IsarPunk nennt den Partner als Anlaufstelle (inkl. CircularCity Map, soweit oben angekreuzt); der Partner nimmt IsarPunk-Empfehlungen mit der gleichen Sorgfalt wie andere Kund:innen an — klare Auskunft, ehrliche Grenzen, und keine Behauptung, Reparaturen seien gratis oder „von IsarPunk beauftragt“.
+Wir beabsichtigen, im Sinne von IsarPunk / Save Oma zusammenzuarbeiten: **Circular Munich e.V.** Projekt IsarPunk nennt den Partner als Anlaufstelle (inkl. CircularCity Map, soweit oben angekreuzt); der Partner nimmt IsarPunk-Empfehlungen mit der gleichen Sorgfalt wie andere Kund:innen an: klare Auskunft, ehrliche Grenzen, hilfreiche Hinweise und bestmöglicher Kundenservice.
 
 Das ist eine gemeinsame Absicht in gutem Glauben. Sie begründet keine einklagbaren Pflichten, keine Exklusivität, keine Zahlung und keine Haftung füreinander. Jede Seite kann die Zusammenarbeit jederzeit per E-Mail beenden; die Listung wird dann wie in Abschnitt 2 aktualisiert.
 
@@ -62,13 +63,13 @@ Das ist eine gemeinsame Absicht in gutem Glauben. Sie begründet keine einklagba
 
 ## 5. Datenschutz
 
-IsarPunk speichert die oben genannten Geschäftskontaktdaten nur zur Partnerverwaltung und Listung. Keine Weitergabe zu Werbezwecken Dritter. Auskunft / Löschung: _______________________
+IsarPunk / Circular Munich e.V. speichert die oben genannten Geschäftskontaktdaten nur zur Partnerverwaltung und Listung. Keine Weitergabe zu Werbezwecken Dritter. Auskunft / Löschung: [circular-munich.com](https://circular-munich.com/) · _______________________
 
 ---
 
 ## 6. Bestätigung
 
-| | Partner | IsarPunk |
+| | Partner | Circular Munich e.V. (IsarPunk) |
 |---|---------|----------|
 | Name | | |
 | Datum | | |

@@ -18,7 +18,7 @@ IsarPunk is a **seed / dispersal** initiative:
 
 We go **wide**, not deep: many classrooms touched; hubs finish the job.
 
-Project team: Peter (content), Avanti (outreach), Alex (core) · seed ~€1,000 (Nebenan Stiftung) · Munich
+Project team: Peter (content), Avanti (outreach), Alex (core) · under **Circular Munich e.V.** · seed ~€1,000 (Nebenan Stiftung) · [circular-munich.com](https://circular-munich.com/)
 
 ## Primary goal (school year)
 

@@ -39,7 +39,7 @@ Schul-Workshop (Kids ~12–15)
 
 ## Elevator (≈60 Sekunden)
 
-> Wir sind **IsarPunk** — *Hack your life / Save Oma* — ein Münchner Projekt, gefördert über die Nebenan Stiftung.  
+> Wir sind **IsarPunk** — *Hack your life / Save Oma* — ein Projekt von **Circular Munich e.V.** ([circular-munich.com](https://circular-munich.com/)), gefördert über die Nebenan Stiftung.  
 > Wir machen Workshops für **Jugendliche etwa 12 bis 15** zu Windows-10-Ende, Kreislaufwirtschaft und Linux / Open Source.  
 > Die Mission ist **generationsübergreifend**: Schüler:innen lernen genug, um **Oma und Opa** zu helfen — sicherere, schnellere PCs statt guter Hardware auf dem Müll.  
 > Wir reparieren **selbst keine** Geräte. Wir erklären, und **schicken Familien zu Partnern wie euch**.  
@@ -54,10 +54,11 @@ Schul-Workshop (Kids ~12–15)
 
 | | |
 |---|---|
+| **Rechtliche Trägerin** | **Circular Munich e.V.** — IsarPunk ist ein CM-Projekt · [circular-munich.com](https://circular-munich.com/) |
 | **Wen wir unterrichten** | Schuljugend, Arbeitsziel **~12–15** (Sekundarstufe I / frühe II) |
 | **Wen wir über sie erreichen** | **Großeltern & Eltern** — der Save-Oma-Haushalt |
 | **Was** | ca. **6** Schul-/Community-Workshops 2026/27, Start ca. November |
-| **Team** | Kleines Ehrenamtsteam (Orbit Circular Munich / Electronics Circle) |
+| **Team** | Kleines Ehrenamtsteam innerhalb Circular Munich (Electronics Circle) |
 | **Geld** | Seed-Förderung — **kein** Hardware-Budget; Material für Outreach, keine Laptop-Verschenkung |
 | **Win10-Winkel** | Consumer-ESU bis **Okt. 2027** — jetzt aufklären, vor dem Cliff an Reparatur übergeben |
 | **Nicht** | Konkurrenz-Reparaturbetrieb, Müllannahmestelle oder voller IT-Helpdesk |
@@ -143,7 +144,7 @@ _______________________________________________
 
 Hallo,
 
-wir sind **IsarPunk** (München): Schul-Workshops für **Jugendliche (~12–15)** zu Windows-10-Supportende, Geräte-Wiederverwendung und Open-Source-Alternativen. Unser Hook heißt **Save Oma** — Schüler:innen lernen genug, um Großeltern zu helfen, einen sicheren, nutzbaren PC zu behalten statt Hardware wegzuwerfen.
+wir sind **IsarPunk**, ein Projekt von **Circular Munich e.V.** ([circular-munich.com](https://circular-munich.com/)): Schul-Workshops für **Jugendliche (~12–15)** zu Windows-10-Supportende, Geräte-Wiederverwendung und Open-Source-Alternativen. Unser Hook heißt **Save Oma** — Schüler:innen lernen genug, um Großeltern zu helfen, einen sicheren, nutzbaren PC zu behalten statt Hardware wegzuwerfen.
 
 Wir reparieren selbst keine Geräte. Wir verweisen **Familien** an lokale Reparaturshops und Repair Cafés.
 
@@ -152,7 +153,7 @@ Wär’t ihr offen dafür, als Partner-Standort gelistet zu werden (IsarPunk-Han
 Wir brauchen nur: öffentlichen Namen, Adresse, Kontaktweg und ob ihr Hardware-Reparatur, Software-/Linux-Hilfe oder beides bevorzugt. Kein Sponsoring nötig.
 
 Danke — gerne kurzer Besuch oder Anruf.  
-IsarPunk-Team · [E-Mail / Telefon TBD]
+IsarPunk / Circular Munich e.V. · [circular-munich.com](https://circular-munich.com/) · [E-Mail / Telefon TBD]
 
 ---
 
