@@ -2,7 +2,7 @@
 
 **Artifact:** field script + one-pager offer  
 **Status:** Draft v0.1 for team review · **Owner:** Peter (draft) → Avanti (outreach use)  
-**Language:** EN working copy — DE handout version recommended before first visit  
+**Language:** EN working copy · **DE:** [Partner Cheat Sheet - Repair Shops_DE.md](Partner%20Cheat%20Sheet%20-%20Repair%20Shops_DE.md)  
 **Source:** [Minutes — Goal Setting](../Meetings/Minutes%20-%20Goal%20Setting.md)
 
 **Tagline:** *Hack your life / Save Oma*
@@ -45,7 +45,7 @@ School workshop (kids ~12–15)
 > We **don’t** repair machines ourselves. We teach, then **send families to partners like you**.  
 > Can we take 10 minutes to see if a light partnership makes sense?
 
-**DE hook (optional):** *„Wir helfen Schulkindern, Oma und Opa beim PC zu helfen — und schicken Familien zu euch.“*
+**DE short hook:** *„Wir helfen Schulkindern, Oma und Opa beim PC zu helfen — und schicken Familien zu euch.“* (full DE sheet: `_DE.md`)
 
 ---
 
@@ -158,7 +158,7 @@ IsarPunk team · [contact email / phone TBD]
 ## Internal checklist before first outreach wave
 
 - [ ] Confirm team contact email/phone on leave-behind  
-- [ ] German translation of elevator + leave-behind (Save Oma / Oma und Opa wording)  
+- [x] German field version (`Partner Cheat Sheet - Repair Shops_DE.md`)  
 - [ ] Rough list of shops/cafés to call (Avanti)  
 - [ ] Decide first 3 “friendly” targets (e.g. known café volunteer)  
 - [ ] Agree how we store capture blocks (shared sheet)  
@@ -167,4 +167,4 @@ IsarPunk team · [contact email / phone TBD]
 
 ---
 
-*Next artifacts: DE handout one-pager · shared partner CRM sheet · workshop take-home “Save Oma + where to go” sheet (filled once partners say yes).*
+*Next artifacts: shared partner CRM sheet · workshop take-home “Save Oma + where to go” sheet (filled once partners say yes).*
