@@ -43,6 +43,7 @@ School workshop (kids ~12–15)
 > We run workshops for **kids around 12 to 15** about the Windows 10 cliff, circular reuse, and Linux / open source.  
 > The mission is **cross-generational**: students learn enough to help **Oma and Opa** — safer, faster PCs instead of trashing good hardware.  
 > We **don’t** repair machines ourselves. We teach, then **send families to partners like you**.  
+> Partners get workshop referrals **and** visibility on Circular Munich’s [CircularCity Map](https://circular-munich.com/circularcitymap/).  
 > Can we take 10 minutes to see if a light partnership makes sense?
 
 **DE short hook:** *„Wir helfen Schulkindern, Oma und Opa beim PC zu helfen — und schicken Familien zu euch.“* (full DE sheet: `_DE.md`)
@@ -73,8 +74,8 @@ School workshop (kids ~12–15)
 
 ### 2. Visibility
 - Listing in IsarPunk handouts and partner sheet.  
-- Optional: **Local Munich** B2C touchpoint map / app (Google Form for photos & details — when available).  
-- Optional: **Climate Week** / Circular Munich visibility (when relevant).  
+- Listing on Circular Munich’s **[CircularCity Map](https://circular-munich.com/circularcitymap/)** — public map of circular B2C touchpoints in the city (we help get you on it as part of partnership).  
+- Optional: **Climate Week** / other Circular Munich visibility (when relevant).  
 - Story angle for you: *the shop where kids send their grandparents.*
 
 ### 3. Qualified, not random, demand
@@ -93,7 +94,7 @@ Keep it light. Ideal partner says yes to **at least (A)**; (B)–(D) are bonuses
 
 | | Ask | Notes |
 |---|-----|------|
-| **A** | May we **list you** as a place families can go after our workshops? | Name, address, website/phone, open hours if simple |
+| **A** | May we **list you** as a place families can go after our workshops — on IsarPunk materials **and** the [CircularCity Map](https://circular-munich.com/circularcitymap/)? | Name, address, website/phone, open hours if simple |
 | **B** | Will you take **repair / Linux-install** customers we send — including **seniors’ devices**? | Even “software help only” is valuable |
 | **C** | If a device is **completely dead**, can you still take it (recycle / parts / advise)? | Honest no is fine — we’ll route elsewhere |
 | **D** | Optional: once in a while, **confirm** that someone came via IsarPunk (tick / WhatsApp / later app) | Helps our funding report; 10 seconds |
@@ -112,7 +113,7 @@ Keep it light. Ideal partner says yes to **at least (A)**; (B)–(D) are bonuses
 | “Seniors are difficult customers.” | That’s exactly why we prep kids first — families arrive with a story and a cheat sheet, not a blind panic call. |
 | “We don’t do Linux.” | Great — say so. We’ll send Win10/hardware cases, or only cafés that do FOSS. |
 | “We don’t take e-waste.” | OK — we’ll only send repairable cases and point dead devices elsewhere. |
-| “What’s in it for us?” | Warm **family** leads + listing + Save Oma / circular story; no fee from us. |
+| “What’s in it for us?” | Warm **family** leads + IsarPunk listing + **CircularCity Map** presence + Save Oma story; no fee from us. |
 | “Can you pay for repairs?” | No — grant isn’t for that. Families pay your normal rates (or café donation model). |
 
 ---
@@ -124,7 +125,7 @@ Keep it light. Ideal partner says yes to **at least (A)**; (B)–(D) are bonuses
 **Contact name / role:** _______________  
 **Email / phone:** _______________  
 
-**Willing to be listed?** Yes / Maybe / No  
+**Willing to be listed (IsarPunk + CircularCity Map)?** Yes / Maybe / No  
 **Accepts repair referrals?** Yes / Software only / No  
 **Comfortable with senior / family customers?** Yes / No / Unsure  
 **Accepts dead devices (recycle/parts)?** Yes / No / Unsure  
@@ -146,7 +147,7 @@ we’re **IsarPunk** (Munich): school workshops for **young people (~12–15)** 
 
 We don’t repair devices ourselves. We point **families** to local repair shops and Repair Cafés.
 
-Would you be open to being listed as a partner location, and to receiving customers who come from our workshops?
+Would you be open to being listed as a partner location (IsarPunk handouts **and** Circular Munich’s [CircularCity Map](https://circular-munich.com/circularcitymap/)), and to receiving customers who come from our workshops?
 
 We only need: public name, address, how to contact you, and whether you prefer hardware repair, software/Linux help, or both. No sponsorship required.
 
@@ -167,4 +168,4 @@ IsarPunk team · [contact email / phone TBD]
 
 ---
 
-*Next artifacts: shared partner CRM sheet · workshop take-home “Save Oma + where to go” sheet (filled once partners say yes).*
+*Next artifacts: shared partner CRM sheet · workshop take-home “Save Oma + where to go” sheet · [Partner listing consent](Partner%20Listing%20Consent.md).*

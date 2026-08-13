@@ -82,9 +82,9 @@ Baseline reporting = money spent as promised. Extra impact figures (e.g. install
 
 When approaching repair shops / cafés, IsarPunk can offer / ask:
 
-1. **Visibility** — Local Munich B2C map/app + Climate Week launch angle; Google Form for partner updates  
+1. **Visibility** — IsarPunk handouts + Circular Munich [CircularCity Map](https://circular-munich.com/circularcitymap/) + Climate Week angle when relevant  
 2. **Customer traffic** — kids/families referred from workshops  
-3. **Partnership / marketing** — listing options (Circular Munich details still unclear)  
+3. **Partnership / marketing** — listing consent; fair treatment of Save Oma referrals  
 4. **Questions:** Accept repair referrals? Accept completely dead devices for recycle/parts?
 
 Software-only volunteer contexts (e.g. Anne at repair café) noted as possibly easier first contacts than full hardware shops.

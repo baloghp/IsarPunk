@@ -50,7 +50,7 @@ See [`Meetings/Minutes - Goal Setting.md`](Meetings/Minutes%20-%20Goal%20Setting
 
 **Now:** local repair shops & Repair Cafés (reach broadly; aim for a handful engaged)  
 **Also / later:** MuCCC, FabLab München, Erfindergarden, software FOSS (Nextcloud, Tuxedo, …) after ~3–4 workshops  
-**Ecosystem:** Circular Munich, Simplonix / circular electronics network, Local Munich B2C map
+**Ecosystem:** Circular Munich ([CircularCity Map](https://circular-munich.com/circularcitymap/)), Simplonix / circular electronics network
 
 ## Status
 

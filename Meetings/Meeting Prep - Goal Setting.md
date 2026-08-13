@@ -60,7 +60,7 @@ Prep alternatives remain valid for a later polish.
 
 ### B. Partnerships (handoff)
 4. Formalize handoff partners → **YES in spirit**; target repair shops/cafés; celebrate if ~3–6 engage after reaching out to all known
-5. Partners on materials / guest in workshops → **LATER** (visibility via Local Munich app / Climate Week discussed)
+5. Partners on materials / guest in workshops → **LATER** (visibility via [CircularCity Map](https://circular-munich.com/circularcitymap/) / Climate Week discussed)
 
 ### C. Materials (repeatability)
 6. Ship **workshop v1** → **YES** (Peter; add circular-economy framing)

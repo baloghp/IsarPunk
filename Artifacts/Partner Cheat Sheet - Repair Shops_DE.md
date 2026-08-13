@@ -43,6 +43,7 @@ Schul-Workshop (Kids ~12–15)
 > Wir machen Workshops für **Jugendliche etwa 12 bis 15** zu Windows-10-Ende, Kreislaufwirtschaft und Linux / Open Source.  
 > Die Mission ist **generationsübergreifend**: Schüler:innen lernen genug, um **Oma und Opa** zu helfen — sicherere, schnellere PCs statt guter Hardware auf dem Müll.  
 > Wir reparieren **selbst keine** Geräte. Wir erklären, und **schicken Familien zu Partnern wie euch**.  
+> Partner:innen bekommen Workshop-Empfehlungen **und** Sichtbarkeit auf der [CircularCity Map](https://circular-munich.com/circularcitymap/) von Circular Munich.  
 > Haben wir 10 Minuten, um zu schauen, ob eine leichte Partnerschaft Sinn macht?
 
 **Kurzversion:** *„Wir helfen Schulkindern, Oma und Opa beim PC zu helfen — und schicken Familien zu euch.“*
@@ -73,8 +74,8 @@ Schul-Workshop (Kids ~12–15)
 
 ### 2. Sichtbarkeit
 - Nennung in IsarPunk-Handouts und Partnerblatt.  
-- Optional: **Local Munich** B2C-Touchpoint-Karte / App (Google-Formular für Fotos & Details — sobald verfügbar).  
-- Optional: Sichtbarkeit bei **Climate Week** / Circular Munich (wenn passend).  
+- Eintrag auf der **[CircularCity Map](https://circular-munich.com/circularcitymap/)** von Circular Munich — öffentliche Karte zirkulärer B2C-Anlaufstellen in der Stadt (wir helfen euch als Teil der Partnerschaft darauf).  
+- Optional: Sichtbarkeit bei **Climate Week** / weiteren Circular-Munich-Formaten (wenn passend).  
 - Story-Winkel für euch: *der Laden, zu dem Kids ihre Großeltern schicken.*
 
 ### 3. Qualifizierte Nachfrage, kein Zufalls-Chaos
@@ -93,7 +94,7 @@ Leicht halten. Ideale Partner:innen sagen mindestens zu **(A)** ja; (B)–(E) si
 
 | | Bitte | Notiz |
 |---|-----|------|
-| **A** | Dürfen wir euch als Anlaufstelle **listen**, zu der Familien nach dem Workshop gehen können? | Name, Adresse, Website/Telefon, Öffnungszeiten wenn einfach |
+| **A** | Dürfen wir euch als Anlaufstelle **listen** — auf IsarPunk-Materialien **und** der [CircularCity Map](https://circular-munich.com/circularcitymap/)? | Name, Adresse, Website/Telefon, Öffnungszeiten wenn einfach |
 | **B** | Nehmt ihr **Reparatur- / Linux-Install-Kund:innen**, die wir schicken — inkl. **Senior:innen-Geräte**? | Auch „nur Software-Hilfe“ ist wertvoll |
 | **C** | Wenn ein Gerät **total tot** ist: nehmt ihr es trotzdem (Recycling / Teile / Beratung)? | Ehrliches Nein ist ok — wir leiten woanders hin |
 | **D** | Optional: ab und zu **bestätigen**, dass jemand über IsarPunk kam (Häkchen / WhatsApp / später App) | Hilft unserem Förderbericht; 10 Sekunden |
@@ -112,7 +113,7 @@ Leicht halten. Ideale Partner:innen sagen mindestens zu **(A)** ja; (B)–(E) si
 | „Senior:innen sind schwierige Kund:innen.“ | Genau deshalb bereiten wir die Kids vor — Familien kommen mit Story und Zettel, nicht als Blindanruf in Panik. |
 | „Wir machen kein Linux.“ | Super — sagt das. Wir schicken Win10-/Hardware-Fälle, oder nur Cafés, die FOSS können. |
 | „Wir nehmen keinen E-Schrott.“ | Okay — wir schicken nur reparaturwürdige Fälle und leiten tote Geräte woanders hin. |
-| „Was springt für uns raus?“ | Warme **Familien**-Leads + Listung + Save-Oma- / Circular-Story; von uns keine Gebühr. |
+| „Was springt für uns raus?“ | Warme **Familien**-Leads + IsarPunk-Listung + Präsenz auf der **CircularCity Map** + Save-Oma-Story; von uns keine Gebühr. |
 | „Zahlt ihr die Reparatur?“ | Nein — die Förderung ist dafür nicht da. Familien zahlen eure normalen Preise (oder Café-Spendenmodell). |
 
 ---
@@ -124,7 +125,7 @@ Leicht halten. Ideale Partner:innen sagen mindestens zu **(A)** ja; (B)–(E) si
 **Kontakt Name / Rolle:** _______________  
 **E-Mail / Telefon:** _______________  
 
-**Listung ok?** Ja / Vielleicht / Nein  
+**Listung ok (IsarPunk + CircularCity Map)?** Ja / Vielleicht / Nein  
 **Reparatur-Empfehlungen ok?** Ja / Nur Software / Nein  
 **Ok mit Senior:innen- / Familien-Kund:innen?** Ja / Nein / Unklar  
 **Tote Geräte (Recycling/Teile) ok?** Ja / Nein / Unklar  
@@ -146,7 +147,7 @@ wir sind **IsarPunk** (München): Schul-Workshops für **Jugendliche (~12–15)*
 
 Wir reparieren selbst keine Geräte. Wir verweisen **Familien** an lokale Reparaturshops und Repair Cafés.
 
-Wär’t ihr offen dafür, als Partner-Standort gelistet zu werden und Kund:innen aus unseren Workshops anzunehmen?
+Wär’t ihr offen dafür, als Partner-Standort gelistet zu werden (IsarPunk-Handouts **und** Circular Munichs [CircularCity Map](https://circular-munich.com/circularcitymap/)) und Kund:innen aus unseren Workshops anzunehmen?
 
 Wir brauchen nur: öffentlichen Namen, Adresse, Kontaktweg und ob ihr Hardware-Reparatur, Software-/Linux-Hilfe oder beides bevorzugt. Kein Sponsoring nötig.
 
@@ -167,4 +168,4 @@ IsarPunk-Team · [E-Mail / Telefon TBD]
 
 ---
 
-*Nächste Artefakte: gemeinsames Partner-CRM-Sheet · Workshop-Mitnahmezettel „Save Oma + wohin damit“ (sobald Partner:innen ja sagen).*
+*Nächste Artefakte: gemeinsames Partner-CRM-Sheet · Workshop-Mitnahmezettel „Save Oma + wohin damit“ (sobald Partner:innen ja sagen) · [Partner-Einverständnis Listung](Partner%20Listing%20Consent_DE.md).*

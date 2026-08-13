@@ -63,7 +63,7 @@ IsarPunk runs **dispersal workshops** (~6 / school year). Repair shops, Repair C
 - Being the install / refurb / hardware service  
 - Payment processing (tip links outbound only, and **not in first pilot**)  
 - Unlimited public signup  
-- Replacing Jugend hackt, MuCCC, school LMS, or Local Munich’s B2C map  
+- Replacing Jugend hackt, MuCCC, school LMS, or Circular Munich’s [CircularCity Map](https://circular-munich.com/circularcitymap/)  
 - Launching before ~3 workshops and at least one verifying shop partner  
 
 ---
@@ -183,7 +183,7 @@ Pilot suggestion: enable only after **workshop #1–3** and **≥1** verifying p
 | Payments | Don’t build |
 | Chat | Don’t build |
 | Confidence capture v0 | May stay **analog** (stickers) or Forms until app exists |
-| Partner visibility | Prefer existing Local Munich B2C map/form — don’t rebuild their map |
+| Partner visibility | Prefer Circular Munich [CircularCity Map](https://circular-munich.com/circularcitymap/) — don’t rebuild their map |
 
 ---
 
