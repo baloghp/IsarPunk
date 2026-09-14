@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="-210 -170 380 340"
+     role="img" aria-label="IsarPunk Concept 2">
+  <title>IsarPunk — Concept 2</title>
+  <g fill="#005577">
+    <!-- white ring (former outer motto track — kept as frame) -->
+    <circle r="150" fill="#FFFFFF"/>
+    <circle r="115"/>
+    <circle r="95" fill="#FFFFFF"/>
+    <!-- motto on the teal rim inside the cap/face circle -->
+    <g id="rim-motto">
+      <path id="c2-textpath" fill="none" d="M 100,0 A 100 100 0 0 1 -100,0 A 100 100 0 0 1 100,0"/>
+      <text fill="#FFFFFF" font-size="13" font-weight="700" font-stretch="condensed"
+            font-family="Impact, Haettenschweiler, Arial Narrow, sans-serif"
+            letter-spacing="0.04em">
+        <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="12s" repeatCount="indefinite"/>
+        <textPath href="#c2-textpath" xlink:href="#c2-textpath">IsarPunk · Hack your life · Save Oma   ·   IsarPunk · Hack your life · Save Oma   ·   </textPath>
+      </text>
+    </g>
+    <!-- bill tip disc (points left; lower than original LM) -->
+    <circle cx="-160" cy="22" r="26"/>
+    <!-- crown + bill -->
+    <path d="M 95 8 V -4 H -160 A 26,26 0 0 0 -160 48 H -105 V 36 Z"/>
+    <!-- sun + river on the hat crown (drawn fresh for c2) -->
+    <g id="crown-emblem">
+      <g id="crown-sun" transform="translate(0 -52)">
+      <polygon fill="#F5D400" points="-3.145,-12.614 0,-26 3.145,-12.614"/>
+      <polygon fill="#F5D400" points="6.695,-11.143 18.385,-18.385 11.143,-6.695"/>
+      <polygon fill="#F5D400" points="12.614,-3.145 26,0 12.614,3.145"/>
+      <polygon fill="#F5D400" points="11.143,6.695 18.385,18.385 6.695,11.143"/>
+      <polygon fill="#F5D400" points="3.145,12.614 0,26 -3.145,12.614"/>
+      <polygon fill="#F5D400" points="-6.695,11.143 -18.385,18.385 -11.143,6.695"/>
+      <polygon fill="#F5D400" points="-12.614,3.145 -26,0 -12.614,-3.145"/>
+      <polygon fill="#F5D400" points="-11.143,-6.695 -18.385,-18.385 -6.695,-11.143"/>
+      <circle r="11" fill="#F5D400"/>
+      </g>
+      <path id="crown-river" d="M -48 -16 L -45.6 -15.879 L -43.2 -15.54 L -40.8 -15.056 L -38.4 -14.531 L -36 -14.087 L -33.6 -13.841 L -31.2 -13.886 L -28.8 -14.273 L -26.4 -14.997 L -24 -16 L -21.6 -17.175 L -19.2 -18.378 L -16.8 -19.449 L -14.4 -20.237 L -12 -20.619 L -9.6 -20.523 L -7.2 -19.933 L -4.8 -18.903 L -2.4 -17.54 L 0 -16 L 2.4 -14.46 L 4.8 -13.097 L 7.2 -12.067 L 9.6 -11.477 L 12 -11.381 L 14.4 -11.763 L 16.8 -12.551 L 19.2 -13.622 L 21.6 -14.825 L 24 -16 L 26.4 -17.003 L 28.8 -17.727 L 31.2 -18.114 L 33.6 -18.159 L 36 -17.913 L 38.4 -17.469 L 40.8 -16.944 L 43.2 -16.46 L 45.6 -16.121 L 48 -16" fill="none" stroke="#5EC8E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <!-- white bill highlight -->
+    <path d="M 115 8 V 16 H 90 V 36 H -160 A 14,14 0 0 1 -160 8 Z" fill="#FFFFFF"/>
+    <!-- wordmark on the bill -->
+    <text id="bill-wordmark" x="-120" y="24" fill="#005577" font-size="16" font-weight="700"
+          font-stretch="condensed" font-family="Impact, Haettenschweiler, Arial Narrow, sans-serif"
+          letter-spacing="0.06em" text-anchor="middle" dominant-baseline="middle">IsarPunk</text>
+    <!-- eyes (lowered with the bill) -->
+    <path d="M -20 34 C -37 20 -47 20 -64 34 C -58 9 -27 9 -20 34 Z"/>
+    <path d="M 60 34 C 43 20 33 20 16 34 C 22 9 53 9 60 34 Z"/>
+    <!-- smile: exact same eye geometry, upside-down, between the eyes, lower -->
+    <g id="smile" transform="translate(-2 64) scale(1 -1) translate(42 -21.5)">
+      <path d="M -20 34 C -37 20 -47 20 -64 34 C -58 9 -27 9 -20 34 Z"/>
+    </g>
+  </g>
+</svg>

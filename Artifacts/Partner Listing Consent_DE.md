@@ -8,13 +8,15 @@ Schul-Workshops (~12–15 J.) zu Windows-10-Supportende, Wiederverwendung und Op
 
 ## 1. Partner-Angaben
 
-| Feld | Bitte ausfüllen |
-|------|-----------------|
-| Betriebsname | |
-| Adresse | |
-| Öffentlicher Kontakt (Tel. / E-Mail / Web) | |
-| Ansprechperson | |
-| Öffnungszeiten / Termin nötig? | |
+
+| Feld                                       | Bitte ausfüllen |
+| ------------------------------------------ | --------------- |
+| Betriebsname                               |                 |
+| Adresse                                    |                 |
+| Öffentlicher Kontakt (Tel. / E-Mail / Web) |                 |
+| Ansprechperson                             |                 |
+| Öffnungszeiten / Termin nötig?             |                 |
+
 
 **Schwerpunkt** (bitte ankreuzen):
 
@@ -24,6 +26,8 @@ Schul-Workshops (~12–15 J.) zu Windows-10-Supportende, Wiederverwendung und Op
 ☐ Repair Café / Ehrenamt  
 
 ---
+
+
 
 ## 2. Listung & Einwilligung
 
@@ -38,6 +42,8 @@ Jede Seite kann die Listung jederzeit per E-Mail beenden. IsarPunk aktualisiert 
 
 ---
 
+
+
 ## 3. Was wir für Empfehlungen anbieten
 
 ☐ Reparatur- / Beratungs-Empfehlungen von IsarPunk (auch Senior:innen-Geräte / Save Oma)  
@@ -47,11 +53,13 @@ Jede Seite kann die Listung jederzeit per E-Mail beenden. IsarPunk aktualisiert 
 
 **Besonderheiten / Grenzen** (z. B. nur Termin, kein Linux, kein E-Schrott):
 
-_________________________________________________________________
-
-_________________________________________________________________
+---
 
 ---
+
+---
+
+
 
 ## 4. Zusammenarbeit (nicht rechtsverbindlich)
 
@@ -61,16 +69,23 @@ Das ist eine gemeinsame Absicht in gutem Glauben. Sie begründet keine einklagba
 
 ---
 
+
+
 ## 5. Datenschutz
 
 IsarPunk / Circular Munich e.V. speichert die oben genannten Geschäftskontaktdaten nur zur Partnerverwaltung und Listung. Keine Weitergabe zu Werbezwecken Dritter. Auskunft / Löschung: [circular-munich.com](https://circular-munich.com/) · _______________________
 
 ---
 
+
+
 ## 6. Bestätigung
 
-| | Partner | Circular Munich e.V. (IsarPunk) |
-|---|---------|----------|
-| Name | | |
-| Datum | | |
-| Unterschrift (oder „per E-Mail bestätigt am …“) | | |
+
+|                                                 | Partner | Circular Munich e.V. (IsarPunk) |
+| ----------------------------------------------- | ------- | ------------------------------- |
+| Name                                            |         |                                 |
+| Datum                                           |         |                                 |
+| Unterschrift (oder „per E-Mail bestätigt am …“) |         |                                 |
+
+

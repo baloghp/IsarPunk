@@ -1,6 +1,6 @@
 # IsarPunk Engagement Platform — High-Level Concept
 
-**Status:** Concept v0.1 — **PARKED** after goal-setting (Aug 2026) · not a year-one delivery commitment  
+**Status:** Concept v0.1 — **un-park in progress via planning** (Sep 2026) · see [`../Project Planning/Workstream - Platform.md`](../Project%20Planning/Workstream%20-%20Platform.md) · still needs explicit team YES in minutes  
 **Audience:** project team  
 **Spirit:** Small, sharp, fun, compliant — not an enterprise youth network.  
 **Canonical project decisions:** [`Meetings/Minutes - Goal Setting.md`](../Meetings/Minutes%20-%20Goal%20Setting.md)
@@ -122,21 +122,30 @@ State machine: `claimed → partner_confirmed` (and `rejected` if needed).
 
 ### 6.3 Badges / social credit
 - Badges reward **behaviours we can seed in a 90-min workshop**, not only rare installs  
-- Examples: *Seed Planter*, *Confidence Climber*, *Oma Diplomat*, *First Boot*, *Shop Explorer*, *Verified Install*  
+- Core ladder examples: *Seed Planter*, *Confidence Climber*, *Oma Diplomat*, *First Boot*, *Shop Explorer*, *Verified Install*  
+- Flavour names retained from campaign drafts (map onto the ladder when useful): *Necromancer* (PC older than ~10 years), *The Apple Thief* (Linux on a dead MacBook), *Oma’s Bodyguard* (senior’s machine — story/shop verified)  
 - Display on team page; **printable sticker twins** for IRL workshops (pairs with door-sticker confidence method)  
 - “Social credit” = reputation within the challenge only
 
 ### 6.4 Projects + tip links (phase 2+)
 - After workshops 1–3 and clearer student demand (same gate as Nextcloud outreach)  
 - Short project idea + optional Buy Me a Coffee / Ko-fi URL  
-- IsarPunk never handles money  
+- Optional outbound pool for SSDs/RAM for students who can’t afford parts, or a named local charity — **IsarPunk never handles money**
 
 ### 6.5 Partner verification
 - Few privileged **shop/café accounts** first  
 - Confirm visits / installs / referrals — no ID uploads  
 - Co-design a **10-second verify** flow as part of the partner cheat sheet conversation  
-- If no shop will verify yet: IsarPunk admin may stub-confirm workshop-only badges only
+- If no shop will verify yet: IsarPunk admin may stub-confirm workshop-only badges only  
+- **Install proof ritual (when verifying installs):** photo of `fastfetch` (Linux logo + specs) plus a handwritten username + date on paper on the keyboard — cheap anti-cheat without AI image scoring. Prefer **team/sponsor** identity over per-kid social accounts.
 
+### 6.6 Optional campaign layer (phase 2 — not year-one)
+Ideas kept from the “May Migration / LinuXmas” draft; only after un-park:
+
+- Seasonal challenge brand (name still open — see §13)  
+- Short **lore** line with each verified action (“Saved from Opa’s basement. Saved ~2kg e-waste.”)  
+- Public **e-waste kg** counter as a secondary motivator (laptop ~2kg, desktop ~8kg) — never the lead KPI (confidence + shop handoff stay primary)  
+- No Movember-style open student social network / public feed in v0 (see non-goals)
 ---
 
 ## 7. Youth + GDPR as architecture
@@ -179,12 +188,13 @@ Pilot suggestion: enable only after **workshop #1–3** and **≥1** verifying p
 | Need | Approach |
 |------|----------|
 | App (auth, teams, logs, badges) | Build thin (IT experience + AI) — **after** shop cheat sheet + early outreach |
-| Hosting | EU VPS / managed Postgres |
-| Payments | Don’t build |
+| Fast pilot alternative | If un-parked and speed matters: **Tally → Airtable → Softr** (or similar) on free tiers — team/sponsor model still required |
+| Custom aesthetic later | Next.js/Vite + Supabase only if we need bespoke UI and already have ops capacity |
+| Hosting | EU VPS / managed Postgres (or EU-friendly free-tier host for pilot) |
+| Payments | Don’t build — outbound Ko-fi / GoFundMe links only (phase 2) |
 | Chat | Don’t build |
 | Confidence capture v0 | May stay **analog** (stickers) or Forms until app exists |
 | Partner visibility | Prefer Circular Munich [CircularCity Map](https://circular-munich.com/circularcitymap/) — don’t rebuild their map |
-
 ---
 
 ## 10. Success metrics (platform)
@@ -195,8 +205,8 @@ Pilot suggestion: enable only after **workshop #1–3** and **≥1** verifying p
 | Confidence-related actions / badges | Lead outcome |
 | Shop referral / visit confirms | Handoff health |
 | Verified installs | Secondary |
+| Optional: aggregate e-waste kg (estimated) | Motivational secondary only |
 | Qualitative: shop says “kids showed up because of IsarPunk” | Real loop |
-
 Not a vanity metric: pageviews without teams.
 
 ---
@@ -234,7 +244,7 @@ Not a vanity metric: pageviews without teams.
 2. Hard cap numbers (teams / users)?  
 3. First verifier: which shop/café commits?  
 4. Public leaderboard vs opt-in visibility?  
-5. Challenge brand name?  
+5. Challenge brand name? Candidates from drafts: **May Migration**, **LinuXmas**, or keep plain “IsarPunk challenge”  
 6. Does Nebenan proposal already imply a digital platform, or must we amend if we build one?
 
 ---
@@ -248,5 +258,7 @@ Not a vanity metric: pageviews without teams.
 | Revisit build when? | After partner traction + early workshops, or sooner if team explicitly prioritises |
 
 ---
+
+*Retained hooks from Sep 2026 `Migration Platform.md` draft: campaign nicknames, fastfetch+note proof, lore line, flavour badges, e-waste kg secondary, shoestring stack, outbound tips. Dropped for year one: per-student social network, build-now sequencing, install/kg as primary KPI.*
 
 *Next doc candidates (when un-parked): `Data Map & Consent.md`, `Badge Ladder.md`, `Shop Verifier Guide.md` (tied to partner cheat sheet).*

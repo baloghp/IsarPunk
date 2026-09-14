@@ -42,9 +42,14 @@ See [`Meetings/Minutes - Goal Setting.md`](Meetings/Minutes%20-%20Goal%20Setting
 | [`Concept/Project IsarPunk - Electronics Circle_DE.pdf`](Concept/Project%20IsarPunk%20-%20Electronics%20Circle_DE.pdf) | Concept deck (DE) |
 | `Concept/*.pptx` | Editable PowerPoint sources |
 | [`Concept/Landscape Research - Comparable Initiatives.md`](Concept/Landscape%20Research%20-%20Comparable%20Initiatives.md) | Landscape of peer programs (Penguins, Restart, Jugend hackt, …) |
+| [`Concept/Workshop Narrative Outline.md`](Concept/Workshop%20Narrative%20Outline.md) | Workshop story spine (optimism, cliff, Linux myths, circular ask) |
+| [`Workshop/Workshop Concept.md`](Workshop/Workshop%20Concept.md) | 90-min mission-card format — run-sheet, kit, fallbacks |
+| [`Workshop/Card Deck v0.md`](Workshop/Card%20Deck%20v0.md) | Card text (EN/DE), IDs, facilitator notes, print spec |
 | [`Meetings/`](Meetings/) | Meeting prep, agendas, minutes, transcripts |
+| [`Project Planning/`](Project%20Planning/) | Roadmap + workstreams (partners, workshops, platform) |
+| [`Brand/`](Brand/) | Logo SVGs + `logo_generator/` (geometry → SVG) |
 | [`Artifacts/`](Artifacts/) | Working deliverables (partner cheat sheets, handouts, …) |
-| [`Engagement Platform/`](Engagement%20Platform/) | School-team challenge tracker concept (parked — ROI still to prove) |
+| [`Engagement Platform/`](Engagement%20Platform/) | School-team challenge tracker concept (un-park via Project Planning) |
 
 ## Partners (handoff layer)
 
@@ -54,7 +59,7 @@ See [`Meetings/Minutes - Goal Setting.md`](Meetings/Minutes%20-%20Goal%20Setting
 
 ## Status
 
-Goal-setting held (Aug 2026). Strategy: **workshops → repair-shop handoff → confidence metrics**, ESU runway to Oct 2027. Engagement platform concept **parked** until partners/workshops exist — see [`Engagement Platform/High-Level Concept.md`](Engagement%20Platform/High-Level%20Concept.md).
+Goal-setting held (Aug 2026). Strategy: **workshops → repair-shop handoff → confidence metrics**, ESU runway to Oct 2027. Delivery planning lives in [`Project Planning/`](Project%20Planning/) — partners + workshops + capped platform pilot aimed at workshop #1 (~Nov). Concept detail: [`Engagement Platform/High-Level Concept.md`](Engagement%20Platform/High-Level%20Concept.md).
 
 Public archive; contributions and local partners welcome.
 
