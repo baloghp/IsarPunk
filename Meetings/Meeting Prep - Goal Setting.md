@@ -137,7 +137,7 @@ Prep alternatives remain valid for a later polish.
 ## One-page decisions log (filled)
 
 **Date:** August 2026 (confirm exact day)  
-**Present:** Peter Balog, Avanti, Alex Bejarano  
+**Present:** Peter Balogh, Avanti, Alex Bejarano  
 
 **Mission:**  
 Workshops that raise Linux/FOSS confidence + circular awareness; hand off repairs/installs to shops/cafés.

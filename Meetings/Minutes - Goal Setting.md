@@ -5,7 +5,7 @@
 | **Date** | August 2026 (exact calendar day: confirm from calendar invite) |
 | **Time** | ~2 hours (ended ~19:50) |
 | **Place / format** | In person (team meeting) |
-| **Present** | Peter Balog, Avanti, Alex Bejarano |
+| **Present** | Peter Balogh, Avanti, Alex Bejarano |
 | **Absent** | — |
 | **Recording** | Yes — all agreed |
 | **Chair / prep** | Peter (prep doc); Avanti led funding block |

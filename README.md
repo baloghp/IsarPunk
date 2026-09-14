@@ -61,8 +61,14 @@ See [`Meetings/Minutes - Goal Setting.md`](Meetings/Minutes%20-%20Goal%20Setting
 
 Goal-setting held (Aug 2026). Strategy: **workshops → repair-shop handoff → confidence metrics**, ESU runway to Oct 2027. Delivery planning lives in [`Project Planning/`](Project%20Planning/) — partners + workshops + capped platform pilot aimed at workshop #1 (~Nov). Concept detail: [`Engagement Platform/High-Level Concept.md`](Engagement%20Platform/High-Level%20Concept.md).
 
-Public archive; contributions and local partners welcome.
+Working draft on GitHub. **All rights reserved** — see [`LICENSE`](LICENSE).
 
 ## License
 
-Concept materials: © project authors. Unless noted otherwise, text research in this repo is shared for reuse under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+**© 2026 Circular Munich e.V. and Peter Balogh. All rights reserved.**
+
+Nothing in this repository may be reused, copied, modified, or redistributed without **prior written permission** from both Circular Munich e.V. and Peter Balogh. Viewing the public repo is fine; reuse is not.
+
+Details: [`LICENSE`](LICENSE) · workshop: [`Workshop/NOTICE.md`](Workshop/NOTICE.md).
+
+A more open licence (e.g. CC BY-NC-ND, Climate Fresk–style) may be considered later — **not in force now**.
