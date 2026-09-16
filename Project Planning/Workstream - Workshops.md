@@ -16,8 +16,8 @@
 - [ ] Slide deck v1 (EN or DE — pick primary for schools)
 - [ ] Circular-economy framing explicit in deck
 - [ ] Live USB / first-boot demo plan (what hardware we bring)
-- [ ] Confidence ritual chosen (door stickers and/or Google Form)
-- [ ] Facilitator run-sheet (90 min timing)
+- [ ] Measure In/Out sheet final (opinions + confidence; personal colour dots)
+- [ ] Facilitator run-sheet (8 beats / ~90 min) — see Workshop Concept
 - [ ] Take-home pack v1 (Save Oma ask + partner list)
 - [ ] After workshop #3: train-the-trainer notes started
 
