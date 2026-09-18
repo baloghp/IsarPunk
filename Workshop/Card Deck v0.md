@@ -14,12 +14,12 @@ Materials sorted **by beat**. Card IDs (`A6`, `B10`, `C7`…) stay stable for lo
 
 | Beat | Time | What you need on the table |
 |------|------|----------------------------|
-| **1** Primer | 0–8 | Layer-sort cards · personal colour dots |
-| **2** Measure In | 8–20 | Measure sheet · personal colours |
+| **1** Primer | 0–8 | **1 slide** (line vs Kreis) · layer-sort cards · personal colour dots |
+| **2** Measure In | 8–20 | Measure sheet (incl. **B7**, **E6**; stamp B1/B7/E5/E6) · personal colours |
 | **3** Stations | 20–38 | 2 laptops · USB sticks · sheets F1 + F2 |
 | **4** Win10 + Oma | 38–44 | *(talk only — no cards)* |
-| **5** Mission 1 Save Oma | 44–58 | A2 board · S1 · endings O · actions C · pledge dots |
-| **6** Mission 2 IsarPunk | 58–78 | 4× A2 · goals S2–S5 · endings H · actions D (2 lots) · shop crib · pledge dots |
+| **5** Mission 1 Save Oma | 44–58 | A2 board · S1 · endings O (**CM on O1/O2**) · actions C · pledge dots |
+| **6** Mission 2 IsarPunk | 58–78 | 4× A2 · goals S2–S5 · endings H (**CM on H1–H5**) · actions D (2 lots) · shop crib · pledge dots |
 | **7** Measure Out | 78–86 | Same Measure sheet (or 2nd copy) · personal colours |
 | **8** Wrap | 86–90 | Take-home package |
 
@@ -27,12 +27,13 @@ Materials sorted **by beat**. Card IDs (`A6`, `B10`, `C7`…) stay stable for lo
 
 ## Beat 1 — Primer (0–8)
 
-**Job:** Make *Betriebssystem* mean something. Hand out personal colours.
+**Job:** Frame IsarPunk / CM once (line vs Kreis), make *Betriebssystem* mean something, hand out personal colours.
 
 ### Artifacts
 
 | Item | Qty | Notes |
 |------|-----|-------|
+| Intro slide | 1 | Line vs Kreis only — see [Workshop Concept](Workshop%20Concept.md) Beat 1 |
 | Layer-sort cards (below) | 4 team sets | Laminate |
 | Row labels | 4× | `GERÄT` · `BETRIEBSSYSTEM` · `APP` |
 | Personal colour dots | 1 colour / student | Keep for whole session |
@@ -90,45 +91,50 @@ App pool dates fast — refresh each school year.
 
 | Item | Qty | Notes |
 |------|-----|-------|
-| **Measure sheet** | 1 shared (or per team) | Opinions above divider, confidence below |
+| **Measure sheet** | 1 shared (or per team) | Opinions above divider, confidence below · stamp B1/B7/E5/E6 |
 | Personal colour dots | already handed out | One dot per row |
 
 **Columns:** `STIMMT` · `UNSICHER` · `STIMMT NICHT`
 
+**Circular stamp:** small CM mark or simple Kreis on **B1**, **B7**, **E5**, **E6** only. Do **not** stamp B8 or Linux-myth rows.
+
 ### Sheet rows — opinions
 
-| ID | DE | EN | Comes back later at |
-|----|----|----|---------------------|
-| B3 | Linux ist nur für Hacker und Programmierer. | Linux is only for hackers and programmers. | Stations |
-| B4 | Wenn Windows keine Updates mehr bekommt, funktioniert der Computer nicht mehr. | If Windows stops getting updates, the computer stops working. | Beat 4 |
-| B5 | Ein Betriebssystem muss man kaufen. | You have to pay for an operating system. | Stations |
-| B6 | Ein anderes Betriebssystem zu installieren macht den Computer kaputt. | Installing a different OS breaks the computer. | Station A |
-| B10 | Ich habe Linux noch nie benutzt. | I have never used Linux. | **Flip (this beat)** |
-| B11 | Man kann auf jedem Gerät das Betriebssystem wechseln — Laptop, Tablet, Handy, Konsole. | You can change the OS on any device. | Station A |
-| B12 | Ältere Menschen wissen mehr über Computer als Jugendliche. | Older people know more about computers than young people. | This discussion |
-| B1 | Ein Laptop von 2015 ist eigentlich Elektroschrott. | A laptop from 2015 is basically e-waste. | Stations |
-| B2 | Auf Linux kann man nicht richtig zocken. | You can't really game on Linux. | Station A / F2 |
-| B8 | Nur ein Profi kann einen alten Computer wieder brauchbar machen. | Only an expert can make an old computer useful again. | Stations + missions |
+| ID | DE | EN | Stamp | Comes back later at |
+|----|----|----|-------|---------------------|
+| B3 | Linux ist nur für Hacker und Programmierer. | Linux is only for hackers and programmers. | — | Stations |
+| B4 | Wenn Windows keine Updates mehr bekommt, funktioniert der Computer nicht mehr. | If Windows stops getting updates, the computer stops working. | — | Beat 4 |
+| B5 | Ein Betriebssystem muss man kaufen. | You have to pay for an operating system. | — | Stations |
+| B6 | Ein anderes Betriebssystem zu installieren macht den Computer kaputt. | Installing a different OS breaks the computer. | — | Station A |
+| B10 | Ich habe Linux noch nie benutzt. | I have never used Linux. | — | **Flip (this beat)** |
+| B11 | Man kann auf jedem Gerät das Betriebssystem wechseln — Laptop, Tablet, Handy, Konsole. | You can change the OS on any device. | — | Station A |
+| B12 | Ältere Menschen wissen mehr über Computer als Jugendliche. | Older people know more about computers than young people. | — | This discussion |
+| B1 | Ein Laptop von 2015 ist eigentlich Elektroschrott. | A laptop from 2015 is basically e-waste. | **CM** | Stations + Kreis |
+| **B7** | **Alt = Müll. Andere Optionen gibt’s nicht.** | **Old = trash. There’s no other option.** | **CM** | Intro slide · missions |
+| B2 | Auf Linux kann man nicht richtig zocken. | You can't really game on Linux. | — | Station A / F2 |
+| B8 | Nur ein Profi kann einen alten Computer wieder brauchbar machen. | Only an expert can make an old computer useful again. | — | Stations + missions |
 
-**Miro fix:** one B4 only; include B3. Tight cut: drop B3 + B11.
+**Miro fix:** one B4 only; include B3; **add B7**. Tight cut: drop B3 + B11 (keep B7).
 
 ### Sheet rows — confidence (below divider)
 
-| ID | DE | EN |
-|----|----|-----|
-| E1 | Ich könnte jemandem erklären, was ein Betriebssystem ist. | I could explain what an OS is. |
-| E2 | Ich könnte Linux an einem Computer ausprobieren, ohne ihn kaputt zu machen. | I could try Linux without breaking it. |
-| E3 | Ich wüsste, was man mit einem alten Computer macht, den niemand mehr benutzt. | I would know what to do with an unused old computer. |
-| E4 | Ich könnte jemandem in meiner Familie mit einem alten PC helfen. | I could help family with an old PC. |
-| E5 | Ich weiß, wo man in München ein Gerät zur Reparatur bringen kann. | I know where in Munich to take a device for repair. |
+| ID | DE | EN | Stamp |
+|----|----|-----|-------|
+| E1 | Ich könnte jemandem erklären, was ein Betriebssystem ist. | I could explain what an OS is. | — |
+| E2 | Ich könnte Linux an einem Computer ausprobieren, ohne ihn kaputt zu machen. | I could try Linux without breaking it. | — |
+| E3 | Ich wüsste, was man mit einem alten Computer macht, den niemand mehr benutzt. | I would know what to do with an unused old computer. | — |
+| E4 | Ich könnte jemandem in meiner Familie mit einem alten PC helfen. | I could help family with an old PC. | — |
+| E5 | Ich weiß, wo man in München ein Gerät zur Reparatur bringen kann. | I know where in Munich to take a device for repair. | **CM** |
+| **E6** | **Ich könnte ein altes Gerät weiterbenutzen, reparieren oder weitergeben — statt wegwerfen.** | **I could keep using, repair, or pass on an old device — instead of binning it.** | **CM** |
 
-Never reword E-rows between workshops — they are the lead metric.
+Never reword E-rows between workshops — they are the lead metric. **E6** is locked with the circularity framing (see Workshop Concept).
 
 ### Key-line notes
 
 | Row | Say |
 |-----|-----|
 | **B10 Flip** | Android / phones / Steam Deck — you already use Linux |
+| **B7 / B1** | Tease the Kreis from the intro slide; stations + missions prove other options |
 | **B4** | Still works; stops being *safe* — full news in Beat 4 |
 | **B11** | Laptop yes · Android sometimes · iPhone/console no |
 | **B12** | Different knowledge, not smarter/stupider — no laughing at Oma |
@@ -204,7 +210,7 @@ Challenge: *"Links ist das Problem. Rechts steht, wie es ausgehen kann. Baut den
 |------|-----|-------|
 | A2 board | 1 shared | Whole room |
 | Starter **S1** | 1 | Left edge · laminate |
-| Endings **O1–O6** | 1 set | Right edge · laminate · distinct stock |
+| Endings **O1–O6** | 1 set | Right edge · laminate · distinct stock · **CM logo on O1 + O2 only** |
 | Actions **C1–C14** | 1 set | Consumable · blank corner for dots |
 | Markers | 1 set | Arrows |
 | Personal colour dots | — | One pledge each on an **action** only |
@@ -217,16 +223,16 @@ Challenge: *"Links ist das Problem. Rechts steht, wie es ausgehen kann. Baut den
 
 ### Endings (right) — no dots
 
-| ID | DE | EN | Type |
-|----|----|-----|------|
-| O1 | Omas PC läuft mit Linux — sicher — und sie benutzt ihn weiter. | Runs Linux safely; she keeps using it. | ✅ |
-| O2 | Ein Repair-Shop hat Omas PC umgestellt. | A repair shop switched it over. | ✅ Referral |
-| O3 | Nichts passiert. Omas PC ist online — und unsicher. | Nothing happens; online and unsafe. | ❌ |
-| O4 | Oma kauft einen neuen PC, den sie nicht gebraucht hätte. Der alte landet im Müll. | Buys a new PC she didn’t need; old one binned. | ❌ |
-| O5 | Oma fällt auf eine Betrugsmasche rein. | Falls for a scam. | ❌ |
-| O6 | Oma traut sich nicht mehr an den Computer und benutzt ihn gar nicht mehr. | Too scared; stops using it. | ❌ |
+| ID | DE | EN | Type | CM |
+|----|----|-----|------|-----|
+| O1 | Omas PC läuft mit Linux — sicher — und sie benutzt ihn weiter. | Runs Linux safely; she keeps using it. | ✅ | **yes** |
+| O2 | Ein Repair-Shop hat Omas PC umgestellt. | A repair shop switched it over. | ✅ Referral | **yes** |
+| O3 | Nichts passiert. Omas PC ist online — und unsicher. | Nothing happens; online and unsafe. | ❌ | — |
+| O4 | Oma kauft einen neuen PC, den sie nicht gebraucht hätte. Der alte landet im Müll. | Buys a new PC she didn’t need; old one binned. | ❌ | — |
+| O5 | Oma fällt auf eine Betrugsmasche rein. | Falls for a scam. | ❌ | — |
+| O6 | Oma traut sich nicht mehr an den Computer und benutzt ihn gar nicht mehr. | Too scared; stops using it. | ❌ | — |
 
-Four failures on purpose. Payoff: *"Wo landet Omas PC also?"*
+**CM logo** = inner-loop circular ending only (O1, O2). Four failures on purpose. Payoff: *"Wo landet Omas PC also?"*
 
 ### Actions (middle)
 
@@ -262,7 +268,7 @@ Four failures on purpose. Payoff: *"Wo landet Omas PC also?"*
 |------|-----|-------|
 | A2 boards | 4 | One per team |
 | Goals **S2–S5** | 1 of each | Draw one per team · laminate |
-| Endings **H1–H8** | 4 sets | Right edge · laminate |
+| Endings **H1–H8** | 4 sets | Right edge · laminate · **CM logo on H1–H5 only** (not H6) |
 | Actions Lot 1 **D1–D11** | 4 sets | Deal first · consumable |
 | Actions Lot 2 **D12–D18** | 4 sets | Reveal second · consumable |
 | Markers | per team | Arrows |
@@ -284,18 +290,18 @@ Tendency, not a rail. Struggling room → everyone gets **S2**.
 
 ### Endings (right) — no dots
 
-| ID | DE | EN | Type |
-|----|----|-----|------|
-| H1 | Das Gerät läuft wieder — mit Linux — und jemand benutzt es. | Works again with Linux; someone uses it. | ✅ |
-| H2 | Ein Repair-Shop hat es repariert oder umgestellt. | Shop fixed / switched it. | ✅ Referral |
-| H3 | Daraus ist ein Projekt geworden — Konsole, Medienserver, Chat-Server. | Became a project. | ✅ after Lot 2 |
-| H4 | Jemand anders benutzt es jetzt — verkauft oder verschenkt. | Someone else uses it. | ✅ |
-| H5 | Jemand in der Familie hat jetzt einen Computer, der vorher keinen hatte. | Family member who had no PC now has one. | ✅ |
-| H6 | Die Materialien wurden richtig verwertet. | Materials properly recovered. | ✅ not a failure |
-| H7 | Es liegt weiter im Schrank. | Still in the cupboard. | ❌ |
-| H8 | Es landet im Hausmüll. | Household bin. | ❌ |
+| ID | DE | EN | Type | CM |
+|----|----|-----|------|-----|
+| H1 | Das Gerät läuft wieder — mit Linux — und jemand benutzt es. | Works again with Linux; someone uses it. | ✅ | **yes** |
+| H2 | Ein Repair-Shop hat es repariert oder umgestellt. | Shop fixed / switched it. | ✅ Referral | **yes** |
+| H3 | Daraus ist ein Projekt geworden — Konsole, Medienserver, Chat-Server. | Became a project. | ✅ after Lot 2 | **yes** |
+| H4 | Jemand anders benutzt es jetzt — verkauft oder verschenkt. | Someone else uses it. | ✅ | **yes** |
+| H5 | Jemand in der Familie hat jetzt einen Computer, der vorher keinen hatte. | Family member who had no PC now has one. | ✅ | **yes** |
+| H6 | Die Materialien wurden richtig verwertet. | Materials properly recovered. | ✅ not a failure | — |
+| H7 | Es liegt weiter im Schrank. | Still in the cupboard. | ❌ | — |
+| H8 | Es landet im Hausmüll. | Household bin. | ❌ | — |
 
-**H6 vs H8** = teachable pair.
+**CM logo** = inner loop only (H1–H5). **No CM on H6** (Wertstoffhof still valid; teachable vs H8). **H6 vs H8** = teachable pair.
 
 ### Actions Lot 1 — practical (deal first)
 
@@ -352,10 +358,10 @@ Announce: *"Und jetzt — was man daraus wirklich bauen kann."* Then **H3** beco
 
 | Item | Qty | Notes |
 |------|-----|-------|
-| Measure sheet | Same as In, or 2nd blank copy | Hang In + Out if possible |
+| Measure sheet | Same as In, or 2nd blank copy | Hang In + Out if possible · same stamps |
 | Personal colours | — | One dot per row again |
 
-Discuss whose colour moved on **B10, E2, E5** especially. No name lists.
+Discuss whose colour moved on **B10, E2, E5, E6, B7, B1** especially. No name lists.
 
 ---
 
@@ -393,11 +399,12 @@ EN candidates to verify: Learn Linux TV · The Linux Experiment · Chris Titus T
 | Artifact | Size / form | Copies | Finish |
 |----------|-------------|--------|--------|
 | Layer-sort A | A6 | 4 sets | Laminate |
-| Measure sheet | A1/A2 | 2 (In+Out) | Paper |
-| Personal colour dots | — | ≥12 colours × (~15×2 + 2 pledges) | — |
+| Intro slide | screen / print | 1 | Line vs Kreis |
+| Measure sheet | A1/A2 | 2 (In+Out) | Paper · stamp B1/B7/E5/E6 |
+| Personal colour dots | — | ≥12 colours × (~17×2 + 2 pledges) | — |
 | S1 + S2–S5 | A5 | 5 | Laminate |
-| O1–O6 | A6 distinct | 1 | Laminate |
-| H1–H8 | A6 distinct | 4 | Laminate |
+| O1–O6 | A6 distinct | 1 | Laminate · **CM on O1/O2** |
+| H1–H8 | A6 distinct | 4 | Laminate · **CM on H1–H5** |
 | C1–C14 | A6 + dot corner | 1 | Consumable |
 | D1–D18 | A6 + dot corner | 4 | Consumable |
 | F1 / F2 | A4 | 12 each | Paper |
@@ -427,7 +434,9 @@ S / O / H must look different from action cards (colour or border).
 ## Production checklist
 
 - [ ] Team review EN  
-- [ ] Fix Measure sheet (no duplicate B4; include B3)  
+- [ ] Fix Measure sheet (no duplicate B4; include B3; **add B7 + E6**; stamp B1/B7/E5/E6)  
+- [ ] Draw intro slide (line vs Kreis)  
+- [ ] Print CM logo on O1/O2 + H1–H5 only (not H6)  
 - [ ] QR destination + verify links  
 - [ ] DE review  
 - [ ] Print/laminate Beat 1 + 5 + 6 reusables  
