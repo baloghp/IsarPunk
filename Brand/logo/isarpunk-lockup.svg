@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.8 239" role="img" aria-label="IsarPunk">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.8 209" role="img" aria-label="IsarPunk">
   <title>IsarPunk</title>
   <g transform="translate(101.9 88)">
   <g id="isarpunk-mark">
@@ -19,6 +19,5 @@
   </g>
   <text id="name-isar" x="-38" y="0" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Montserrat, Arial Narrow, Arial, Helvetica, sans-serif" letter-spacing="0.08em" text-anchor="end" dominant-baseline="middle">ISAR</text>
   <text id="name-punk" x="38" y="0" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Montserrat, Arial Narrow, Arial, Helvetica, sans-serif" letter-spacing="0.08em" text-anchor="start" dominant-baseline="middle">Punk</text>
-  <text id="tagline" x="0" y="127" fill="#FFFFFF" font-size="14" font-weight="500" font-family="Montserrat, Arial, Helvetica, sans-serif" letter-spacing="0.04em" text-anchor="middle">Hack your life / Save Oma</text>
 </g>
 </svg>

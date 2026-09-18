@@ -153,15 +153,19 @@ Photograph the sheet before clearing / before Measure Out.
 
 ### Sheet F1 — Distro tasting (Station A)
 
+**Harder station.** Two coachable blocks: (1) find boot-setup / USB boot, (2) find Terminal and run `fastfetch` — **give the command away**; discovery is finding Terminal and typing it.
+
 - What is different between these two desktops? One thing each
 - Find the games software on **Bazzite**
-- How old is this laptop / what’s inside? (`fastfetch`)
+- How old is this laptop / what’s inside? → Terminal → `fastfetch`
 - Is anything being installed right now? *(No — runs from the stick)*
 - What did this OS cost? *(Nothing)*
 
 Mint = familiar. Bazzite = gaming / Steam Deck family. Let students hold a stick. Boot wait is content.
 
 ### Sheet F2 — Treasure hunt (Station B)
+
+**Easier station — just fun.** Already-booted machine; find apps by category; land the cost punchline.
 
 - Something to play games with — one game that launches
 - Something to write a school report

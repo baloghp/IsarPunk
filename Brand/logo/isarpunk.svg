@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-210 -170 380 340" role="img" aria-label="IsarPunk">
+  <title>IsarPunk</title>
+  <defs>
+    <clipPath id="wordmark-glitch-top" clipPathUnits="userSpaceOnUse">
+      <path d="M -162 8 H -78 L -78 23.4 L -88 23.1 L -96 23.6 L -104 22.9 L -112 23.8 L -116 21.2 L -120 24.4 L -126 22.5 L -134 23.8 L -142 22.7 L -150 23.6 L -162 23.2 Z"/>
+    </clipPath>
+    <clipPath id="wordmark-glitch-bot" clipPathUnits="userSpaceOnUse">
+      <path d="M -162 40 H -78 L -78 23.4 L -88 23.1 L -96 23.6 L -104 22.9 L -112 23.8 L -116 21.2 L -120 24.4 L -126 22.5 L -134 23.8 L -142 22.7 L -150 23.6 L -162 23.2 Z"/>
+    </clipPath>
+  </defs>
+  <g fill="#005577">
+    <circle r="150" fill="#FFFFFF"/>
+    <circle r="115"/>
+    <circle r="95" fill="#FFFFFF"/>
+    <g id="rim-motto">
+      <path id="rim-textpath-top" fill="none" d="M -100,0 A 100 100 0 0 1 100,0"/>
+      <path id="rim-textpath-bottom" fill="none" d="M 100,0 A 100 100 0 0 1 -100,0"/>
+      <text fill="#FFFFFF" font-size="13" font-weight="700" font-stretch="condensed" font-family="Impact, Haettenschweiler, Arial Narrow, sans-serif" letter-spacing="0.04em" text-anchor="middle" style="white-space: pre;">
+        <textPath href="#rim-textpath-top" startOffset="50%">Hack your life / Save Oma</textPath>
+      </text>
+      <text fill="#FFFFFF" font-size="13" font-weight="700" font-stretch="condensed" font-family="Impact, Haettenschweiler, Arial Narrow, sans-serif" letter-spacing="0.04em" text-anchor="middle" style="white-space: pre;">
+        <textPath href="#rim-textpath-bottom" startOffset="50%">Hack dein Leben / Rette Oma</textPath>
+      </text>
+    </g>
+    <circle cx="-160" cy="22" r="26"/>
+    <path d="M 96.546 7.658 L 96.061 -4 L -160 -4 C -180.015 -4 -192.524 17.667 -182.517 35 C -177.872 43.044 -169.289 48 -160 48 L -105 48 L -105 36 L 96.546 7.658 Z"/>
+    <g id="crown-emblem">
+      <g id="crown-sun" transform="translate(0 -52)">
+        <polygon fill="#F5D400" points="-3.145,-12.614 0,-26 3.145,-12.614"/>
+        <polygon fill="#F5D400" points="6.695,-11.143 18.385,-18.385 11.143,-6.695"/>
+        <polygon fill="#F5D400" points="12.614,-3.145 26,0 12.614,3.145"/>
+        <polygon fill="#F5D400" points="11.143,6.695 18.385,18.385 6.695,11.143"/>
+        <polygon fill="#F5D400" points="3.145,12.614 0,26 -3.145,12.614"/>
+        <polygon fill="#F5D400" points="-6.695,11.143 -18.385,18.385 -11.143,6.695"/>
+        <polygon fill="#F5D400" points="-12.614,3.145 -26,0 -12.614,-3.145"/>
+        <polygon fill="#F5D400" points="-11.143,-6.695 -18.385,-18.385 -6.695,-11.143"/>
+        <circle r="11" fill="#F5D400"/>
+      <g id="cm-in-sun">
+        <title>Circular Munich</title>
+        <path d="M 10.501 4.675 A 11.495 11.495 0 1 1 10.581 -4.491"
+              fill="none" stroke="#B89A14" stroke-width="2.01" stroke-linecap="butt"/>
+        <circle cx="11.495" cy="0" r="1.005" fill="#B89A14"/>
+        <path fill="#B89A14" d="M -4.862 -4.235 L -4.862 4.33 L -2.953 4.33 L -2.953 -0.797 L 0 4.234 L 2.953 -0.797 L 2.953 4.33 L 4.862 4.33 L 4.862 -4.235 L 2.953 -4.235 L 0 1.083 L -2.953 -4.235 Z"/>
+      </g>
+      </g>
+      <path id="crown-river" d="M -48 -16 L -45.6 -15.879 L -43.2 -15.54 L -40.8 -15.056 L -38.4 -14.531 L -36 -14.087 L -33.6 -13.841 L -31.2 -13.886 L -28.8 -14.273 L -26.4 -14.997 L -24 -16 L -21.6 -17.175 L -19.2 -18.378 L -16.8 -19.449 L -14.4 -20.237 L -12 -20.619 L -9.6 -20.523 L -7.2 -19.933 L -4.8 -18.903 L -2.4 -17.54 L 0 -16 L 2.4 -14.46 L 4.8 -13.097 L 7.2 -12.067 L 9.6 -11.477 L 12 -11.381 L 14.4 -11.763 L 16.8 -12.551 L 19.2 -13.622 L 21.6 -14.825 L 24 -16 L 26.4 -17.003 L 28.8 -17.727 L 31.2 -18.114 L 33.6 -18.159 L 36 -17.913 L 38.4 -17.469 L 40.8 -16.944 L 43.2 -16.46 L 45.6 -16.121 L 48 -16" fill="none" stroke="#5EC8E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <path d="M 115 8 L 115 16 L 82.576 16.048 L 85.546 33.452 L -160 36 C -170.777 36 -177.513 24.333 -172.124 15 C -169.623 10.668 -165.002 8 -160 8 L 115 8 Z" fill="#FFFFFF"/>
+    <g id="bill-wordmark" fill="#005577" font-size="16" font-weight="700" font-stretch="condensed" font-family="Impact, Haettenschweiler, Arial Narrow, sans-serif" letter-spacing="0.06em" text-anchor="middle" dominant-baseline="middle">
+      <g clip-path="url(#wordmark-glitch-bot)">
+        <text x="-120" y="24" style="white-space: pre;">IsarPunk</text>
+      </g>
+      <g clip-path="url(#wordmark-glitch-top)">
+        <text x="-120" y="24" transform="translate(-0.9 0)" style="white-space: pre;">IsarPunk</text>
+      </g>
+    </g>
+    <path d="M -20 34 C -37 20 -47 20 -64 34 C -58 9 -27 9 -20 34 Z"/>
+    <path d="M 60 34 C 43 20 33 20 16 34 C 22 9 53 9 60 34 Z"/>
+    <g id="smile" transform="translate(-2 64) scale(1 -1) translate(42 -21.5)">
+      <path d="M -20 34 C -37 20 -47 20 -64 34 C -58 9 -27 9 -20 34 Z"/>
+    </g>
+  </g>
+</svg>

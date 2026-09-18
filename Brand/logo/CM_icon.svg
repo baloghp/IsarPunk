@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100"
+     role="img" aria-label="Circular Munich">
+  <title>Circular Munich</title>
+  <!-- Geometric rebuild of CM_icon_Dark.png: open C-ring + terminal dot + M -->
+  <g id="cm-mark" fill="#1A1A1A" stroke="#1A1A1A">
+    <path d="M 41.997 18.712 A 45.979 45.979 0 1 1 42.321 -18.086"
+          fill="none" stroke-width="8.041" stroke-linecap="butt"/>
+    <circle cx="45.979" cy="0" r="4.021" stroke="none"/>
+    <path stroke="none" d="M -19.45 -16.94 L -19.45 17.32 L -11.811 17.32 L -11.811 -3.189 L 0 16.938 L 11.811 -3.189 L 11.811 17.32 L 19.45 17.32 L 19.45 -16.94 L 11.811 -16.94 L 0 4.333 L -11.811 -16.94 Z"/>
+  </g>
+</svg>

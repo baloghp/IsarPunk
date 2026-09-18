@@ -63,16 +63,16 @@ Derived from **Climate Fresk** pedagogy: discover, then act. Content target **~9
 
 ## 4. The eight beats (~90 min)
 
-| Min | # | Beat | Mode |
-|-----|---|------|------|
-| 0–8 | **1** | **Primer** (+ short hook) | Layer sort — Set A |
-| 8–20 | **2** | **Measure In** | Dot sheet · key-line discussion · flip |
-| 20–38 | **3** | **Parallel stations** · swap ~29 | Distro tasting + treasure hunt |
-| 38–44 | **4** | **Win10 + Oma** | Short facilitator presentation |
-| 44–58 | **5** | **Mission 1: Save Oma** | Path + coloured pledge dots + talk |
-| 58–78 | **6** | **Mission 2: IsarPunk** | Goals · two lots · shops in-flight · dots + talk |
-| 78–86 | **7** | **Measure Out** | Same sheet · key-line discussion |
-| 86–90 | **8** | **Wrap + take-home** | Partners, QRs, *meine Mission* |
+| Min | # | Beat | Mode | Goal |
+|-----|---|------|------|------|
+| 0–8 | **1** | **Primer** (+ short hook) | Layer sort — Set A | Frame IsarPunk without guilt; surface device / OS / app mental model; hand out personal colours |
+| 8–20 | **2** | **Measure In** | Dot sheet · key-line discussion · flip | Lock baseline opinions + confidence before facts or machines; start the flip |
+| 20–38 | **3** | **Parallel stations** · swap ~29 | Distro tasting + treasure hunt | Bust myths by touching real machines — discovery, not lecture |
+| 38–44 | **4** | **Win10 + Oma** | Short facilitator presentation | Make the Win10 cliff concrete and human; set up Mission 1 |
+| 44–58 | **5** | **Mission 1: Save Oma** | Path + coloured pledge dots + talk | Learn the path mechanic on someone else's problem; first personal pledges |
+| 58–78 | **6** | **Mission 2: IsarPunk** | Goals · two lots · shops in-flight · dots + talk | Apply the mechanic to a goal they want; name shops when earned; pledge for themselves |
+| 78–86 | **7** | **Measure Out** | Same sheet · key-line discussion | Capture belief + confidence shift on the same sheet |
+| 86–90 | **8** | **Wrap + take-home** | Partners, QRs, *meine Mission* | Leave with named next steps and one personal mission line |
 
 **Never cut:** stations, Mission 2, Measure Out.
 
@@ -96,7 +96,7 @@ Derived from **Climate Fresk** pedagogy: discover, then act. Content target **~9
 
 **Layer sort:** rows `GERÄT · BETRIEBSSYSTEM · APP` (Set A). Ask *"warum?"* — correct nothing. Leave **Android** visible on the OS row.
 
-Hand out **personal colour dots** (strip or small pot per student). Same colour for the rest of the session.
+**Personal markers:** each participant gets their own **distinguished colour or figure** — sticky dots, icon stickers, or a small strip of matching pieces. No two people share the same mark. That mark is their identity for Measure In/Out and both mission pledges; they keep it for the whole session.
 
 ### Beat 2 — Measure In (8–20)
 
@@ -108,7 +108,7 @@ One large wall/table sheet (or one printed sheet per team — prefer **one share
 | *(divider)* | |
 | **Confidence** | 5 self-efficacy lines (Set E) |
 
-Columns: **STIMMT · UNSICHER · STIMMT NICHT**. Each person places **one of their colour** per row.
+Columns: **STIMMT · UNSICHER · STIMMT NICHT**. Each person places **one of their own colour/figure** per row.
 
 **Discussion of key lines** (not every row) — pick from the live dots:
 
@@ -121,12 +121,48 @@ Then split for stations.
 
 ### Beat 3 — Parallel stations (20–38)
 
-| Station | Machine | Sheet | Job |
-|---------|---------|-------|-----|
-| **A — Distro tasting** | Hero USB laptop | F1 | Mint then Bazzite; nothing installed |
-| **B — Treasure hunt** | Loaded install | F2 | Find apps / myth-busts |
+Two parallel stations; swap at ~29 so everyone does both. Rotate keyboards. Offline preload. Honest caveats when found.
 
-Swap at ~29. Rotate keyboards. Offline preload. Honest caveats when found.
+| Station | Machine | Sheet | Intended outcome |
+|---------|---------|-------|------------------|
+| **A — Distro tasting** | Hero USB laptop | F1 | Feel that a full OS can run from a stick on old hardware — and that the terminal is usable, not scary |
+| **B — Treasure hunt** | Loaded install | F2 | Prove by finding, not hearing: games, school apps, media, and “this software costs nothing” |
+
+**Pedagogy:** Climate Fresk–style discovery. Sheets are **prompts, not worksheets to grade** — they give the room something to do with their hands while the machine does the teaching. Facilitators coach, not lecture. Station A carries the harder cognitive load (boot + terminal); Station B is lighter and fun so the swap still feels like a win.
+
+#### Station A — Distro tasting (F1)
+
+Mint first (familiar desktop), then Bazzite (gaming / Steam Deck family). Nothing is being installed — it runs from the stick. Let students hold a stick; boot wait is content.
+
+**Two key blocks** (coach these; do not skip):
+
+1. **Find the boot-setup button and switch to USB boot** — the real first wall for anyone who later tries this at home. Facilitator may hint the key once; students press it and pick the stick.
+2. **Find the terminal and run `fastfetch`** — cheap, safe terminal first contact. **Give the command away** on the sheet or verbally (`fastfetch`); the discovery is *finding Terminal and typing it*, not memorising flags. Output answers “how old is this laptop / what’s inside?”
+
+**Sheet F1 prompts** (1 per student):
+
+- What is different between these two desktops? One thing each
+- Find the games software on **Bazzite**
+- How old is this laptop / what’s inside? → open Terminal, type `fastfetch`
+- Is anything being installed right now? *(No — runs from the stick)*
+- What did this OS cost? *(Nothing)*
+
+#### Station B — Treasure hunt (F2)
+
+Easier station: already-booted Linux with apps loaded. Job is **just fun** — race to find familiar categories and land the cost punchline. Myth-busts stick because they found the app themselves.
+
+**Sheet F2 prompts** (1 per student):
+
+- Something to play games with — one game that launches
+- Something to write a school report
+- Something to edit video
+- Something to draw or edit photos
+- Something to play music or watch a film
+- How old is this laptop, and what did it cost new?
+- Something you already use every day
+- What does all this software cost? *(Nothing)*
+
+**When found:** most Steam titles work via Proton; some anti-cheat still don’t. LibreOffice / Office in browser; heavy macros are the exception.
 
 ### Beat 4 — Win10 + Oma (38–44)
 
@@ -146,7 +182,7 @@ One shared A2:
 2. Right: **Set O** (Oma endings)  
 3. *"Baut den Weg."* Deal **Set C**  
 4. Arrows → endings  
-5. **Pledge:** one personal-colour dot on the action *you* will do  
+5. **Pledge:** one of *your* colour/figure stickers on the action *you* will do  
 6. Short discussion: *"Wo landet Omas PC?"*
 
 ### Beat 6 — Mission 2: IsarPunk (58–78)
@@ -158,18 +194,18 @@ One A2 per team:
 3. Lot 1 actions → arrows (D1/D2 usual first move)  
 4. Name shops when arrow hits D8 / H2  
 5. Lot 2 reveal (build / privacy / learn)  
-6. Pledge dots (same personal colours)  
+6. Pledge with the **same personal colour/figure** as Measure In and Mission 1  
 7. Short gallery + discussion  
 
 ### Beat 7 — Measure Out (78–86)
 
 **Same sheet** as Measure In (photograph In first, or use a second blank copy of the same layout and hang both).
 
-Each person places their colour again on every row. Discuss **shifts** on key lines — especially confidence block and the flip card.
+Each person places their **own colour/figure** again on every row. Discuss **shifts** on key lines — especially confidence block and the flip card.
 
 ### Beat 8 — Wrap (86–90)
 
-Take-home: named partners, CircularCity Map, learn QRs, *meine Mission: ______* from their pledge colour. Boards stay with the teacher. Goodbye.
+Take-home: named partners, CircularCity Map, learn QRs, *meine Mission: ______* from their pledge mark. Boards stay with the teacher. Goodbye.
 
 ---
 
@@ -177,11 +213,11 @@ Take-home: named partners, CircularCity Map, learn QRs, *meine Mission: ______* 
 
 | Rule | Why |
 |------|-----|
-| One colour per person for the whole session | Same identity on Measure In/Out and pledges |
-| Measure sheet: one dot per row | Full picture |
-| Missions: one pledge dot per mission | Forces a choice |
+| One **distinguished colour or figure** per person for the whole session | Same identity on Measure In/Out and pledges; no shared marks |
+| Measure sheet: one sticker per row | Full picture |
+| Missions: one pledge sticker per mission | Forces a choice |
 | Decide privately; place together | Avoids follow-the-leader |
-| No surnames on the board | Colour ≠ formal ID list |
+| No surnames on the board | Mark ≠ formal ID list |
 
 **What we get:** In/Out shift by statement; pledge counts by card ID; endings reached.  
 **What we don't:** proof they did it at home — wall boards + teacher are follow-through.
