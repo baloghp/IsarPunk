@@ -27,7 +27,7 @@ Three devices carry the session:
 | Mission | Starts from | Boards | Why this order |
 |---------|-------------|--------|----------------|
 | **1 — Save Oma** | Someone else's **problem** (S1) | One shared board | Learn the mechanic on a low-stakes story |
-| **2 — IsarPunk** | A **goal** the team draws (S2–S5) | One board per team | Apply the mechanic to something they want; shops get named |
+| **2 — IsarPunk** | One shared circularity **goal** (S2) | One board per team | Find a realistic route that keeps a device out of the bin |
 
 ---
 
@@ -99,8 +99,8 @@ Discuss three or four key lines only, chosen from the live dots:
 
 - **B1** (*a 2015 laptop is e-waste*) → point back at the Kreis; the stations and missions will test that assumption
 - **B2** (*Linux cannot really game*) → tease the software treasure hunt
-- **B4** (*an unpatched computer can be vulnerable to ransomware, scams, data theft and misuse*) → connect the real Windows 10 deadline to everyday online safety in Beat 4
-- **B8** (*only a professional can help*) → distinguish learning, practising and knowing when to ask for help
+- **B3** (*an unpatched computer can be vulnerable to ransomware, scams, data theft and misuse*) → connect the real Windows 10 deadline to everyday online safety in Beat 4
+- **B5** (*only a professional can help*) → distinguish learning, practising and knowing when to ask for help
 
 Photograph the sheet before the room moves on, then split for stations.
 
@@ -152,7 +152,7 @@ One shared A2 board for the whole room.
 
 One A2 board per team.
 
-1. Each team draws a goal from **S2–S5** and places the **H** endings. If the room is struggling, give everyone S2.
+1. Give every team the same goal **S2** and place the **H** endings. The shared goal makes the routes comparable without forcing the same answer.
 2. Deal **Lot A: discover and learn** — D1/D2, D3, D15 and D16. Teams identify a device, learn something relevant, and draw the first part of the path.
 3. Deal **Lot B: safety and practical action** — D4–D11 and D18. Every path must include D4 before an action that changes, installs, passes on or disposes of the device.
 4. When a path reaches D8, name a real shop from the crib. When a path reaches D11, explain that responsible materials recovery leads to H6, not household waste. D18 is different: usable parts are passed on through H4.
@@ -226,6 +226,7 @@ Printed material, quantities and finishes are specified in the [card deck](Card%
 | Machine B (pre-2018) | Loaded Linux install, apps and Steam offline-ready |
 | Live USBs ×3–4 | Mint, Bazzite, spares |
 | Personal colour dots | ≥12 distinct colours |
+| Mission starters | S1 ×1; S2 ×4, one shared Mission 2 goal per team board |
 | A2 boards ×5 | One shared plus four team boards |
 | Markers | Arrows, one set per team |
 | Tape | Boards go on the classroom wall at the end |

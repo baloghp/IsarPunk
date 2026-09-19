@@ -23,7 +23,7 @@
 
 ### Materials production
 - [ ] Team review of card deck (EN)
-- [ ] Measure sheet rebuilt in Miro — one B4 only, B3 included, **B7 + E6 added**, circular stamp on B1/B7/E5/E6
+- [ ] Measure sheet rebuilt in Miro — five rows B1–B5, three confidence rows E1–E3, circular stamp on B1
 - [ ] Intro slide drawn (linear vs circular lifecycle)
 - [ ] CM mark applied to O1/O2 and H1–H5 only
 - [ ] QR destination page live + links verified (blocks C7, C8, C9, C12, D15–D17)
@@ -103,7 +103,7 @@
 | Live USBs ×3–4 (Mint · Bazzite · spares) | Peter | |
 | Two old laptops (~2015 hero + loaded second machine) | Peter | |
 | Card sets A, S, O, C, H, D printed (DE) — spec in [Card Deck](../Workshop/Card%20Deck%20v0.md) | Peter | |
-| Measure sheet ×2 (stamped B1/B7/E5/E6) | Peter | |
+| Measure sheet ×2 (stamped B1) | Peter | |
 | Personal colour dots (≥12 distinct) + A2 boards ×5 + markers | | |
 | Take-home package (named partners + mission line) | Peter | |
 | Consent / photo release if filming | Avanti | |

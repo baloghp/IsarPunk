@@ -8,7 +8,7 @@ This is the single source of truth for every printed word in the workshop. Facil
 
 **Conventions**
 
-- Card IDs (`A6`, `B10`, `C7`…) are stable and used for logging. If the meaning of a card changes, issue a new ID rather than editing an old one.
+- Card IDs (`A6`, `B5`, `C7`…) are stable and used for logging. If the meaning of a card changes, issue a new ID rather than editing an old one.
 - Starters, goals and endings (S, O, H) must look different from action cards — different stock, colour or border — so a board reads at a glance.
 - The **Circular Munich mark** is printed only on inner-loop endings: O1, O2 and H1–H5.
 - The **circular stamp** on the Measure sheet marks row B1.
@@ -23,7 +23,7 @@ This is the single source of truth for every printed word in the workshop. Facil
 | 3 Stations | Two laptops · USB sticks · sheets F1 and F2 |
 | 4 Win10 + Oma | Nothing printed — talk only |
 | 5 Mission 1 | A2 board · S1 · endings O · actions C · pledge dots · markers |
-| 6 Mission 2 | 4× A2 boards · goals S2–S5 · endings H · actions D (two lots) · shop crib · pledge dots · markers |
+| 6 Mission 2 | 4× A2 boards · one goal S2 · endings H · actions D (three lots) · shop crib · pledge dots · markers |
 | 7 Measure Out | The Measure sheet again, or a second blank copy |
 | 8 Wrap | Take-home package |
 
@@ -93,11 +93,11 @@ Opinions above the divider, confidence below. Columns: `STIMMT` · `UNSICHER` ·
 |----|----|----|-------|-------------|
 | B1 | Ein Laptop von 2015 ist eigentlich Elektroschrott. | A laptop from 2015 is basically e-waste. | **CM** | Stations |
 | B2 | Auf Linux kann man nicht richtig zocken. | You can't really game on Linux. | — | Station A / F2 |
-| B4 | Wenn ein Computer keine Sicherheitsupdates mehr bekommt, wird er anfällig für Ransomware und Betrug. Daten können gestohlen und der Computer für Straftaten missbraucht werden. | If a computer no longer receives security updates, it becomes vulnerable to ransomware and scams. Data can be stolen and the computer can be misused for crime. | — | Beat 4 |
-| B6 | Ein anderes Betriebssystem zu installieren macht den Computer kaputt. | Installing a different OS breaks the computer. | — | Station A |
-| B8 | Nur ein Profi kann einen alten Computer wieder brauchbar machen. | Only a professional can make an old computer useful again. | — | Stations · missions |
+| B3 | Wenn ein Computer keine Sicherheitsupdates mehr bekommt, wird er anfällig für Ransomware und Betrug. Daten können gestohlen und der Computer für Straftaten missbraucht werden. | If a computer no longer receives security updates, it becomes vulnerable to ransomware and scams. Data can be stolen and the computer can be misused for crime. | — | Beat 4 |
+| B4 | Ein anderes Betriebssystem zu installieren macht den Computer kaputt. | Installing a different OS breaks the computer. | — | Station A |
+| B5 | Nur ein Profi kann einen alten Computer wieder brauchbar machen. | Only a professional can make an old computer useful again. | — | Stations · missions |
 
-The four core rows are B1, B2, B4 and B8. B6 is an optional discussion prompt; do not treat every row as an impact measure.
+The five rows are B1–B5. B1, B2, B3 and B5 are the core discussion and impact rows; B4 is an optional discussion prompt. Do not treat every row as an impact measure.
 
 ### Confidence
 
@@ -185,18 +185,15 @@ C7 → C8 → C9 → C10 → C15 forms the live-USB-to-install chain and gives t
 
 ## Beat 6 — Mission 2: Build a path for a goal
 
-Mission 2 keeps the path-finding mechanic, but there is no hidden correct solution. Teams draw a goal, choose a realistic circular route, and explain where confidence, adult help or a shop is needed. Path labels must not be printed on the D cards.
+Mission 2 keeps the path-finding mechanic, but there is no hidden correct solution. Every team works from the same circularity goal, chooses a realistic route, and explains where learning, adult help or a shop is needed. Safety is a prerequisite for responsible action, not a separate mission topic. Path labels must not be printed on the D cards.
 
-### Goals — one per team
+### Goal — one per team
 
 | ID | DE | EN | Tends toward |
 |----|----|-----|--------------|
-| S2 | **Ich will, dass bei uns zu Hause kein Gerät mehr im Müll landet.** | No device from our home ends up in the bin. | H1, H2, H4, H6 |
-| S3 | **Ich will, dass das digitale Leben meiner Familie sicherer wird.** | My family's digital life gets safer. | H1, H2, H3 |
-| S4 | **Ich will aus altem Zeug etwas Eigenes bauen.** | I want to build something of my own from old stuff. | H1, H2, H3, H4, H6 |
-| S5 | **Ich will, dass jeder bei uns zu Hause einen Computer hat, der funktioniert.** | Everyone at home has a working computer. | H1, H2, H4, H5 |
+| S2 | **Bei IsarPunk handeln und lernen wir: Wie können wir verhindern, dass ein Gerät im Müll landet?** | **At IsarPunk, we act and learn: How can we keep a device from ending up in the bin?** | H1, H2, H3, H4, H5, H6 |
 
-The tendencies are a hint for the facilitator, not a rail.
+This is the shared goal for every team. The listed endings are possible destinations, not a rail or a ranking.
 
 ### Endings — no dots
 
@@ -265,20 +262,13 @@ Every goal has a complete route to at least one circular ending. Do not require 
 
 | Goal | Required route shape | Circular ending |
 |------|----------------------|-----------------|
-| S2 — no device in the bin | D1 or D2 → D3 → D4 → D5 → D6 | H1: it runs again with Linux |
-| S2 — no device in the bin | D1 or D2 → D3 → D4 → D8 | H2: repair-shop handoff |
-| S2 — no device in the bin | D1 or D2 → D3 → D4 → D9 or D10 | H4: someone else uses it |
-| S2 — no device in the bin | D1 or D2 → D3 → D4 → D11 | H6: material recovery |
-| S2 — no device in the bin | D1 or D2 → D3 → D4 → D18 | H4: usable parts passed on |
-| S3 — safer digital life | D1 or D2 → D3 → D4 → D5 → D6 | H1: supported Linux system |
-| S3 — safer digital life | D1 or D2 → D3 → D4 → D8 | H2: expert help |
-| S3 — safer digital life | D1 or D2 → D3 → D4 → D5 → D12 or D13 | H3: a safer project, with adult support |
-| S4 — build something | D1 or D2 → D3 → D4 → D5 → D6 → D12, D13 or D14 | H3: a project made from old equipment |
-| S4 — build something | D1 or D2 → D3 → D4 → D8 | H2: a shop helps assess the device |
-| S4 — build something | D1 or D2 → D3 → D4 → D10 or D18 | H4: useful parts or device passed on |
-| S5 — working computer for everyone | D1 or D2 → D3 → D4 → D5 → D6 or D7 | H1: someone uses the working computer |
-| S5 — working computer for everyone | D1 or D2 → D3 → D4 → D8 | H2: repair-shop handoff |
-| S5 — working computer for everyone | D1 or D2 → D3 → D4 → D9 or D10 | H4 or H5: someone else receives it |
+| S2 — circularity goal | D1 or D2 → D3 → D4 → D5 → D6 | H1: it runs again with Linux |
+| S2 — circularity goal | D1 or D2 → D3 → D4 → D7 | H1: it runs again after an upgrade |
+| S2 — circularity goal | D1 or D2 → D3 → D4 → D8 | H2: repair-shop handoff |
+| S2 — circularity goal | D1 or D2 → D3 → D4 → D5 → D12, D13 or D14 | H3: a project made from old equipment |
+| S2 — circularity goal | D1 or D2 → D3 → D4 → D9 or D10 | H4 or H5: someone else uses it |
+| S2 — circularity goal | D1 or D2 → D3 → D4 → D11 | H6: material recovery |
+| S2 — circularity goal | D1 or D2 → D3 → D4 → D18 | H4: usable parts passed on |
 
 If diagnosis shows that the device cannot be reused, D11 must lead to H6 rather than H8. D18 is for usable parts and leads to H4. D12–D14 and D17 are never dealt before Lot A and Lot B have been explored.
 
@@ -316,8 +306,9 @@ All QR codes point at an IsarPunk-controlled page rather than a raw video link, 
 | Intro slide | Screen or print | 1 | Line vs Kreis |
 | Layer sort A1–A22 | A6 | 4 sets | Laminate |
 | Measure sheet | A1 or A2 | 2 (In + Out) | Paper · circular stamp on B1 |
-| Personal colour dots | — | ≥12 colours × (7 rows × 2 + 2 pledges) | — |
-| S1 and S2–S5 | A5 | 5 | Laminate, distinct stock |
+| Personal colour dots | — | ≥12 colours × (8 rows × 2 + 2 pledges) | — |
+| S1 | A5 | 1 | Laminate, distinct stock |
+| S2 | A5 | 4 | Laminate, one shared goal copied for each team board |
 | O1–O6 | A6 | 1 set | Laminate · CM mark on O1, O2 |
 | H1–H8 | A6 | 4 sets | Laminate · CM mark on H1–H5 |
 | C1–C15 | A6 with a blank dot corner | 1 set | Consumable |
