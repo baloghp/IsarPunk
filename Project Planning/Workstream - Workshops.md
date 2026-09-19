@@ -14,12 +14,36 @@
 ### Content
 - [ ] Narrative outline reviewed by team
 - [ ] Slide deck v1 (EN or DE — pick primary for schools)
-- [ ] Circular-economy framing explicit in deck
+- [x] Circular-economy framing explicit (line-vs-Kreis slide · B7 / E6 · CM mark on inner-loop endings)
 - [ ] Live USB / first-boot demo plan (what hardware we bring)
 - [ ] Measure In/Out sheet final (opinions + confidence; personal colour dots)
 - [ ] Facilitator run-sheet (8 beats / ~90 min) — see Workshop Concept
 - [ ] Take-home pack v1 (Save Oma ask + partner list)
 - [ ] After workshop #3: train-the-trainer notes started
+
+### Materials production
+- [ ] Team review of card deck (EN)
+- [ ] Measure sheet rebuilt in Miro — one B4 only, B3 included, **B7 + E6 added**, circular stamp on B1/B7/E5/E6
+- [ ] Intro slide drawn (linear vs circular lifecycle)
+- [ ] CM mark applied to O1/O2 and H1–H5 only
+- [ ] QR destination page live + links verified (blocks C7, C8, C9, C12, D15–D17)
+- [ ] DE tutorial channels researched (German-first requirement)
+- [ ] DE native review of all card text
+- [ ] Print + laminate reusables (Sets A, S, O, H); print Measure ×2, C, D, F1/F2, take-home
+- [ ] Buy personal colour dots, A2 boards, markers
+- [ ] Flash Mint + Bazzite sticks; prepare both machines (offline preload)
+- [ ] Partner names on take-home + shop crib
+- [ ] Playtest scheduled → then freeze card IDs
+
+### Open decisions (before print)
+1. Age band 12–15 or 15–18?
+2. One shared Measure board, or one sheet per team?
+3. Measure Out on a second blank sheet, or clear the first after photographing?
+4. Mission 2: same goal for all teams, or different goals?
+5. Keep D14 (chat server) in Lot 2?
+6. How many distinct dot colours can we reliably stock (~12–16)?
+7. Card volume — do teams of three drown in the D lots?
+8. Which eight apps go in the Set A pool this school year?
 
 ### Booking
 - [ ] School / community target list (≥6)
@@ -78,9 +102,9 @@
 |------|-------|--------|
 | Live USBs ×3–4 (Mint · Bazzite · spares) | Peter | |
 | Two old laptops (~2015 hero + loaded second machine) | Peter | |
-| Card sets A, B, C, D, O printed (DE) | Peter | |
-| Dot stickers, 2 colours + A2 boards + markers | | |
-| Stickers (confidence) | | |
+| Card sets A, S, O, C, H, D printed (DE) — spec in [Card Deck](../Workshop/Card%20Deck%20v0.md) | Peter | |
+| Measure sheet ×2 (stamped B1/B7/E5/E6) | Peter | |
+| Personal colour dots (≥12 distinct) + A2 boards ×5 + markers | | |
 | Take-home package (named partners + mission line) | Peter | |
 | Consent / photo release if filming | Avanti | |
 | Partner consent copies (blank) | Avanti | |

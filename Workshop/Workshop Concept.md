@@ -1,30 +1,33 @@
-# Workshop Concept — Mission Cards
+# IsarPunk Workshop — Facilitator Guide
 
-**Status:** Concept for team review · Sep 2026 · **not yet playtested**  
 **Owner:** Peter (content) · **Support:** Avanti (booking, second facilitator), Alex  
-**Story spine:** [`../Concept/Workshop Narrative Outline.md`](../Concept/Workshop%20Narrative%20Outline.md)  
-**Card deck:** [`Card Deck v0.md`](Card%20Deck%20v0.md)  
+**Card deck (all printed material):** [`Card Deck v0.md`](Card%20Deck%20v0.md)  
+**Story spine (what we say):** [`../Concept/Workshop Narrative Outline.md`](../Concept/Workshop%20Narrative%20Outline.md)  
+**Partners (where we send them):** [`../Artifacts/Partner Cheat Sheet - Repair Shops.md`](../Artifacts/Partner%20Cheat%20Sheet%20-%20Repair%20Shops.md)  
 **Delivery tracker:** [`../Project Planning/Workstream - Workshops.md`](../Project%20Planning/Workstream%20-%20Workshops.md)  
-**Canonical decisions:** [`../Meetings/Minutes - Goal Setting.md`](../Meetings/Minutes%20-%20Goal%20Setting.md)  
-**Language:** EN working copy · **DE materials required before first school session**  
+**Language:** EN working copy — DE materials required before the first school session  
 **Copyright:** © Circular Munich e.V. and Peter Balogh — all rights reserved · [`../LICENSE`](../LICENSE) · [`NOTICE.md`](NOTICE.md)
 
-How the room runs. *What we say* lives in the narrative outline; *where we send them* lives in the [partner cheat sheet](../Artifacts/Partner%20Cheat%20Sheet%20-%20Repair%20Shops.md).
+This guide describes **how the room runs**. Card and sheet text lives in the card deck.
 
 ---
 
-## 1. Format idea
+## 1. The workshop
 
-Derived from **Climate Fresk** pedagogy: discover, then act. Content target **~90 minutes** inside a **2-hour school slot**.
+A 90-minute session for one school class (~12 students, ages ~12–15), run by two facilitators inside a two-hour slot.
 
-**Measure In / Out** is one shared **dot-voting sheet** (opinions + confidence). Same sheet at the start and end — that is the lead metric.
+Participants meet real pre-2018 laptops running Linux, then build paths from a problem or a goal to an ending, and leave having pledged one action they will personally do. The pedagogy follows Climate Fresk: **discover first, then act** — the machines and the cards teach, facilitators coach.
 
-**Missions** are still path-building: start on the left, endings on the right, actions in the middle, personal-coloured **pledge dots** on actions.
+Three devices carry the session:
 
-| Mission | Starts as | Why |
-|---------|-----------|-----|
-| **1 — Save Oma** | Someone else's **problem** (S1) | Shared board; learn the mechanic |
-| **2 — IsarPunk** | A **goal** the team draws (S2–S5) | Four boards; aspirations + shops |
+- **Measure In / Out** — one shared dot-voting sheet (opinions above the divider, confidence below), filled at the start and again at the end on the same rows. This is the lead metric.
+- **Stations** — two hands-on stations running in parallel on real old machines; everyone does both.
+- **Missions** — path building: starter on the left, endings on the right, action cards in the middle, arrows drawn between them, and a personal pledge dot on one action.
+
+| Mission | Starts from | Boards | Why this order |
+|---------|-------------|--------|----------------|
+| **1 — Save Oma** | Someone else's **problem** (S1) | One shared board | Learn the mechanic on a low-stakes story |
+| **2 — IsarPunk** | A **goal** the team draws (S2–S5) | One board per team | Apply the mechanic to something they want; shops get named |
 
 ---
 
@@ -32,307 +35,198 @@ Derived from **Climate Fresk** pedagogy: discover, then act. Content target **~9
 
 | Principle | In the room |
 |-----------|-------------|
-| **Belief first** | Measure In before facts or machines |
-| **Discovery over lecture** | Myth-busts found on real machines |
-| **Agency over doom** | Win10 news sits next to Mission 1 |
-| **Circularity without lecture** | One line-vs-Kreis slide; stamped Measure rows; CM mark on *inner-loop* endings only — no Kreislaufwirtschaft talk |
-| **Personal colour** | Each participant keeps one colour for Measure In/Out **and** mission pledges |
-| **No public scoring** | Dot columns, not right/wrong grades |
-| **Actions have endings** | Boards resolve — including inaction |
-| **Partners named when earned** | Name the shop when a team's arrow needs one |
+| **Belief first** | Measure In happens before any facts or machines |
+| **Discovery over lecture** | Myth-busts are found on real machines, not told |
+| **Agency over doom** | The Windows 10 news sits directly next to a mission that answers it |
+| **Circularity without a lecture** | One line-vs-Kreis slide, circular rows stamped on the Measure sheet, and the Circular Munich mark on inner-loop endings — never the word *Kreislaufwirtschaft* |
+| **Personal colour** | Each participant keeps one colour or figure for Measure In/Out and both pledges |
+| **No public scoring** | Dot columns, never right/wrong grades |
+| **Actions have endings** | Every board resolves — including the endings where nothing happens |
+| **Circularity is a decision rule** | Teams keep, repair, revive, pass on or recover a device before defaulting to disposal |
+| **Partners named when earned** | A shop is named at the moment a team's arrow needs one |
 
 ---
 
-## 3. At a glance
+## 3. Requirements
 
 | | |
 |---|---|
-| **Ask schools for** | **2 hours** (~90 min content + buffer) |
-| **Fallback** | 90 min gross, tight |
-| **Group** | ~12 (works 8–16) |
-| **Age** | ~12–15 (open — §11) |
-| **Facilitators** | **2 required** — parallel stations |
-| **Machines** | **2** old laptops (pre-2018) |
-| **Live USBs** | **3–4** — Mint + Bazzite + spares |
-| **Network** | Assume **none** |
-| **Dots** | One **personal colour** per student (sheet + pledges) |
-| **Partners** | **2 shops signed** (Sep 2026); more expected |
-
-**Privacy:** colours personalise without writing surnames on the board. Photograph for counts; do not collect name↔colour lists.
+| **Slot** | 2 hours (90 min content + buffer); 90 min gross is a tight fallback |
+| **Group** | ~12 students, works at 8–16 |
+| **Age** | ~12–15 |
+| **Facilitators** | 2 — the stations run in parallel |
+| **Room** | Tables for four teams, wall or floor space for boards, power at both station tables |
+| **Network** | Assume none; everything is preloaded offline |
 
 ---
 
-## 4. The eight beats (~90 min)
+## 4. Run sheet
 
 | Min | # | Beat | Mode | Goal |
 |-----|---|------|------|------|
-| 0–8 | **1** | **Primer** (+ short hook) | 1 slide · layer sort — Set A | Frame IsarPunk / CM; line vs Kreis once; surface device / OS / app mental model; hand out personal colours |
-| 8–20 | **2** | **Measure In** | Dot sheet · key-line discussion · flip | Lock baseline opinions + confidence before facts or machines; start the flip |
-| 20–38 | **3** | **Parallel stations** · swap ~29 | Distro tasting + treasure hunt | Bust myths by touching real machines — discovery, not lecture |
-| 38–44 | **4** | **Win10 + Oma** | Short facilitator presentation | Make the Win10 cliff concrete and human; set up Mission 1 |
-| 44–58 | **5** | **Mission 1: Save Oma** | Path + coloured pledge dots + talk | Learn the path mechanic on someone else's problem; first personal pledges |
-| 58–78 | **6** | **Mission 2: IsarPunk** | Goals · two lots · shops in-flight · dots + talk | Apply the mechanic to a goal they want; name shops when earned; pledge for themselves |
-| 78–86 | **7** | **Measure Out** | Same sheet · key-line discussion | Capture belief + confidence shift on the same sheet |
-| 86–90 | **8** | **Wrap + take-home** | Partners, QRs, *meine Mission* | Leave with named next steps and one personal mission line |
+| 0–8 | 1 | **Primer** | One slide · layer sort | Frame IsarPunk and the loop; surface the device / OS / app mental model; hand out personal colours |
+| 8–20 | 2 | **Measure In** | Dot sheet · key-line discussion | Lock baseline beliefs and confidence before facts or machines |
+| 20–38 | 3 | **Parallel stations** (swap ~29) | Distro tasting + treasure hunt | Bust myths by touching real machines |
+| 38–44 | 4 | **Win10 + Oma** | Short facilitator talk | Make the Windows 10 cliff concrete and human |
+| 44–58 | 5 | **Mission 1: Save Oma before the clock runs out** | Shared path board · pledges | Use the Windows 10 deadline to make a circular decision |
+| 58–78 | 6 | **Mission 2: Build a path for a goal** | Team path boards · pledges | Apply the mechanic to a goal; include a circular choice and a safe handoff |
+| 78–86 | 7 | **Measure Out** | Same sheet · shift discussion | Capture the belief and confidence shift |
+| 86–90 | 8 | **Wrap** | Take-home | Leave with named next steps and one personal mission line |
 
 **Never cut:** stations, Mission 2, Measure Out.
 
-### Buffer (2-hour slot)
-
-| Source | Cost |
-|--------|------|
-| Arrival / settling | 5–10 min |
-| Measure In discussion | up to 5 min |
-| Mission 2 | up to 5 min |
-| USB failure | 2–5 min |
-| Pack-up / boards on wall | 5–8 min |
+**Buffer inside a two-hour slot:** arrival and settling 5–10 min · Measure In discussion up to 5 min · Mission 2 up to 5 min · USB failure 2–5 min · pack-up and boards on the wall 5–8 min.
 
 ---
 
-## 5. Block-by-block
+## 5. Running the beats
 
 ### Beat 1 — Primer (0–8)
 
-**Hook (≤2 min):** IsarPunk, Circular Munich. We do not repair devices; no guilt trip. Do not explain Linux yet.
+Open with IsarPunk and Circular Munich in under two minutes: we do not repair devices here, and this is not a guilt trip. Do not explain Linux yet.
 
-**One slide only — line vs Kreis:**
+Show the **line-vs-Kreis slide** once — a linear life (buy new → use → bin) against a circular one (use → repair, pass on, set up again → recycle only at the end). One spoken line: *IsarPunk is the electronics loop; Circular Munich maps the rest of the city.* Do not define the term.
 
-| | Picture | Spoken (short) |
-|---|---------|----------------|
-| **Linie** | neu kaufen → nutzen → Müll | Straight path out |
-| **Kreis** | nutzen → reparieren / weitergeben / neu aufsetzen → erst dann recyceln | Keep the thing in use |
+Then run the **layer sort**: teams place Set A cards on the rows `GERÄT · BETRIEBSSYSTEM · APP`. Ask *"Warum habt ihr die da hingelegt?"* Let teams explain their hypotheses, then resolve the categories clearly; the point is understanding, not a trick.
 
-Say once: *IsarPunk is the electronics loop; Circular Munich maps the rest of the city.* No definition of Kreislaufwirtschaft. Then layer-sort.
-
-**Layer sort:** rows `GERÄT · BETRIEBSSYSTEM · APP` (Set A). Ask *"warum?"* — correct nothing. Leave **Android** visible on the OS row.
-
-**Personal markers:** each participant gets their own **distinguished colour or figure** — sticky dots, icon stickers, or a small strip of matching pieces. No two people share the same mark. That mark is their identity for Measure In/Out and both mission pledges; they keep it for the whole session.
+Hand out **personal colours** while teams sort.
 
 ### Beat 2 — Measure In (8–20)
 
-One large wall/table sheet (or one printed sheet per team — prefer **one shared board** so the room sees itself):
+Use one shared sheet so the room can see itself. Each person places one dot of their own colour on every row, in the column `STIMMT`, `UNSICHER` or `STIMMT NICHT`. Decide privately, place together — otherwise the room follows the first hand.
 
-| Block | Content |
-|-------|---------|
-| **Opinions** | ~11 statements (Set B) — include **B7** (e-waste / circularity) |
-| *(divider)* | |
-| **Confidence** | 6 self-efficacy lines (Set E) — include **E6** (keep device in the loop) |
+Discuss three or four key lines only, chosen from the live dots:
 
-Columns: **STIMMT · UNSICHER · STIMMT NICHT**. Each person places **one of their own colour/figure** per row.
+- **B1** (*a 2015 laptop is e-waste*) → point back at the Kreis; the stations and missions will test that assumption
+- **B2** (*Linux cannot really game*) → tease the software treasure hunt
+- **B4** (*an unpatched computer can be vulnerable to ransomware, scams, data theft and misuse*) → connect the real Windows 10 deadline to everyday online safety in Beat 4
+- **B8** (*only a professional can help*) → distinguish learning, practising and knowing when to ask for help
 
-**Circular stamp** (small CM mark or simple Kreis) on **B1**, **B7**, **E5**, **E6** only — so facilitators can hit the circularity cluster if time is short. Do **not** stamp B8 or Linux-myth rows.
-
-| ID | Role | DE (locked for concept) | EN |
-|----|------|-------------------------|-----|
-| **B7** | Opinion · e-waste circularity | *Alt = Müll. Andere Optionen gibt’s nicht.* | *Old = trash. There’s no other option.* |
-| **E6** | Confidence · repair / circularity | *Ich könnte ein altes Gerät weiterbenutzen, reparieren oder weitergeben — statt wegwerfen.* | *I could keep using, repair, or pass on an old device — instead of binning it.* |
-
-Full Measure text lives in the [card deck](Card%20Deck%20v0.md) — **B7 / E6 mirrored there**.
-
-**Discussion of key lines** (not every row) — pick from the live dots:
-
-- *Ich habe Linux noch nie benutzt* → **the flip:** Android / phones / Steam Deck — you already use Linux
-- *Alt = Müll…* (**B7**) / *Laptop von 2015…* (**B1**) → tease the Kreis from the intro slide; stations + missions prove it
-- *Wenn Windows keine Updates…* → tease only; full news is Beat 4
-- *Ältere Menschen wissen mehr…* → careful framing (see deck)
-- Strongest misconception cluster in the room
-
-Then split for stations.
+Photograph the sheet before the room moves on, then split for stations.
 
 ### Beat 3 — Parallel stations (20–38)
 
-Two parallel stations; swap at ~29 so everyone does both. Rotate keyboards. Offline preload. Honest caveats when found.
+Two stations run at once and swap at ~29 so everyone does both. Rotate who holds the keyboard. Station A carries the harder load, so B is deliberately lighter and the swap still feels like a win.
 
 | Station | Machine | Sheet | Intended outcome |
 |---------|---------|-------|------------------|
-| **A — Distro tasting** | Hero USB laptop | F1 | Feel that a full OS can run from a stick on old hardware — and that the terminal is usable, not scary |
-| **B — Treasure hunt** | Loaded install | F2 | Prove by finding, not hearing: games, school apps, media, and “this software costs nothing” |
+| **A — Distro tasting** | Hero laptop booting from USB | F1 | A full OS runs from a stick on old hardware, and the terminal is usable, not scary |
+| **B — Treasure hunt** | Loaded Linux install | F2 | Games, school apps and media found by hand — and all of it costs nothing |
 
-**Pedagogy:** Climate Fresk–style discovery. Sheets are **prompts, not worksheets to grade** — they give the room something to do with their hands while the machine does the teaching. Facilitators coach, not lecture. Station A carries the harder cognitive load (boot + terminal); Station B is lighter and fun so the swap still feels like a win.
+The sheets are prompts, not worksheets to grade. They give hands something to do while the machine does the teaching.
 
-#### Station A — Distro tasting (F1)
+**Station A — coach these two blocks, do not skip them:**
 
-Mint first (familiar desktop), then Bazzite (gaming / Steam Deck family). Nothing is being installed — it runs from the stick. Let students hold a stick; boot wait is content.
+1. **Find the boot-setup key and switch to USB boot.** This is the real first wall for anyone who tries it at home later. Hint the key once; the students press it and pick the stick.
+2. **Find the terminal and run `fastfetch`.** Give the command away — the discovery is finding Terminal and typing something, not memorising flags. The output answers how old the laptop is and what is inside it.
 
-**Two key blocks** (coach these; do not skip):
+Show Mint first because the desktop feels familiar, then Bazzite for the gaming and Steam Deck connection. Let students hold a stick; the boot wait is content, not dead time. Nothing is being installed, and saying so is half the lesson.
 
-1. **Find the boot-setup button and switch to USB boot** — the real first wall for anyone who later tries this at home. Facilitator may hint the key once; students press it and pick the stick.
-2. **Find the terminal and run `fastfetch`** — cheap, safe terminal first contact. **Give the command away** on the sheet or verbally (`fastfetch`); the discovery is *finding Terminal and typing it*, not memorising flags. Output answers “how old is this laptop / what’s inside?”
+**Station B** is already booted and just fun — a race through familiar categories that lands on the cost punchline. Keep this station: apps are the bridge from curiosity to confidence, not a distraction from the circularity story.
 
-**Sheet F1 prompts** (1 per student):
-
-- What is different between these two desktops? One thing each
-- Find the games software on **Bazzite**
-- How old is this laptop / what’s inside? → open Terminal, type `fastfetch`
-- Is anything being installed right now? *(No — runs from the stick)*
-- What did this OS cost? *(Nothing)*
-
-#### Station B — Treasure hunt (F2)
-
-Easier station: already-booted Linux with apps loaded. Job is **just fun** — race to find familiar categories and land the cost punchline. Myth-busts stick because they found the app themselves.
-
-**Sheet F2 prompts** (1 per student):
-
-- Something to play games with — one game that launches
-- Something to write a school report
-- Something to edit video
-- Something to draw or edit photos
-- Something to play music or watch a film
-- How old is this laptop, and what did it cost new?
-- Something you already use every day
-- What does all this software cost? *(Nothing)*
-
-**When found:** most Steam titles work via Proton; some anti-cheat still don’t. LibreOffice / Office in browser; heavy macros are the exception.
+**Stay honest when they find the edges:** most Steam titles run through Proton but some anti-cheat games still do not; LibreOffice and Office in the browser cover school work, but heavy macros are the exception.
 
 ### Beat 4 — Win10 + Oma (38–44)
 
-Short presentation only — no mission board yet:
+A short talk with no cards on the table:
 
-- Mainstream Win10 ended 2025; consumer ESU to **12 Oct 2027**
-- Roughly **28%** of Windows still on 10 (StatCounter — say *roughly*; web traffic)
-- Those people are often like Oma
+- Mainstream Windows 10 support ended in 2025; consumer ESU runs to **12 October 2027**
+- Roughly **28%** of Windows machines are still on 10 (StatCounter, web traffic — always say *roughly*)
+- Many of those machines belong to people like Oma
+- The clock is real, but the answer is not automatically “buy new”: check, keep using safely, repair, revive, pass on, repurpose or recycle responsibly
 
-Land on Mission 1.
+Land straight on Mission 1.
 
-### Beat 5 — Mission 1: Save Oma (44–58)
+### Beat 5 — Mission 1: Save Oma before the clock runs out (44–58)
 
-One shared A2:
+One shared A2 board for the whole room.
 
-1. Left: **S1**  
-2. Right: **Set O** (Oma endings)  
-3. *"Baut den Weg."* Deal **Set C**  
-4. Arrows → endings  
-5. **Pledge:** one of *your* colour/figure stickers on the action *you* will do  
-6. Short discussion: *"Wo landet Omas PC?"*
+1. Place the starter **S1** on the left and the **O** endings on the right.
+2. *"Die Uhr läuft. Omas PC muss sicher weiterlaufen — oder einen guten nächsten Ort finden. Baut den Weg im Kreislauf."* Deal the **C** actions.
+3. The room builds one realistic path. It must include a safe first step, one circular option, and a point where an adult or shop may be needed.
+4. Show that “do nothing,” unnecessary replacement and household waste are possible endings, not moral traps. Ask what information would change the path.
+5. **Pledge:** everyone puts one dot of their own colour on one conversation or investigation action. No unsupervised install or repair pledge.
+6. Close on the payoff question: *"Wo landet Omas PC also — und warum?"*
 
-**CM logo on circular endings only (inner loop):** **O1**, **O2**. No logo on O3–O6 (unsafe / buy-new-and-bin / scam / freeze).
+### Beat 6 — Mission 2: Build a path for a goal (58–78)
 
-### Beat 6 — Mission 2: IsarPunk (58–78)
+One A2 board per team.
 
-One A2 per team:
-
-1. Draw goal **S2–S5**  
-2. Place **Set H** endings  
-3. Lot 1 actions → arrows (D1/D2 usual first move)  
-4. Name shops when arrow hits D8 / H2  
-5. Lot 2 reveal (build / privacy / learn)  
-6. Pledge with the **same personal colour/figure** as Measure In and Mission 1  
-7. Short gallery + discussion  
-
-**CM logo on circular endings only (inner loop):** **H1–H5** (reuse / repair / project / pass-on / redistribute). **No logo on H6** (Wertstoffhof — still a real ending, teachable vs H8, but not the CM inner-loop mark). No logo on H7–H8 (cupboard / Hausmüll).
+1. Each team draws a goal from **S2–S5** and places the **H** endings. If the room is struggling, give everyone S2.
+2. Deal **Lot A: discover and learn** — D1/D2, D3, D15 and D16. Teams identify a device, learn something relevant, and draw the first part of the path.
+3. Deal **Lot B: safety and practical action** — D4–D11 and D18. Every path must include D4 before an action that changes, installs, passes on or disposes of the device.
+4. When a path reaches D8, name a real shop from the crib. When a path reaches D11, explain that responsible materials recovery leads to H6, not household waste. D18 is different: usable parts are passed on through H4.
+5. Only after Lot A and Lot B are explored, reveal **Lot C: optional projects** — D12–D14 and D17. A project extends a viable path; it does not replace discovery, safety or action.
+6. **Pledge** one investigation or conversation, not an unsupervised install or repair.
+7. Use the route-check table in the card deck to verify that every team has a plausible path to a circular H ending.
+8. Short gallery walk. The teachable pair is **H6 vs H8**: proper material recovery is a real ending, the household bin is not.
 
 ### Beat 7 — Measure Out (78–86)
 
-**Same sheet** as Measure In (photograph In first, or use a second blank copy of the same layout and hang both).
+Use the same sheet, or a second blank copy of the same layout hung next to the first. Everyone places their own colour again on every row.
 
-Each person places their **own colour/figure** again on every row. Discuss **shifts** on key lines — especially confidence block, the flip card, and stamped circularity rows (**B1**, **B7**, **E5**, **E6**).
+Discuss **shifts**, not scores — especially the confidence rows and the stamped circular row B1. Ask whose colour moved, never who was wrong.
 
 ### Beat 8 — Wrap (86–90)
 
-Take-home: named partners, CircularCity Map, learn QRs, *meine Mission: ______* from their pledge mark. Boards stay with the teacher. Goodbye.
+Hand out the take-home package and say one sentence: *"Alle Läden und alle Links stehen hier drauf."* Each student writes their *meine Mission* line from the action they pledged. The mission boards stay with the teacher, taped to the classroom wall.
 
 ---
 
-## 6. Personal colour + dots
+## 6. Personal colour and privacy
 
 | Rule | Why |
 |------|-----|
-| One **distinguished colour or figure** per person for the whole session | Same identity on Measure In/Out and pledges; no shared marks |
-| Measure sheet: one sticker per row | Full picture |
-| Missions: one pledge sticker per mission | Forces a choice |
-| Decide privately; place together | Avoids follow-the-leader |
-| No surnames on the board | Mark ≠ formal ID list |
+| One distinguished colour or figure per person, for the whole session | The same identity links Measure In, Measure Out and both pledges |
+| One dot per row on the Measure sheet | Gives the full picture, not just strong opinions |
+| One pledge dot per mission | Forces a choice |
+| Decide privately, place together | Avoids follow-the-leader voting |
+| No surnames anywhere on the boards | A colour personalises without creating a name list |
 
-**What we get:** In/Out shift by statement; pledge counts by card ID; endings reached.  
-**What we don't:** proof they did it at home — wall boards + teacher are follow-through.
-
----
-
-## 7. Card sets & worksheets
-
-**Beat-ordered materials** (what to put on the table, by beat): [`Card Deck v0.md`](Card%20Deck%20v0.md) — single source of truth for card text.
-
-| Beat | Artifacts |
-|------|-----------|
-| 1 Primer | **1 slide** (line vs Kreis) · layer-sort cards · personal colours |
-| 2 / 7 Measure | One Measure sheet (opinions + confidence; **B7**, **E6**; stamp B1/B7/E5/E6) |
-| 3 Stations | 2 laptops · USBs · F1 / F2 |
-| 4 Win10 talk | — |
-| 5 Save Oma | A2 · S1 · O (CM on O1/O2) · C · pledge dots |
-| 6 IsarPunk | 4× A2 · S2–S5 · H (CM on H1–H5 only) · D (2 lots) · shop crib |
-| 8 Wrap | Take-home (partners + QRs + *meine Mission*) |
+Photograph boards and sheets for counts. Never record which colour belonged to which student.
 
 ---
 
-## 8. Kit
-
-| Item | Notes | Ready? |
-|------|-------|--------|
-| Machines A + B | Old; Mint/Bazzite sticks ×3–4 | ☐ |
-| Offline preload | Steam offline, local files | ☐ |
-| Set A cards | Laminate | ☐ |
-| **Measure sheet ×2** | Same layout — In and Out (or photo + clear); stamp B1/B7/E5/E6 | ☐ |
-| **Personal colour dots** | ≥12 distinct colours · enough for ~17 rows ×2 + 2 pledges | ☐ |
-| Sets S, O, H | Laminate, distinct stock · **CM logo on O1/O2 + H1–H5 only** | ☐ |
-| Sets C, D | Consumable | ☐ |
-| A2 ×5 | 1 + 4 team boards | ☐ |
-| F1 / F2 | Per student | ☐ |
-| Intro slide | Line vs Kreis — one slide only | ☐ |
-| Take-home package | Partners + QRs + mission line | ☐ |
-| Shop crib | For in-flight naming | ☐ |
-
----
-
-## 9. Fallbacks
-
-| If | Then |
-|----|------|
-| Clean 2h | Longer Mission 2 · third distro · more Measure discussion |
-| Only 90 min | Shorter Measure discussion · Mission 2 Lot 2 = projects only |
-| One facilitator | Whole-room hunt; one Mint boot |
-| One laptop | Keep tasting; verbal F2 |
-| Colours run out | Pair siblings / share colour with clear initials (avoid surnames) |
-
----
-
-## 10. Dependencies
-
-| Item | Status |
-|------|--------|
-| Partners signed | ✅ 2 |
-| Names on take-home + crib | Not done |
-| Measure sheet finalised DE | Draft in Miro — fix duplicate / B3; **add B7 + E6**; stamp B1/B7/E5/E6 |
-| Circular intro slide (line vs Kreis) | Not drawn |
-| CM mark on O1/O2 + H1–H5 | Not on cards yet |
-| Personal colour stock | Not bought |
-| Cards / machines / sticks | Not ready |
-| Playtest | Not scheduled |
-
----
-
-## 11. Open questions
-
-1. Age band 12–15 vs 15–18?  
-2. One shared Measure board vs one sheet per team?  
-3. Measure Out: second blank sheet, or clear In after photo?  
-4. QR destination + DE tutorial channels?  
-5. Keep D14 chat server?  
-6. How many distinct colours can we reliably buy (~12–16)?  
-
----
-
-## 12. What we measure
+## 7. What we measure
 
 | Signal | How |
 |--------|-----|
-| **Confidence + opinion shift** | Measure In vs Out (same rows) |
-| Circularity cluster | **B1**, **B7**, **E5**, **E6** (stamped) — watch especially |
-| Actions pledged | Coloured dots on C / D by card ID |
-| Endings reached | Mission boards · note CM-marked (inner-loop) vs unmarked |
+| **Confidence and belief shift** | Measure In vs Measure Out on identical core rows |
+| **Actions pledged** | Coloured dots counted by card ID; report investigation/conversation pledges separately from technical actions |
+| Circularity signal | Movement on B1, plus the circular choices and endings reached in the missions |
+| Endings reached | Mission boards, noting inner-loop (marked) vs other endings |
 | Referrals | Partner survey later |
-| E5 (*repair in Munich*) | Must move if shop naming + take-home work |
-| E6 (*keep in the loop*) | Must move if intro slide + missions land |
+
+The mission paths and take-home should show whether students can name a circular next step and a responsible handoff, without adding more confidence rows that repeat E3.
+
+The boards and the teacher carry follow-through; we do not claim proof that pledges happened at home.
 
 ---
 
-*Pedagogy: Climate Fresk · peers in landscape research. OS figures: StatCounter — always say "roughly".*
+## 8. Fallbacks
+
+| If | Then |
+|----|------|
+| A clean two hours | Longer Mission 2, a third distro, more Measure discussion |
+| Only 90 minutes gross | Shorter Measure discussion; Mission 2 Lot C reduced to the project cards |
+| One facilitator | One Mint boot for the whole room; run the treasure hunt together |
+| One laptop | Keep the distro tasting; run F2 verbally |
+| Colours run out | Share a colour between two students with clear initials — never surnames |
+| A USB fails | Swap in a spare stick; the boot wait is still content |
+
+---
+
+## 9. Equipment to bring
+
+Printed material, quantities and finishes are specified in the [card deck](Card%20Deck%20v0.md).
+
+| Item | Notes |
+|------|-------|
+| Machine A (hero, ~2015) | Boots from USB in front of the room |
+| Machine B (pre-2018) | Loaded Linux install, apps and Steam offline-ready |
+| Live USBs ×3–4 | Mint, Bazzite, spares |
+| Personal colour dots | ≥12 distinct colours |
+| A2 boards ×5 | One shared plus four team boards |
+| Markers | Arrows, one set per team |
+| Tape | Boards go on the classroom wall at the end |
+| Camera or phone | Photograph the Measure sheet and boards |
