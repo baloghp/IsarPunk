@@ -43,8 +43,7 @@ See [`Meetings/Minutes - Goal Setting.md`](Meetings/Minutes%20-%20Goal%20Setting
 | `Concept/*.pptx` | Editable PowerPoint sources |
 | [`Concept/Landscape Research - Comparable Initiatives.md`](Concept/Landscape%20Research%20-%20Comparable%20Initiatives.md) | Landscape of peer programs (Penguins, Restart, Jugend hackt, …) |
 | [`Concept/Workshop Narrative Outline.md`](Concept/Workshop%20Narrative%20Outline.md) | Workshop story spine (optimism, cliff, Linux myths, circular ask) |
-| [`Workshop/Workshop Concept.md`](Workshop/Workshop%20Concept.md) | 90-min mission-card format — run-sheet, kit, fallbacks |
-| [`Workshop/Card Deck v0.md`](Workshop/Card%20Deck%20v0.md) | Card text (EN/DE), IDs, facilitator notes, print spec |
+| [`Workshop/Workshop Concept.md`](Workshop/Workshop%20Concept.md) | Single source for the 90-minute run-sheet, facilitation, all card and sheet text, kit, and print specs |
 | [`Meetings/`](Meetings/) | Meeting prep, agendas, minutes, transcripts |
 | [`Project Planning/`](Project%20Planning/) | Roadmap + workstreams (partners, workshops, platform) |
 | [`Brand/`](Brand/) | Logo SVGs + `logo_generator/` (geometry → SVG) |

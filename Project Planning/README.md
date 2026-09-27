@@ -28,7 +28,7 @@ Working folder for school-year delivery (Sep 2026 → ~Nov 2027).
 | Stream | Status | Next gate |
 |--------|--------|-----------|
 | Partners | Shops walked; **2 signed listing consent** (Sep) | Log names/addresses; aim 3–6 engaged |
-| Workshops | Format + card deck drafted ([`../Workshop/`](../Workshop/)); cards not printed or playtested | Playtest deck; first date booked for Nov (ask 2h slot) |
+| Workshops | Format and beat-by-beat artifacts consolidated in [`../Workshop/Workshop Concept.md`](../Workshop/Workshop%20Concept.md); materials not yet printed or playtested | Playtest the integrated materials; first date booked for Nov (ask 2h slot) |
 | Platform | Concept parked Aug — **planning to un-park** | Team YES + privacy one-pager before build |
 
 *Update the snapshot table whenever you sync.*
