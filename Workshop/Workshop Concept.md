@@ -151,7 +151,7 @@ Photograph the sheet before the room moves on, then split for stations.
 
 #### Artifacts
 
-The Measure sheet has opinions above the divider and confidence below it. Columns are `STIMMT` · `UNSICHER` · `STIMMT NICHT`; each person places one dot of their own colour on every row. Use this exact wording for Measure In and Measure Out.
+The Measure sheet has confidence  above the divider and opinions below it. Columns are `STIMMT` · `UNSICHER` · `STIMMT NICHT`; each person places one dot of their own colour on every row. Use this exact wording for Measure In and Measure Out.
 
 **Confidence — lead metric; do not reword between workshops.**
 
@@ -176,7 +176,7 @@ The Measure sheet has opinions above the divider and confidence below it. Column
 
 ### Beat 3 — Parallel stations (15–35)
 
-Split the room into two cohorts of roughly equal size, up to eight students each for a group of 16. One cohort starts at each station; swap at ~23 so everyone does both. Rotate who holds the keyboard. Station A carries the harder load, so B is deliberately lighter and the swap still feels like a win.
+Split the room into two cohorts of roughly equal size, up to eight students each for a group of 16. One cohort starts at each station; swap at ~23-25 so everyone does both. Rotate who holds the keyboard. Station A carries the harder load, so B is deliberately lighter and the swap still feels like a win.
 
 | Station                       | Machine                      | Sheet | Intended outcome                                                                   |
 | ----------------------------- | ---------------------------- | ----- | ---------------------------------------------------------------------------------- |
@@ -233,7 +233,7 @@ This beat is specifically for showing the workshop slides. Keep the PDF in its e
 Key points to land:
 
 - Standard Windows 10 support ended on **14 October 2025**.
-- Eligible consumer ESU coverage runs through **12 October 2027**. Slide 3 says **13 October 2027**; clarify the official date aloud while presenting. Do not change the workshop PDF's slide order.
+- Eligible consumer ESU coverage runs through **13 October 2027**.
 - Do not imply that every Windows 10 device is enrolled in ESU or that all Windows 10 support ends in 2027.
 - Connect the security cliff to the people who may not know about it, then introduce Oma.
 
