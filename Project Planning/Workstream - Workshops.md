@@ -38,9 +38,8 @@
 ### Open decisions (before print)
 1. Age band 12–15 or 15–18?
 2. Keep D18 (chat server) in optional Lot C?
-3. How many distinct dot colours can we reliably stock (~12–16)?
-4. Is the card volume manageable for teams of three?
-5. Which eight apps go in the Set A pool this school year?
+3. Is the card volume manageable for teams of three?
+4. Which eight apps go in the Set A pool this school year?
 
 ### Booking
 - [ ] School / community target list (≥6)
@@ -101,7 +100,7 @@
 | Two old laptops (~2015 hero + loaded second machine) | Peter | |
 | Card sets A, S, O, C, H, D printed (DE) — specs in [Workshop Concept](../Workshop/Workshop%20Concept.md) | Peter | |
 | Measure sheet ×2 (stamped B1) | Peter | |
-| Personal colour dots (≥12 distinct) + A2 boards ×5 + markers | | |
+| Personal colour/figure set (24 identifiers) + A2 boards ×8 + markers | | |
 | Take-home package (named partners + mission line) | Peter | |
 | Consent / photo release if filming | Avanti | |
 | Partner consent copies (blank) | Avanti | |

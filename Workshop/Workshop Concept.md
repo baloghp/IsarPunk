@@ -1,6 +1,7 @@
 # IsarPunk Workshop — Facilitator Guide
 
 **Owner:** Peter (content) · **Support:** Avanti (booking, second facilitator), Alex
+**Workshop slides:** [IsarPunk Workshop — Electronics Circle (PDF)](<IsarPunk%20WorkShop%20-%20Electronics%20Circle-Final.pdf>)
 **Workshop materials:** Cards, sheets, slide text, and print specifications are included under each beat below.
 **Story spine (what we say):** `[../Concept/Workshop Narrative Outline.md](../Concept/Workshop%20Narrative%20Outline.md)`
 **Partners (where we send them):** `[../Artifacts/Partner Cheat Sheet - Repair Shops.md](../Artifacts/Partner%20Cheat%20Sheet%20-%20Repair%20Shops.md)`
@@ -9,6 +10,8 @@
 **Copyright:** © Circular Munich e.V. and Peter Balogh — all rights reserved · `[../LICENSE](../LICENSE)` · `[NOTICE.md](NOTICE.md)`
 
 This file is the single source of truth for facilitation and workshop artifacts. Card IDs are stable for logging; if a card's meaning changes, issue a new ID rather than editing an old one.
+
+The workshop presentation is required and must be projected. Use the workshop PDF linked above, preserve its existing order, and follow the slide references under each beat. The PDF is the workshop deck; do not substitute the separate project presentation.
 
 ---
 
@@ -26,50 +29,50 @@ Three devices carry the session:
 
 | Mission                 | Starts from                        | Boards             | Why this order                                         |
 | ----------------------- | ---------------------------------- | ------------------ | ------------------------------------------------------ |
-| **1 — Save Oma** | A real-life problem (S1)           | One shared board   | Learn the mechanic on a real-life story                |
+| **1 — Save Oma** | A real-life problem (S1)           | One board per team | Learn the mechanic on a real-life story                |
 | **2 — IsarPunk** | One shared vision as the goal (S2) | One board per team | Apply the same mechanic and build actionable solutions |
 
 ---
 
 ## 2. Design principles
 
-| Principle                               | In the room                                                                                                                                                                                                                    |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Belief first**                  | Measure In established the ground beliefs and floor of FOSS literacy for the group. Happens before any facts or machines                                                                                                       |
-| **Discovery over lecture**        | Referr back to beliefs and myth busts happen during real discovery.                                                                                                                                                            |
-| **Agency over doom**              | The Windows 10 news sits directly next to a mission that answers it. Mission 2 ends in real life executable answers tomorrow.<br />Participants canp pledge to cards with their personal colors and take home to execute them. |
-| **Circularity without a lecture** | Circularity is introduced at the outset, and circular solution cards are stamped.                                                                                                                                              |
-| **Personal colour**               | Each participant keeps one colour or figure for Measure In/Out and both pledges                                                                                                                                                |
-| **No public scoring**             | Dot columns, never right/wrong grades                                                                                                                                                                                          |
-|                                         |                                                                                                                                                                                                                                |
-| **Partners**                      | Partners and shops are named during the excercises, the presentation and in the take home package.                                                                                                                             |
+| Principle                              | In the room                                                                                                                                                         |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Belief first**                 | Measure In happens before facts or machine demos, giving the group a baseline for beliefs and confidence.                                                           |
+| **Discovery over lecture**       | Students explore real machines and build mission paths; facilitators coach rather than deliver a long technical lecture.                                            |
+| **Agency over doom**             | The Windows 10 context leads directly into practical paths. Each participant chooses an action to take forward; the framing avoids guilt.                           |
+| **Circularity by example**       | The line-vs-Kreis slide and marked inner-loop endings make continued use, repair, and passing devices on visible without a terminology lecture.                     |
+| **Personal identifiers**         | Each participant uses one of 24 colours or figures across both measures and pledges. Initials can distinguish shared identifiers if needed; they are not anonymous. |
+| **No public scoring**            | Votes are visible, but never treated as right/wrong grades. Discuss group shifts and ideas without calling out individual choices.                                  |
+| **Every path has an ending**     | Missions resolve to an outcome, including failure or no action; there is no hidden single correct route.                                                            |
+| **Partners named when relevant** | Name a repair partner when a team chooses the repair route, and include partner details in the take-home package.                                                   |
 
 ---
 
 ## 3. Requirements
 
-|                        |                                                                                     |
-| ---------------------- | ----------------------------------------------------------------------------------- |
-| **Slot**         | 2 hours (90 min content + buffer); 90 min gross is a tight fallback                 |
-| **Group**        | ~12 students, works at 8–16                                                        |
-| **Age**          | ~12–15                                                                             |
-| **Facilitators** | 2 — the stations run in parallel                                                   |
-| **Room**         | Tables for four teams, wall or floor space for boards, power at both station tables |
-| **Network**      | Assume none; everything is preloaded offline                                        |
+|                        |                                                                                             |
+| ---------------------- | ------------------------------------------------------------------------------------------- |
+| **Slot**         | 2 hours (90 min content + buffer); 90 min gross is a tight fallback                         |
+| **Group**        | ~12 students, works at 8–16                                                                |
+| **Age**          | ~12–15                                                                                     |
+| **Facilitators** | 2 — the stations run in parallel                                                           |
+| **Room**         | Tables for four teams, wall/floor board space, power at both stations, projector and screen |
+| **Network**      | Assume none; everything is preloaded offline                                                |
 
 ---
 
 ## 4. Run sheet
 
-| Min    | #    | Beat                                    | Mode                                                                  |
-| ------ | ---- | --------------------------------------- | --------------------------------------------------------------------- |
-| 0–10  | 1    | **Intro**                         | One slide + layer sort                                                |
-| 10–20 | 2    | **Measure In**                    | Dot sheet · key-line discussion                                      |
-| 20–40 | 3    | **Parallel stations** (swap ~29)  | Distro tasting + treasure hunt                                        |
-| 40–45 | 4    | **Win10 Cliff + Oma**             | Short facilitator slides                                              |
-| 45–60 | 5    | **Mission 1: Save Oma**           | Shared path board · pledges                                          |
-| 60–80 | 6    | **Mission 2: IsarPunk**           | Team path boards · pledges                                           |
-| 80–90 | 7–8 | **Measure Out + wrap discussion** | Blank sheet · individual reflection · group discussion · take-home |
+| Min    | #    | Beat                                        | Mode                                                                  |
+| ------ | ---- | ------------------------------------------- | --------------------------------------------------------------------- |
+| 0–5   | 1    | **Intro**                             | Projected opening + layer sort                                        |
+| 5–15  | 2    | **Measure In**                        | Dot sheet · key-line discussion                                      |
+| 15–35 | 3    | **Parallel stations** (swap ~23)      | Distro tasting + treasure hunt                                        |
+| 35-40  | 4    | **Workshop slides: Windows 10 + Oma** | Projected slides · support timeline · security context              |
+| 40–60 | 5    | **Mission 1: Save Oma**               | Team path boards · pledges · gallery walk                           |
+| 60–80 | 6    | **Mission 2: IsarPunk**               | Projected mission/partner slides · team path boards · pledges       |
+| 80–90 | 7–8 | **Measure Out + wrap discussion**     | Blank sheet · individual reflection · group discussion · take-home |
 
 **Never cut:** stations, Mission 2, Measure Out.
 
@@ -79,7 +82,7 @@ Three devices carry the session:
 
 ## 5. Running the beats
 
-### Beat 1 — Intro (0–10)
+### Beat 1 — Intro (0–5)
 
 Open with IsarPunk and Circular Munich in under two minutes: we do not repair devices here, and this is not a guilt trip. Do not explain Linux yet.
 
@@ -87,6 +90,8 @@ Open with IsarPunk and Circular Munich in under two minutes: we do not repair de
 2. Then run the **layer sort**: teams place Set A cards on the rows `GERÄT · BETRIEBSSYSTEM · APP`. Ask *"Warum habt ihr die da hingelegt?"* and correct nothing — leave Android on the OS row for the later discussion of operating systems.
 
 Hand out **personal colours** while teams sort.
+
+**Projected slides:** 1–2 (title and linear/circularity comparison). Keep the presentation in its existing order; do not advance to the Windows 10 slides before Beat 4.
 
 #### Artifacts
 
@@ -96,6 +101,8 @@ Hand out **personal colours** while teams sort.
 | --------------- | ------------------------------------------------------------------------ |
 | **Linie** | neu kaufen → nutzen → Müll                                            |
 | **Kreis** | nutzen → reparieren / weitergeben / neu aufsetzen → erst dann recyceln |
+
+The workshop PDF is required and projectable. Follow its existing order using the slide references under each beat. Slides 1–2 introduce the project and circularity; the trigger slides are held until Beat 4.
 
 **Layer sort — Set A:** four laminated A6 sets. Row labels: `GERÄT` · `BETRIEBSSYSTEM` · `APP`. Use all device and operating-system cards; print about eight app cards from the pool.
 
@@ -126,7 +133,7 @@ Hand out **personal colours** while teams sort.
 
 Starter, goal, and ending cards must be visually distinct from action cards. Apply the Circular Munich mark only to inner-loop endings: O1, O2, and H1–H5. The app pool should be refreshed each school year.
 
-### Beat 2 — Measure In (10–20)
+### Beat 2 — Measure In (5–15)
 
 Use one shared sheet so the room can see itself. Each person places one dot of their own colour on every row, in the column `STIMMT`, `UNSICHER` or `STIMMT NICHT`. Decide privately, place together — otherwise the room follows the first hand.
 
@@ -139,6 +146,8 @@ Discuss three or four key lines only, chosen from the live dots:
 - **B6** (*older generations are better with technology*) → invite curiosity about different experience; do not turn it into an age-group contest
 
 Photograph the sheet before the room moves on, then split for stations.
+
+**Projected slides:** hold on slide 2 or blank the screen during the private baseline vote; do not advance to the Windows 10 slides yet.
 
 #### Artifacts
 
@@ -165,9 +174,9 @@ The Measure sheet has opinions above the divider and confidence below it. Column
 
 **Production:** two A1 or A2 paper sheets (In and Out), with B1 stamped. There are nine response rows, so allow nine dots per person per pass; preserve the same layout and wording on both sheets.
 
-### Beat 3 — Parallel stations (20–40)
+### Beat 3 — Parallel stations (15–35)
 
-Split the room into two cohorts of roughly equal size, up to eight students each for a group of 16. One cohort starts at each station; swap at ~29 so everyone does both. Rotate who holds the keyboard. Station A carries the harder load, so B is deliberately lighter and the swap still feels like a win.
+Split the room into two cohorts of roughly equal size, up to eight students each for a group of 16. One cohort starts at each station; swap at ~23 so everyone does both. Rotate who holds the keyboard. Station A carries the harder load, so B is deliberately lighter and the swap still feels like a win.
 
 | Station                       | Machine                      | Sheet | Intended outcome                                                                   |
 | ----------------------------- | ---------------------------- | ----- | ---------------------------------------------------------------------------------- |
@@ -175,6 +184,8 @@ Split the room into two cohorts of roughly equal size, up to eight students each
 | **B — Treasure hunt**  | Loaded Linux install         | F2    | Games, school apps and media found by hand — and all of it costs nothing          |
 
 The sheets are prompts, not worksheets to grade. They give hands something to do while the machine does the teaching.
+
+**Projected slides:** no new slides during hands-on discovery. Keep the screen on slide 2 or blank until both station groups have tried the machines.
 
 **Station A — coach these two blocks, do not skip them:**
 
@@ -213,41 +224,49 @@ Show Mint first, then Bazzite. Prepare a known-good USB and a machine-specific b
 
 **Production:** print 12 copies each of F1 and F2. These are prompts, not answer sheets: collect them at the station swap and reuse them with the second cohort. Twelve copies cover up to eight students at each station with spares. Preload the machines and verify all tasks work offline before the session.
 
-### Beat 4 — Win10 + Oma (40–45)
+### Beat 4 — Projected presentation: Windows 10 + Oma (35–40)
 
-A short talk with no cards on the table:
+This beat is specifically for showing the workshop slides. Keep the PDF in its existing order, explain the Windows 10 support/ESU timeline accurately, and make the risk to Oma concrete. Move briskly and do not add a Linux lecture here; students have just explored the machines and Mission 1 follows immediately.
 
-- Mainstream Windows 10 support ended in 2025; consumer ESU runs to **12 October 2027**
-- Roughly **28%** of Windows machines are still on 10 (StatCounter, web traffic — always say *roughly*)
-- Those people are often like Oma
+**Projected slides:** 3–6, in order: “Why Now?”, the October 2027 cliff, seniors at risk, and “You are Gen Alpha / Welcome to IsarPunk.” Slide 6 leads directly into Mission 1. The PDF's partner list is slide 7 and is reserved for Beat 6; slide 8 returns to the cover and is reserved for the wrap.
+
+Key points to land:
+
+- Standard Windows 10 support ended on **14 October 2025**.
+- Eligible consumer ESU coverage runs through **12 October 2027**. Slide 3 says **13 October 2027**; clarify the official date aloud while presenting. Do not change the workshop PDF's slide order.
+- Do not imply that every Windows 10 device is enrolled in ESU or that all Windows 10 support ends in 2027.
+- Connect the security cliff to the people who may not know about it, then introduce Oma.
 
 Land straight on Mission 1.
 
 #### Artifacts
 
-No cards are used in this beat. The facilitator slide/talk covers the Windows 10 support cliff, consumer ESU through 12 October 2027, and the approximate StatCounter figure (always label it “roughly”). Move directly into S1.
+No cards are used in this beat. The projected workshop slides provide the visual frame; the facilitator supplies the precise dates and avoids overstating who is covered by ESU.
 
-### Beat 5 — Mission 1: Save Oma (45–60)
+### Beat 5 — Mission 1: Save Oma (40–60)
 
-One shared A2 board for the whole room.
+**Projected slide:** keep slide 6 (“Welcome to IsarPunk”) as the bridge into the path-building activity, then blank the screen if it distracts teams.
 
-1. Place the starter **S1** on the left and the **O** endings on the right.
-2. *"Links ist das Problem. Rechts steht, wie es ausgehen kann. Baut den Weg."* Deal the **C** actions.
-3. The room lays actions and draws arrows into endings. Four of the six endings are failures on purpose.
-4. **Pledge:** everyone puts one dot of their own colour on the single action *they* will do. Actions only — never endings.
-5. Close on the payoff question: *"Wo landet Omas PC also?"*
+Each of the four teams gets its own A2 board.
+
+1. Each team places the starter **S1** on the left and the **O** endings on the right.
+2. *"Links ist das Problem. Rechts steht, wie es ausgehen kann. Baut den Weg."* Deal each team the **C** actions.
+3. Teams build paths with actions and arrows into endings. Four of the six endings are failures on purpose.
+4. **Pledge:** each participant places one dot in their colour on the action they personally will do. Actions only — never endings.
+5. Hold a gallery walk: teams visit the other boards and notice the different paths and endings.
+6. Close with the payoff question across the room: *"Wo landet Omas PC also?"*
 
 #### Artifacts
 
 **Challenge line:** *"Die Uhr läuft. Omas PC muss sicher weiterlaufen — oder einen guten nächsten Ort finden. Baut den Weg im Kreislauf."*
 
-**Starter S1 — one A5 copy, visually distinct from action cards.**
+**Starter S1 — four A5 copies, one per team, visually distinct from action cards.**
 
 | ID | DE                                                                                                                   | EN                                                                                                  |
 | -- | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | S1 | **Omas PC läuft Windows 10. Der Sicherheits-Countdown bis Oktober 2027 läuft. Sie weiß noch nichts davon.** | Oma's PC runs Windows 10. The security countdown to October 2027 is running. She does not know yet. |
 
-**Endings O1–O6 — one laminated A6 set; no pledge dots.** The Circular Munich mark appears on O1 and O2 only.
+**Endings O1–O6 — four laminated A6 sets, one per team; no pledge dots.** The Circular Munich mark appears on O1 and O2 only.
 
 | ID | DE                                                                                  | EN                                                    | Type     | CM mark |
 | -- | ----------------------------------------------------------------------------------- | ----------------------------------------------------- | -------- | ------- |
@@ -258,7 +277,7 @@ One shared A2 board for the whole room.
 | O5 | Oma fällt auf eine Betrugsmasche rein.                                             | Falls for a scam.                                     | Failure  | —      |
 | O6 | Oma traut sich nicht mehr an den Computer und benutzt ihn gar nicht mehr.           | Too scared; stops using it altogether.                | Failure  | —      |
 
-**Actions C1–C15 — one A6 consumable set with a blank pledge-dot corner.**
+**Actions C1–C15 — four A6 consumable sets, one per team, with a blank pledge-dot corner.**
 
 | ID  | DE                                                                                                       | EN                                                                            | Tier   |
 | --- | -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------ |
@@ -282,9 +301,11 @@ One shared A2 board for the whole room.
 
 C7 → C8 → C9 → C10 → C15 is the live-USB-to-install chain. C6 must precede any path that wipes or installs. C14 is the alternative route to O2; C15 is never an unsupervised student action. Every path should include a circular option before recycling.
 
-**Production:** one shared A2 board, one S1, one O set, and one C set. Starter and endings are laminated on distinct stock; C cards are consumable.
+**Production:** four A2 boards, four S1 cards, four O sets, and four C sets. Starter and endings are laminated on distinct stock; C cards are consumable.
 
 ### Beat 6 — Mission 2: IsarPunk (60–80)
+
+**Projected slide:** 7, “Who can help you.” Introduce the listed partners when teams consider the repair/referral route, especially D11 → H2. This is the partner introduction during Beat 6. Do not advance to the closing cover until Beat 8.
 
 One A2 board per team.
 
@@ -383,6 +404,8 @@ If diagnosis shows that a device cannot be reused, D14 must lead to H6, not H8. 
 
 ### Beat 7 — Measure Out + discussion (80–90)
 
+**Projected slides:** none. Keep the projection blank during the private response and reflection.
+
 Everyone privately answers on the blank second copy of the Measure sheet, using the same rows and placing their identifying colour on every row. Once participants finish, dissolve the mission teams: give each person a quiet moment to reflect, then invite pair/small-group and whole-room discussion. Let the reflection and discussion flow directly into the wrap rather than separating them into formal blocks.
 
 Discuss **shifts**, not scores — especially confidence rows E1–E3 and opinion row B1. Ask what people noticed and what changed in their thinking; never ask who was wrong. Hand out take-home sheets as people move into discussion.
@@ -392,6 +415,8 @@ Discuss **shifts**, not scores — especially confidence rows E1–E3 and opinio
 Use the second blank copy of the exact Measure sheet specified under **Beat 2 — Artifacts**. Do not reuse or erase the Measure In sheet; do not reword or remove rows between passes. Only B1 carries the circular stamp.
 
 ### Beat 8 — Wrap (within the closing block)
+
+**Projected slide:** 8 (closing IsarPunk title/cover) as the room wraps, if useful.
 
 As the discussion continues, hand out the take-home package and say one sentence: *"Alle Läden und alle Links stehen hier drauf."* Each student writes their *meine Mission* line from the action they pledged. The mission boards stay with the teacher, taped to the classroom wall.
 
@@ -459,17 +484,18 @@ The Measure sheet captures immediate response and confidence shifts; it does not
 
 ---
 
-## 9. Equipment to bring
+## 9. Room and projection setup
 
-| Item                       | Notes                                                 |
-| -------------------------- | ----------------------------------------------------- |
-| Machine A (hero, ~2015)    | Boots from USB in front of the room                   |
-| Machine B (pre-2018)       | Loaded Linux install, apps and Steam offline-ready    |
-| Live USBs ×3–4           | Mint, Bazzite, spares                                 |
-| Personal colour/figure set | 24 distinct identifiers; initials as a fallback       |
-| A2 boards ×5              | One shared Mission 1 board plus four Mission 2 boards |
-| Markers                    | Arrows, one set per team                              |
-| Tape                       | Boards go on the classroom wall at the end            |
-| Camera or phone            | Photograph the Measure sheet and boards               |
+| Item                     | Requirement                                                                                                       |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| Projector and screen     | Required; test focus, aspect ratio, visibility from team tables, and laptop connection before participants arrive |
+| Presentation device      | Keep the current presentation file and a PDF backup locally available; no network should be needed                |
+| Adapters and power       | Bring the required video adapter, power supply, and extension lead if the room layout needs one                   |
+| Machine A                | Hero laptop (~2015), boots from USB                                                                               |
+| Machine B                | Pre-2018 laptop with offline Linux install, apps, and Steam                                                       |
+| Live USBs                | 3–4 sticks: Mint, Bazzite, and known-good spares                                                                 |
+| Boards and tools         | Eight A2 boards total, markers, tape, and arrows; quantities for cards and sheets are specified under their beats |
+| Personal identifiers     | 24 distinct colours or figures, with initials only as a last-resort way to distinguish shared identifiers         |
+| Timer and observer notes | Visible timer plus a place to record beat timings and problems during the playtest                                |
 
-The artifact sections under each beat are the print specification: they give card IDs, wording, quantities, and finishes. Obtain consent before taking identifiable photographs; never record which colour belongs to which participant.
+The **Artifacts** section under each beat is the canonical specification for that beat's slides, cards, sheets, quantities, and finishes. Do not use an older deck-level print table as a competing source. Obtain consent before identifiable photography; never keep a key linking a colour to a participant.

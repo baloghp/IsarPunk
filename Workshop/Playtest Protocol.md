@@ -18,7 +18,7 @@ Use working drafts; do not laminate or order final quantities yet.
 - [ ] Two pre-2018 laptops: one for USB boot / distro tasting, one with the offline Linux install and apps
 - [ ] Mint and Bazzite live USBs, plus at least one known-good spare
 - [ ] Test both machines without network; confirm power, boot keys, displays, audio, and the apps needed for F1/F2
-- [ ] Draft Set A layer-sort cards; Measure In/Out sheets using the integrated guide's B1–B6 and E1–E3 rows
+- [ ] Draft Set A layer-sort cards; Measure In/Out sheets using the current deck's B1–B5 and E1–E3 rows
 - [ ] Draft S1, O, C, S2, H, and D card sets, grouped for the intended reveal sequence
 - [ ] F1/F2 station sheets, five A2 boards, markers, and arrows
 - [ ] Distinct colour dots for each tester, with no names or colour-to-person key
@@ -32,7 +32,7 @@ Assign one person to facilitate, one to observe and time, and one to manage the 
 
 ### 1. Before and after: same response rows
 
-Use the integrated guide's exact B1–B6 opinion and E1–E3 confidence wording both before and after the session. Each tester marks `STIMMT`, `UNSICHER`, or `STIMMT NICHT` privately, then places their colour together with the group. Do not interpret a small adult sample as a youth impact result.
+Use the current deck's exact B1–B5 opinion and E1–E3 confidence wording both before and after the session. Each tester marks `STIMMT`, `UNSICHER`, or `STIMMT NICHT` privately, then places their colour together with the group. Do not interpret a small adult sample as a youth impact result.
 
 For the playtest, the main value is whether the rows are understandable and whether participants can answer confidently. Record any wording questions. Compare aggregate movement only as a signal that the workshop may be landing; do not identify individual colours in notes or photos.
 
@@ -88,14 +88,23 @@ Ask testers to answer as adults who might host or support a school session, not 
 5. What safeguarding, consent, or school-policy concern would you raise before booking?
 6. What would you want students to take away, and what visible evidence would convince you they learned it?
 
-## Source of truth
+## Reconciliation to confirm before treating this as the canonical run
 
-The facilitator guide now contains the card and sheet wording, artifact quantities, and run instructions under each beat. During the playtest, record any mismatch between printed drafts and that file as a finding; do not maintain a parallel deck document.
+These are the specific guide/deck/tracker conflicts I found. Recommendations below follow the current card deck; confirm these choices before I update the source documents.
+
+1. **Measure rows and IDs:** the facilitator guide uses B10, B7, B12, E5, and E6, while the current deck has B1–B5 and E1–E3. The tracker also refers to B7/E6. Should the guide and tracker adopt the current deck rows, with B1 as the only stamped Measure row?
+2. **Mission 2 goals:** the guide says teams draw S2–S5, but the deck currently contains one shared goal, S2, for every team. Should the guide say all teams use S2?
+3. **Mission 2 action reveals:** the guide says “Lot 1” and “Lot 2”; the deck has Lots A (discover/learn), B (safety/practical action), and optional C (projects), which should only appear after A and B. Should the guide use the deck's A/B/C sequence and reveal C only after a team has explored learning and a safe practical step?
+4. **Shop trigger:** the guide says name a shop when a path reaches D8 or H2. D8 is trying a Live USB; D11 is the repair-shop action and H2 is the shop-repair ending. Should shop names be introduced when a team chooses a repair route (D11 / H2), not at D8?
+5. **Run-sheet timings:** the summary table and detailed beat headings use different timings. Which timing should be canonical? Recommendation: retain the 90-minute summary run sheet as the target, log actual elapsed times in this playtest, then align the detailed headings to the tested schedule.
+6. **Tracker QR references:** the tracker lists C7, C8, C9, C12, and D15–D17, but the deck's QR targets are C7, C8, C12, D4, D5, D7, and D19. Should the tracker be corrected to the current deck IDs?
+7. **D14 decision:** the tracker asks whether to keep D14 (chat server) in Lot 2, but D14 is now the Wertstoffhof card; chat server is D18 in optional Lot C. Is the intended open decision whether to keep D18 in Lot C?
+8. **Playtest audience vs school target:** the first test will be adults, while the tracker still lists the school age band as an open 12–15 vs 15–18 decision. Should 12–15 remain the working school target, with the adult test used only for flow and adult/teacher feedback?
 
 ## After the playtest
 
 - [ ] Consolidate observer notes while the session is fresh
 - [ ] Separate blockers before print from later improvements
-- [ ] Record and resolve playtest findings in the facilitator guide and tracker
+- [ ] Resolve the reconciliation questions above and update the guide/tracker to match the deck
 - [ ] Retest any major changes that affect timing, safety, or the Mission 2 mechanic
 - [ ] Freeze card IDs only after the team accepts the tested version
