@@ -251,7 +251,7 @@ Each of the four teams gets its own A2 board.
 
 1. Each team places the starter **S1** on the left and the **O** endings on the right.
 2. *"Links ist das Problem. Rechts steht, wie es ausgehen kann. Baut den Weg."* Deal each team the **C** actions.
-3. Teams build paths with actions and arrows into endings. Four of the six endings are failures on purpose.
+3. Teams build paths with actions and arrows into endings. Four of the six endings are failures on purpose. If a team needs a step that no card covers, they discuss it, write it on a **Joker** and lay it into the path like any other action.
 4. **Pledge:** each participant places one dot in their colour on the action they personally will do. Actions only — never endings.
 5. Hold a gallery walk: teams visit the other boards and notice the different paths and endings.
 6. Close with the payoff question across the room: *"Wo landet Omas PC also?"*
@@ -301,7 +301,9 @@ Each of the four teams gets its own A2 board.
 
 C7 → C8 → C9 → C10 → C15 is the live-USB-to-install chain. C6 must precede any path that wipes or installs. C14 is the alternative route to O2; C15 is never an unsupervised student action. Every path should include a circular option before recycling.
 
-**Production:** four A2 boards, four S1 cards, four O sets, and four C sets. Starter and endings are laminated on distinct stock; C cards are consumable.
+**Jokers — blank wild action cards, three per team set in Mission 1 and five in Mission 2.** Like a wild card in Uno: the team agrees on an action that is not in the deck, writes it on the Joker (DE first), and places it in the path. Jokers have no card ID (marked with a ★ instead), count as actions, and can take a pledge dot. Apply the same rules as printed actions: safety before wiping or installing, no unsupervised installs, and no endings written as actions. Ask *"Was macht ihr da genau — und wer hilft?"* when a Joker appears; good Joker ideas are candidates for new numbered cards in the next deck revision.
+
+**Production:** four A2 boards, four S1 cards, four O sets, and four C sets, each with three Jokers. Starter and endings are laminated on distinct stock; C cards are consumable. Jokers printed alongside the endings are laminated with them and need a whiteboard marker.
 
 ### Beat 6 — Mission 2: IsarPunk (60–80)
 
@@ -310,7 +312,7 @@ C7 → C8 → C9 → C10 → C15 is the live-USB-to-install chain. C6 must prece
 One A2 board per team.
 
 1. Give every team the shared goal **S2** and place the **H** endings.
-2. Reveal **Lot A** (discover and learn), then **Lot B** (safety and practical action). Teams lay a path and draw arrows; D1 or D2 is a usual first move.
+2. Reveal **Lot A** (discover and learn), then **Lot B** (safety and practical action). Teams lay a path and draw arrows; D1 or D2 is a usual first move. Jokers work as in Mission 1 for steps the deck does not cover.
 3. When a team chooses the repair route **D11 → H2**, name a real shop from the crib — nearest first. The full list is on the take-home.
 4. Only after a team has explored a learning step and a safe practical step, optionally reveal **Lot C**: *"Und jetzt — was könnte daraus wirklich werden?"* H3 becomes reachable through a project card.
 5. **Pledge** with the same personal colour as before, one dot on one action.
@@ -368,10 +370,10 @@ Every team uses S2. The endings below are possible destinations, not a ranking o
 
 | ID  | Card                                           | On the face                                                  |
 | --- | ---------------------------------------------- | ------------------------------------------------------------ |
-| D16 | **Entertainment-Projekte**               | Batocera / RetroPie · Jellyfin / Navidrome · OBS           |
-| D17 | **Sicherheit & Privatsphäre**           | Pi-hole · Nextcloud · Vaultwarden                          |
-| D18 | **Eigener Chat-Server für eure Gruppe** | Matrix / Synapse — nur mit Erwachsenen und nach Schulregeln |
-| D19 | **Lern-Karte: Projekt-Anleitungen** [QR] | Pi-hole, Jellyfin, Nextcloud, Batocera                       |
+| D16 | **Entertainment-Projekte** [QR]          | Batocera / RetroPie · Jellyfin / Navidrome · OBS           |
+| D17 | **Sicherheit & Privatsphäre** [QR]      | Pi-hole · Nextcloud · Vaultwarden                          |
+| D18 | **Eigener Chat-Server für eure Gruppe** [QR] | Matrix / Synapse — nur mit Erwachsenen und nach Schulregeln |
+| D19 | **Projekt-Anleitungen** [QR]             | Pi-hole, Jellyfin, Nextcloud, Batocera                       |
 
 **Safety text printed on D6–D11:**
 
@@ -400,7 +402,7 @@ Every team uses S2. The endings below are possible destinations, not a ranking o
 
 If diagnosis shows that a device cannot be reused, D14 must lead to H6, not H8. D16–D19 are never dealt before Lots A and B have been explored.
 
-**Production:** four A2 team boards and four copies of S2; four H sets; four D sets for each lot. Starter and endings are laminated on distinct stock; action cards are consumable. Prepare a facilitator shop crib (A6 or A5).
+**Production:** four A2 team boards and four copies of S2; four H sets; four D sets for each lot, plus five Jokers per team. Starter and endings are laminated on distinct stock; action cards are consumable. Prepare a facilitator shop crib (A6 or A5).
 
 ### Beat 7 — Measure Out + discussion (80–90)
 
@@ -439,7 +441,10 @@ The facilitator keeps a shop crib with the same names for in-flight naming durin
 | C8 / D7  | Writing a live stick (Ventoy / balenaEtcher), Windows instructions first |
 | C9 / D5  | Boot-key table by manufacturer                                           |
 | C12 / D4 | Linux tutorials                                                          |
-| D19      | Project guides: Pi-hole, Jellyfin, Nextcloud, Batocera                   |
+| D16      | Entertainment projects: Batocera, Jellyfin, Navidrome, OBS               |
+| D17      | Security & privacy projects: Pi-hole, Nextcloud, Vaultwarden             |
+| D18      | Own chat server: Matrix / Synapse                                        |
+| D19      | Project guides overview, linking to the D16–D18 sections                 |
 
 ---
 
@@ -463,7 +468,7 @@ Do not keep a separate key linking colours to students. Initials written beside 
 | -------------------------------------- | ------------------------------------------------------------- |
 | **Confidence and opinion shift** | Measure In vs Measure Out on identical rows B1–B6 and E1–E3 |
 | Circularity signal                     | Movement on stamped opinion row B1                            |
-| Actions pledged                        | Coloured dots counted by card ID on C and D actions           |
+| Actions pledged                        | Coloured dots counted by card ID on C and D actions; Jokers logged as "Joker" plus the written text |
 | Endings reached                        | Mission boards, noting inner-loop (marked) vs other endings   |
 | Referrals                              | Partner survey later                                          |
 

@@ -86,10 +86,42 @@ QR_TOPICS = {
         "intro": ("Nur mit einer erwachsenen Person und nach den Regeln eurer Schule.",
                   "Only with an adult and following your school's rules."),
         "links": [
+            ("section", "Entertainment-Projekte", "entertainment", "#unterhaltung", "Batocera · Jellyfin · Navidrome · OBS"),
+            ("section", "Sicherheit & Privatsphäre", "security & privacy", "#privatsphaere", "Pi-hole · Nextcloud · Vaultwarden"),
+            ("section", "Eigener Chat-Server", "own chat server", "#chat", "Matrix / Synapse"),
+        ],
+    },
+    "unterhaltung": {
+        "cards": "D16",
+        "title": ("Entertainment-Projekte", "Entertainment projects"),
+        "intro": ("Retro-Spiele, eigener Film- und Musikserver, Streamen.",
+                  "Retro games, your own film and music server, streaming."),
+        "links": [
             ("video", "Batocera: Spielkonsole auf einem USB-Stick", "", "https://youtu.be/1EVAKRC0mUY", "c't 3003 · 12:00"),
             ("video", "Jellyfin: Das eigene Netflix, nur kostenlos", "", "https://youtu.be/wbslt7r2-Xk", "c't 3003 · 14:37"),
+            ("video", "Navidrome: Eigene Musik streamen ohne Abo", "", "https://youtu.be/gb4hzQUVA1M", "knowaTEL · 12:25"),
+            ("video", "OBS Studio Grundlagen", "", "https://youtu.be/9hfdHhMXkxo", "Nilson1489 · 12:03"),
+        ],
+    },
+    "privatsphaere": {
+        "cards": "D17",
+        "title": ("Sicherheit & Privatsphäre", "Security & privacy"),
+        "intro": ("Werbung blockieren, eigene Cloud, eigener Passwort-Manager.",
+                  "Block ads, your own cloud, your own password manager."),
+        "links": [
             ("video", "Pi-hole: Werbung im ganzen Netz blockieren", "", "https://youtu.be/oF1_ggDZaOM", "Niels Maseberg · 15:08"),
             ("video", "Nextcloud All-in-One installieren", "", "https://youtu.be/h5l2y00yeOY", "IT-ION · 16:33"),
+            ("video", "Vaultwarden: Passwort-Manager selbst hosten", "", "https://youtu.be/Ej-Y5yZOHzQ", "TechWissen DE · 7:18"),
+        ],
+    },
+    "chat": {
+        "cards": "D18",
+        "title": ("Eigener Chat-Server", "Own chat server"),
+        "intro": ("Nur mit Erwachsenen und nach den Regeln eurer Schule.",
+                  "Only with adults and following your school's rules."),
+        "links": [
+            ("video", "Matrix: sichere Kommunikation mit Open Source", "", "https://youtu.be/INkN_HvrxHI", "Linux-Hanny · 9:35"),
+            ("video", "Synapse-Matrix-Server installieren", "", "https://youtu.be/2G0ewKSozs0", "The Morpheus Tutorials · 19:12"),
         ],
     },
     "hilfe": {
@@ -739,7 +771,23 @@ TIERS = {  # tier -> (DE, EN, band colour, band text colour)
     "do": ("Machen", "do", TEAL, "#FFFFFF"),
     "learn": ("Lernen", "learn", SUN, INK),
     "shop": ("Repair-Shop", "shop", GREEN, "#FFFFFF"),
+    # Mission 2 paths
+    "find": ("Finden", "find", RIVER, INK),
+    "diagnose": ("Prüfen", "diagnose", "#7950F2", "#FFFFFF"),
+    "revive": ("Wiederbeleben", "revive", TEAL, "#FFFFFF"),
+    "family": ("Familie", "family", "#E8590C", "#FFFFFF"),
+    "passon": ("Weitergeben", "pass on", "#E8590C", "#FFFFFF"),
+    "recycle": ("Wertstoffhof", "recycle", "#868E96", "#FFFFFF"),
+    "recover": ("Teile", "parts", "#495057", "#FFFFFF"),
+    "project": ("Projekt", "project", "#D6336C", "#FFFFFF"),
 }
+JOKER_COLOURS = [RIVER, "#7950F2", RED, TEAL, SUN, GREEN]
+
+SAFETY_RULES = (
+    "1. Lösche nie einen Computer, der nicht dir gehört, ohne das OK der Besitzerin/des Besitzers. "
+    "2. Vorher Backup. Wenn unsicher — in den Laden.",
+    "1. Never wipe a computer that isn't yours without the owner's OK. "
+    "2. Back up first. If unsure — take it to a shop.")
 
 LIVE_USB_WARNING = (
     "Erstellen eines Live-Sticks löscht alle Daten auf dem USB-Stick. Nur einen leeren Stick verwenden "
@@ -757,6 +805,8 @@ class MCard:
     qr: str | None = None     # QR_TOPICS key
     cm: bool = False          # Circular Munich mark (inner-loop endings only)
     note: tuple[str, str] | None = None   # boxed warning / safety text
+    lot: str = ""             # Mission 2 reveal lot (A, B, C)
+    sub: tuple[str, str] | None = None    # extra line under the text (e.g. project names)
 
 
 def block_height(size: float, de_lines: list, en_lines: list) -> float:
@@ -825,6 +875,10 @@ def draw_action_card(page: Page, c: MCard, x: float, y: float) -> None:
     page.add(f'<rect x="{x}" y="{y}" width="{MC_W}" height="{MC_H}" fill="#fff" stroke="{CUT}" stroke-width="0.2"/>')
     page.add(f'<rect x="{x}" y="{y}" width="{MC_W}" height="{MC_BAND}" fill="{band}"/>')
     page.text(x + 5, y + 8.6, c.id, 16, weight=800, fill=band_text)
+    if c.lot:
+        lx = x + 5 + len(c.id) * 3.6 + 2.5
+        page.add(f'<rect x="{lx}" y="{y + 3}" width="17" height="6" rx="3" fill="#fff" fill-opacity="0.9"/>')
+        page.text(lx + 8.5, y + 7.3, f"LOS {c.lot}", 7.5, weight=800, fill=INK, anchor="middle")
     page.text(x + MC_W - 5, y + 8, de_t.upper(), 9.5, weight=800, fill=band_text, anchor="end", spacing=0.6,
               en=en_t if en_t.lower() != de_t.lower() else "", en_fill=band_text)
 
@@ -835,9 +889,20 @@ def draw_action_card(page: Page, c: MCard, x: float, y: float) -> None:
         lines = len(wrap(c.note[0], text_w - 13, 6.3, bold=True)) * 2.9
         lines += len(wrap(c.note[1], text_w - 13, 6.3 * 0.9)) * 2.6
         note_h = lines + 5 + 2.5
-    body_h = MC_H - MC_BAND - note_h - 2 * pad
+    sub_h = 0.0
+    if c.sub:
+        sub_h = len(wrap(c.sub[0], text_w, 10, bold=True)) * 4.6 + len(wrap(c.sub[1], text_w, 7.5)) * 3.4 + 2
+    body_h = MC_H - MC_BAND - note_h - sub_h - 2 * pad
     size, de_lines, en_lines = fit_box(c.de, c.en, text_w, body_h, (20, 19, 18, 17, 16, 15, 14, 13, 12))
-    draw_text_block(page, x + pad, y + MC_BAND + pad - 1, size, de_lines, en_lines)
+    ty = draw_text_block(page, x + pad, y + MC_BAND + pad - 1, size, de_lines, en_lines)
+    if c.sub:
+        ty += 2.5
+        for line in wrap(c.sub[0], text_w, 10, bold=True):
+            page.text(x + pad, ty, line, 10, weight=700, fill=TEAL)
+            ty += 4.6
+        for line in wrap(f"({c.sub[1]})", text_w, 7.5):
+            page.text(x + pad, ty, line, 7.5, fill=EN_GREY)
+            ty += 3.4
 
     if c.note:
         draw_note(page, x + pad, y + MC_H - pad - note_h + 2.5, text_w, c.note)
@@ -854,47 +919,107 @@ def draw_action_card(page: Page, c: MCard, x: float, y: float) -> None:
     page.text(cx, cy - 10.2, "(my dot)", 5.2, fill=EN_GREY, anchor="middle")
 
 
+def draw_flag(page: Page, x: float, y: float, cell: float = 1.8) -> None:
+    """Checkered finish flag; (x, y) is the top of the pole."""
+    page.add(f'<line x1="{x}" y1="{y}" x2="{x}" y2="{y + 4 * cell + 2}" stroke="{INK}" stroke-width="0.7" stroke-linecap="round"/>')
+    page.add(f'<rect x="{x + 0.35}" y="{y}" width="{4 * cell}" height="{3 * cell}" fill="#fff" stroke="{INK}" stroke-width="0.3"/>')
+    for r in range(3):
+        for col in range(4):
+            if (r + col) % 2 == 0:
+                page.add(f'<rect x="{x + 0.35 + col * cell}" y="{y + r * cell}" width="{cell}" height="{cell}" fill="{INK}"/>')
+
+
 def draw_ending_card(page: Page, c: MCard, x: float, y: float) -> None:
-    page.add(f'<rect x="{x}" y="{y}" width="{MC_W}" height="{MC_H}" fill="{INK}" stroke="{CUT}" stroke-width="0.2"/>')
-    page.add(f'<rect x="{x + 3}" y="{y + 3}" width="{MC_W - 6}" height="{MC_H - 6}" rx="3" fill="#fff" '
-             f'stroke="{SUN}" stroke-width="1.6"/>')
-    page.text(x + 8, y + 12, c.id, 16, weight=800, fill=INK)
-    page.text(x + MC_W - 8, y + 11.4, "ENDE", 11, weight=800, fill=INK, anchor="end", spacing=1.2,
-              en="ending")
-    pad, top, foot = 10.0, 15.0, 19.0
+    band = 13.0
+    page.add(f'<rect x="{x}" y="{y}" width="{MC_W}" height="{MC_H}" fill="#fff" stroke="{CUT}" stroke-width="0.2"/>')
+    page.add(f'<rect x="{x + 1.5}" y="{y + 1.5}" width="{MC_W - 3}" height="{MC_H - 3}" rx="3" fill="#FFFDF0" '
+             f'stroke="{SUN}" stroke-width="1.4"/>')
+    page.add(f'<path d="M{x + 1.5},{y + band} V{y + 4.5} a3,3 0 0 1 3,-3 H{x + MC_W - 4.5} a3,3 0 0 1 3,3 V{y + band} Z" fill="{SUN}"/>')
+    draw_flag(page, x + 7, y + 3.4)
+    page.text(x + 17, y + 9.6, "ZIEL", 12, weight=800, spacing=1.2, en="ending")
+    page.text(x + MC_W - 7, y + 9.8, c.id, 14, weight=800, anchor="end")
+    pad, top, foot = 10.0, band + 2, 18.0
     size, de_lines, en_lines = fit_box(c.de, c.en, MC_W - 2 * pad, MC_H - top - foot,
                                        (19, 18, 17, 16, 15, 14, 13, 12))
     block = block_height(size, de_lines, en_lines)
     draw_text_block(page, x + MC_W / 2, y + top + (MC_H - top - foot - block) / 2, size, de_lines, en_lines,
                     anchor="middle")
     if c.cm:
-        page.add(embed_svg(CM_MARK, f"cm-{c.id}", x + MC_W / 2 - 6.5, y + MC_H - 18, 13, 13))
+        page.add(embed_svg(CM_MARK, f"cm-{c.id}", x + MC_W / 2 - 6.5, y + MC_H - 17, 13, 13))
     else:
-        page.add(embed_svg(BRAND_MARK, f"bm-{c.id}", x + MC_W / 2 - 7, y + MC_H - 16.5, 14, 10.5))
+        page.add(embed_svg(BRAND_MARK, f"bm-{c.id}", x + MC_W / 2 - 7, y + MC_H - 15.5, 14, 10.5))
 
 
 def draw_start_card(page: Page, c: MCard, x: float, y: float, w: float, h: float, label: tuple[str, str]) -> None:
-    page.add(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="{SUN}" stroke="{CUT}" stroke-width="0.2"/>')
-    page.add(f'<rect x="{x}" y="{y}" width="{w}" height="16" fill="{INK}"/>')
+    page.add(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="{TEAL}" stroke="{CUT}" stroke-width="0.2"/>')
+    page.add(f'<rect x="{x}" y="{y}" width="{w}" height="16" fill="#003B53"/>')
+    page.add(f'<rect x="{x}" y="{y + 16}" width="{w}" height="1.4" fill="{SUN}"/>')
     page.text(x + 8, y + 11.2, c.id, 18, weight=800, fill=SUN)
     page.text(x + w - 8, y + 11.2, label[0], 15, weight=800, fill="#FFFFFF", anchor="end", spacing=1.5,
-              en=label[1], en_fill="#C9D3DA")
+              en=label[1], en_fill="#BFD9E4")
     pad, side = 12.0, 36.0
     box_w, box_h = w - pad - side, h - 16 - 2 * 6
     size, de_lines, en_lines = fit_box(c.de, c.en, box_w, box_h, (26, 24, 22, 20, 18, 16))
     block = block_height(size, de_lines, en_lines)
-    draw_text_block(page, x + pad, y + 16 + 6 + (box_h - block) / 2, size, de_lines, en_lines, en_fill=INK)
-    page.add(embed_svg(BRAND_MARK, f"bm-{c.id}{y:.0f}", x + w - side + 4, y + 16 + (h - 16 - 21) / 2, 28, 21))
+    draw_text_block(page, x + pad, y + 16 + 6 + (box_h - block) / 2, size, de_lines, en_lines,
+                    fill="#FFFFFF", en_fill="#BFD9E4")
+    bx, by = x + w - side + 2, y + 16 + (h - 16 - 26) / 2
+    page.add(f'<rect x="{bx}" y="{by}" width="30" height="26" rx="4" fill="#fff"/>')
+    page.add(embed_svg(BRAND_MARK, f"bm-{c.id}{y:.0f}", bx + 2, by + 2.5, 26, 21))
 
 
-def card_sheets(cards: list[MCard], title: tuple[str, str], sub: tuple[str, str], draw) -> list[Page]:
+def draw_star(page: Page, cx: float, cy: float, r: float, fill: str) -> None:
+    import math
+    pts = " ".join(f"{cx + (r if i % 2 == 0 else r * 0.42) * math.sin(i * math.pi / 5):.3f},"
+                   f"{cy - (r if i % 2 == 0 else r * 0.42) * math.cos(i * math.pi / 5):.3f}" for i in range(10))
+    page.add(f'<polygon points="{pts}" fill="{fill}"/>')
+
+
+def draw_joker_card(page: Page, x: float, y: float) -> None:
+    """Blank wild card: teams write their own action on it."""
+    page.add(f'<rect x="{x}" y="{y}" width="{MC_W}" height="{MC_H}" fill="#fff" stroke="{CUT}" stroke-width="0.2"/>')
+    colours = JOKER_COLOURS
+    seg = MC_W / len(colours)
+    for i, col in enumerate(colours):
+        page.add(f'<rect x="{x + i * seg:.3f}" y="{y}" width="{seg + 0.05:.3f}" height="{MC_BAND}" fill="{col}"/>')
+    page.add(f'<rect x="{x + 4}" y="{y + 2.2}" width="52" height="{MC_BAND - 4.4}" rx="3.8" fill="{INK}"/>')
+    draw_star(page, x + 10, y + MC_BAND / 2, 3.4, SUN)
+    page.text(x + 15.5, y + 8.4, "JOKER", 11, weight=800, fill="#FFFFFF", spacing=0.8,
+              en="wild card", en_fill="#C9D3DA")
+
+    pad, side = 6.0, 32.0
+    page.text(x + pad, y + MC_BAND + 8, "Eure eigene Aktion:", 13, weight=700, en="your own action")
+    for i in range(4):
+        ly = y + MC_BAND + 19 + i * 11
+        page.add(f'<line x1="{x + pad}" y1="{ly}" x2="{x + MC_W - side - 2}" y2="{ly}" stroke="{CUT}" stroke-width="0.35"/>')
+
+    rx = x + MC_W - side
+    page.add(embed_svg(BRAND_MARK, f"bm-joker{x:.0f}-{y:.0f}", rx + 5, y + MC_BAND + 6, 22, 16))
+    cx, cy = x + MC_W - side / 2, y + MC_H - 13
+    page.add(f'<circle cx="{cx}" cy="{cy}" r="8" fill="#fff" stroke="{INK}" stroke-width="0.4" stroke-dasharray="1.3 1"/>')
+    page.text(cx, cy - 13, "Mein Punkt", 6.5, weight=700, anchor="middle")
+    page.text(cx, cy - 10.2, "(my dot)", 5.2, fill=EN_GREY, anchor="middle")
+
+
+def card_sheets(cards: list[MCard], title: tuple[str, str], sub: tuple[str, str], draw,
+                joker: bool = False, jokers: int = 0) -> list[Page]:
+    """4 cards per landscape sheet; `jokers` are appended, `joker` fills leftover slots."""
+    items: list = list(cards) + [None] * jokers
     pages = []
-    for start in range(0, len(cards), 4):
+    for start in range(0, len(items), 4):
         page = Page(landscape=True)
         page_header(page, title, sub)
-        for i, c in enumerate(cards[start:start + 4]):
+        chunk = items[start:start + 4]
+        for i in range(4):
             row, col = divmod(i, 2)
-            draw(page, c, MC_X0 + col * MC_W, MC_Y0 + row * MC_H)
+            x, y = MC_X0 + col * MC_W, MC_Y0 + row * MC_H
+            if i < len(chunk):
+                if chunk[i] is None:
+                    draw_joker_card(page, x, y)
+                else:
+                    draw(page, chunk[i], x, y)
+            elif joker:
+                draw_joker_card(page, x, y)
         page_footer(page)
         pages.append(page)
     return pages
@@ -960,11 +1085,86 @@ def build_mission1() -> Path:
     pages = [start_sheet(M1_START, t, ("Start S1 · 2 pro Blatt · 2× drucken für 4 Teams",
                                         "starter S1 · 2 per sheet · print 2× for 4 teams"),
                          ("START", "problem"))]
-    pages += card_sheets(M1_ENDINGS, t, ("Enden O1–O6 · 1 Set pro Team · laminieren, keine Punkte",
-                                         "endings O1–O6 · 1 set per team · laminate, no dots"), draw_ending_card)
-    pages += card_sheets(M1_ACTIONS, t, ("Aktionen C1–C15 · 1 Set pro Team · Verbrauchsmaterial",
-                                         "actions C1–C15 · 1 set per team · consumable"), draw_action_card)
+    pages += card_sheets(M1_ENDINGS, t, ("Ziele O1–O6 + Joker · 1 Set pro Team · Ziele laminieren, keine Punkte",
+                                         "endings O1–O6 + wild cards · 1 set per team · laminate endings, no dots"),
+                         draw_ending_card, joker=True)
+    pages += card_sheets(M1_ACTIONS, t, ("Aktionen C1–C15 + Joker · 1 Set pro Team · Verbrauchsmaterial",
+                                         "actions C1–C15 + wild card · 1 set per team · consumable"),
+                         draw_action_card, joker=True)
     return export_pdf(pages, "M1_Mission1_Cards")
+
+
+# ---------------------------------------------------------------- Mission 2: IsarPunk
+
+M2_START = MCard("S2", "Bei IsarPunk handeln und lernen wir: Wie können wir verhindern, dass ein Gerät im Müll landet?",
+                 "At IsarPunk, we act and learn: How can we keep a device from ending up in the bin?", "start")
+
+M2_ENDINGS = [
+    MCard("H1", "Das Gerät läuft wieder — mit Linux — und jemand benutzt es.",
+          "Works again with Linux; someone uses it.", "ending", cm=True),
+    MCard("H2", "Ein Repair-Shop hat es repariert oder umgestellt.", "A shop repaired or switched it.", "ending", cm=True),
+    MCard("H3", "Daraus ist ein Projekt geworden — Konsole, Medienserver, Chat-Server.",
+          "It became a project.", "ending", cm=True),
+    MCard("H4", "Jemand anders nutzt jetzt das Gerät oder brauchbare Teile daraus — verkauft oder verschenkt.",
+          "Someone else uses the device or usable parts from it — sold or given away.", "ending", cm=True),
+    MCard("H5", "Jemand in der Familie hat jetzt einen Computer, der vorher keinen hatte.",
+          "A family member who had no computer now has one.", "ending", cm=True),
+    MCard("H6", "Die Materialien wurden richtig verwertet.", "The materials were properly recovered.", "ending"),
+    MCard("H7", "Es liegt weiter im Schrank.", "It stays in the cupboard.", "ending"),
+    MCard("H8", "Es landet im Hausmüll.", "It goes in the household bin.", "ending"),
+]
+
+M2_ACTIONS = [
+    # Lot A — discover and learn
+    MCard("D1", "Such in der Wohnung nach einem Gerät, das niemand mehr benutzt.",
+          "Hunt the house for an unused device.", "find", lot="A"),
+    MCard("D2", "Frag Nachbarn oder Oma, ob noch was im Schrank liegt.", "Ask a neighbour or Oma.", "find", lot="A"),
+    MCard("D3", "Finde heraus, wie alt es ist und was drin steckt.", "Find out its age and what is inside.",
+          "diagnose", lot="A"),
+    MCard("D4", "Lern-Karte: Linux lernen", "Learn Linux", "learn", lot="A", qr="lernen"),
+    MCard("D5", "Lern-Karte: Von USB booten", "Learn how to boot from USB", "learn", lot="A", qr="boot"),
+    # Lot B — safety and practical action
+    MCard("D6", "Sichere die Daten, bevor du irgendwas machst.", "Back up the data before anything else.",
+          "safety", lot="B", note=SAFETY_RULES),
+    MCard("D7", "Mach aus einem alten USB-Stick einen bootfähigen Linux-Stick.",
+          "Turn an old USB stick into a bootable Linux stick.", "revive", lot="B", qr="stick", note=LIVE_USB_WARNING),
+    MCard("D8", "Probier einen Live-USB-Stick daran aus.", "Try a live USB stick on it.", "revive", lot="B",
+          note=SAFETY_RULES),
+    MCard("D9", "Installiere Linux — zusammen mit einem Erwachsenen.", "Install Linux together with an adult.",
+          "revive", lot="B", note=SAFETY_RULES),
+    MCard("D10", "Bau mehr RAM oder eine SSD ein.", "Fit more RAM or an SSD.", "revive", lot="B", note=SAFETY_RULES),
+    MCard("D11", "Bring es zu einem Repair-Shop oder Repair-Café von unserer Liste.",
+          "Take it to a listed shop or café.", "shop", lot="B", note=SAFETY_RULES),
+    MCard("D12", "Gib es an ein jüngeres Geschwisterkind oder an Oma weiter.",
+          "Pass it to a younger sibling or to Oma.", "family", lot="B"),
+    MCard("D13", "Verkauf es oder verschenk es (eBay, Kleinanzeigen).", "Sell it or give it away.", "passon", lot="B"),
+    MCard("D14", "Bring ein wirklich totes Gerät zum Wertstoffhof — nicht in den Hausmüll.",
+          "Take a truly dead device to the Wertstoffhof.", "recycle", lot="B"),
+    MCard("D15", "Verkaufe brauchbare Einzelteile (RAM, Festplatte).", "Sell usable parts.", "recover", lot="B"),
+    # Lot C — optional projects, revealed last
+    MCard("D16", "Entertainment-Projekte", "entertainment projects", "project", lot="C", qr="unterhaltung",
+          sub=("Batocera / RetroPie · Jellyfin / Navidrome · OBS", "retro games · media server · streaming")),
+    MCard("D17", "Sicherheit & Privatsphäre", "security & privacy", "project", lot="C", qr="privatsphaere",
+          sub=("Pi-hole · Nextcloud · Vaultwarden", "ad blocker · own cloud · password manager")),
+    MCard("D18", "Eigener Chat-Server für eure Gruppe", "own chat server for your group", "project", lot="C",
+          qr="chat", sub=("Matrix / Synapse — nur mit Erwachsenen und nach Schulregeln",
+                          "only with adults and following school rules")),
+    MCard("D19", "Projekt-Anleitungen", "project guides", "project", lot="C", qr="projekte",
+          sub=("Pi-hole, Jellyfin, Nextcloud, Batocera", "step-by-step videos")),
+]
+
+
+def build_mission2() -> Path:
+    t = ("Mission 2 — IsarPunk", "")
+    pages = [start_sheet(M2_START, t, ("Mission S2 · 2 pro Blatt · 2× drucken für 4 Teams",
+                                        "goal S2 · 2 per sheet · print 2× for 4 teams"),
+                         ("MISSION", "goal"))]
+    pages += card_sheets(M2_ENDINGS, t, ("Ziele H1–H8 · 1 Set pro Team · laminieren, keine Punkte",
+                                         "endings H1–H8 · 1 set per team · laminate, no dots"), draw_ending_card)
+    pages += card_sheets(M2_ACTIONS, t, ("Aktionen D1–D19 (Los A, B, C) + 5 Joker · 1 Set pro Team · Verbrauchsmaterial",
+                                         "actions D1–D19 (lots A, B, C) + 5 wild cards · 1 set per team · consumable"),
+                         draw_action_card, jokers=5)
+    return export_pdf(pages, "M2_Mission2_Cards")
 
 
 # ---------------------------------------------------------------- GitHub Pages link page (QR targets)
@@ -998,10 +1198,12 @@ def build_pages() -> Path:
     for key, t in QR_TOPICS.items():
         items = []
         for kind, de, en, url, note in t["links"]:
-            tag = '<span class="tag">YouTube</span>' if kind == "video" else '<span class="tag web">Web</span>'
+            tag = {"video": '<span class="tag">YouTube</span>',
+                   "section": '<span class="tag web">Mehr</span>'}.get(kind, '<span class="tag web">Web</span>')
+            target = "" if url.startswith("#") else ' target="_blank" rel="noopener"'
             en_html = f' <span class="en">({e(en)})</span>' if en else ""
             meta = f'<span class="meta">{e(note)}</span>' if note else ""
-            items.append(f'<li><a class="btn" href="{e(url)}" target="_blank" rel="noopener">'
+            items.append(f'<li><a class="btn" href="{e(url)}"{target}>'
                          f'<b>{tag}{e(de)}{en_html}</b>{meta}</a></li>')
         cards = f'<div class="cards">Karte {e(t["cards"])}</div>' if t["cards"] else ""
         sections.append(
@@ -1032,6 +1234,7 @@ ARTIFACTS = {
     "stations": build_stations,
     "measure": build_measure,
     "mission1": build_mission1,
+    "mission2": build_mission2,
 }
 
 
