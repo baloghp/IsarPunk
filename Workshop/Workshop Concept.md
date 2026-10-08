@@ -435,16 +435,31 @@ The facilitator keeps a shop crib with the same names for in-flight naming durin
 
 **QR targets:** all codes point to an IsarPunk-controlled page, with German material first: the GitHub Pages link page `https://baloghp.github.io/IsarPunk/#<topic>`, generated from `QR_TOPICS` in `Print/build_print.py`. Swap videos there; printed codes stay valid.
 
-| On card  | Opens                                                                    |
-| -------- | ------------------------------------------------------------------------ |
-| C7       | Linux Mint download and which file to take                               |
-| C8 / D7  | Writing a live stick (Ventoy / balenaEtcher), Windows instructions first |
-| C9 / D5  | Boot-key table by manufacturer                                           |
-| C12 / D4 | Linux tutorials                                                          |
-| D16      | Entertainment projects: Batocera, Jellyfin, Navidrome, OBS               |
-| D17      | Security & privacy projects: Pi-hole, Nextcloud, Vaultwarden             |
-| D18      | Own chat server: Matrix / Synapse                                        |
-| D19      | Project guides overview, linking to the D16–D18 sections                 |
+| On card    | Opens                                                                    |
+| ---------- | ------------------------------------------------------------------------ |
+| C1         | Find the Windows version (`winver`)                                      |
+| C2         | Windows 10 end of support and ESU, explained                             |
+| C3         | Check Windows Update                                                     |
+| C4         | Windows 11 compatibility (PC Health Check)                               |
+| C6 / D6    | Back up photos and data to a USB stick or external drive                 |
+| C7         | Linux Mint download and which file to take                               |
+| C8 / D7    | Writing a live stick (Ventoy / balenaEtcher), Windows instructions first |
+| C9 / D5    | Boot-key table by manufacturer                                           |
+| C10 / D8   | Try Linux live without installing                                        |
+| C11        | Checking AI answers                                                      |
+| C12 / D4   | Linux tutorials                                                          |
+| C14 / D11  | Help in Munich: CircularCity Map (partner shops to follow)               |
+| C15 / D9   | Installing Linux Mint, with an adult                                     |
+| D3         | Device age and hardware (Windows System Information, `hostnamectl`)      |
+| D10        | Upgrading an old laptop with RAM / an SSD                                |
+| D13 / D15  | Wiping data safely before passing a device on                            |
+| D14        | Munich Wertstoffhöfe (AWM)                                               |
+| D16        | Entertainment projects: Batocera, Jellyfin, Navidrome, OBS               |
+| D17        | Security & privacy projects: Pi-hole, Nextcloud, Vaultwarden             |
+| D18        | Own chat server: Matrix / Synapse                                        |
+| D19        | Project guides overview, linking to the D16–D18 sections                 |
+
+No QR on C5, C13, D1, D2, D12: these are people actions.
 
 ---
 

@@ -37,6 +37,55 @@ PAGES_URL = "https://baloghp.github.io/IsarPunk/"
 # QR topics -> section on the GitHub Pages link page. Cards reference the key.
 # Links: (kind, DE label, EN label, url, note)
 QR_TOPICS = {
+    "windows-version": {
+        "cards": "C1",
+        "title": ("Welches Windows läuft?", "Which Windows is running?"),
+        "intro": ("Windows-Taste + R drücken, `winver` eintippen, Enter.",
+                  "Press Windows key + R, type `winver`, press Enter."),
+        "links": [
+            ("video", "Wie du deine Windows-Version herausfindest", "", "https://youtu.be/ta-PW_aUaNs", "TutorialFux · 2:12"),
+            ("video", "Versionsnummer anzeigen mit winver", "", "https://youtu.be/BUzMSR6QMWU", "IT Tweak · 1:39"),
+        ],
+    },
+    "win10-ende": {
+        "cards": "C2",
+        "title": ("Was passiert mit Windows 10?", "What happens to Windows 10?"),
+        "intro": ("Seit 14. Oktober 2025 gibt es keinen normalen Support mehr. Mit ESU gibt es Sicherheitsupdates noch bis Oktober 2027.",
+                  "Standard support ended on 14 October 2025. With ESU, security updates continue until October 2027."),
+        "links": [
+            ("video", "Microsoft beendet Support für Windows 10", "", "https://youtu.be/WyTHrNtwHOM", "tagesschau · 1:59"),
+            ("web", "Ende des Supports für Windows 10", "Microsoft", "https://www.microsoft.com/de-de/windows/end-of-support", ""),
+        ],
+    },
+    "updates": {
+        "cards": "C3",
+        "title": ("Bekommt der PC noch Updates?", "Does the PC still get updates?"),
+        "intro": ("Einstellungen → Update und Sicherheit → Windows Update → Nach Updates suchen.",
+                  "Settings → Update & Security → Windows Update → Check for updates."),
+        "links": [
+            ("video", "Nach Updates suchen und installieren (Windows 10)", "", "https://youtu.be/CfF-lIvEJ3c", "My Information Guide · 1:57"),
+            ("video", "How to check for Windows updates", "Englisch", "https://youtu.be/0b3oo9uzgcQ", "Microsoft Helps · 0:36"),
+        ],
+    },
+    "win11-check": {
+        "cards": "C4",
+        "title": ("Kann der PC Windows 11?", "Can the PC run Windows 11?"),
+        "intro": ("Die App PC-Integritätsprüfung von Microsoft sagt es dir.",
+                  "Microsoft's PC Health Check app tells you."),
+        "links": [
+            ("video", "Ist mein PC Windows-11-tauglich? (Integritätsprüfung)", "", "https://youtu.be/_ZZK8wgAmew", "Philognosie · 3:21"),
+        ],
+    },
+    "backup": {
+        "cards": "C6 · D6",
+        "title": ("Fotos und Daten sichern", "Back up photos and data"),
+        "intro": ("Immer zuerst: Fotos und Dateien auf einen USB-Stick oder eine externe Festplatte kopieren.",
+                  "Always first: copy photos and files to a USB stick or external drive."),
+        "links": [
+            ("video", "Windows 10: Daten auf einer externen Festplatte sichern", "", "https://youtu.be/mOZfbZqGjd4", "BILDNER TV · 12:07"),
+            ("video", "Ruckzuck ein Windows-Backup erstellen", "", "https://youtu.be/0Y1AqUeAUhw", "BILDNER TV · 6:38"),
+        ],
+    },
     "iso": {
         "cards": "C7",
         "title": ("Linux Mint herunterladen", "Download Linux Mint"),
@@ -78,6 +127,77 @@ QR_TOPICS = {
             ("video", "Win-10-Ende: So einfach geht's zu Linux!", "", "https://youtu.be/-H8T8CNsJQk", "c't 3003 · 14:58"),
             ("video", "Linux Mint ist 2026 einfacher als Windows", "", "https://youtu.be/4-MWA4JKQgc", "Frumpel Labs · 8:25"),
             ("video", "Grundlagen des Terminals in Linux", "", "https://youtu.be/Lme-KZQICFA", "Fmutix · 8:56"),
+        ],
+    },
+    "live": {
+        "cards": "C10 · D8",
+        "title": ("Linux ausprobieren, ohne zu installieren", "Try Linux without installing"),
+        "intro": ("Vom Live-Stick starten — auf dem PC wird nichts verändert.",
+                  "Start from the live stick — nothing on the PC changes."),
+        "links": [
+            ("video", "Linux Mint vom USB starten – ohne Installation", "", "https://youtu.be/m7Q7MrvuwRc", "Edward Wallace · 5:17"),
+            ("video", "Portables Linux auf dem USB-Stick", "", "https://youtu.be/nQGVeXSt1nA", "eKiwi-Blog · 7:39"),
+        ],
+    },
+    "installieren": {
+        "cards": "C15 · D9",
+        "title": ("Linux installieren", "Install Linux"),
+        "intro": ("Nur zusammen mit einer erwachsenen Person, nach dem Backup und mit Erlaubnis.",
+                  "Only with an adult, after a backup and with permission."),
+        "links": [
+            ("video", "Linux Mint – ganz leicht installiert", "", "https://youtu.be/isZ8ng5dr9c", "heise & c't · 8:23"),
+            ("video", "Linux Mint für Einsteiger in 15 Minuten", "", "https://youtu.be/aQ-5WEA0p2o", "Tuhl Teim DE · 15:55"),
+        ],
+    },
+    "ki-pruefen": {
+        "cards": "C11",
+        "title": ("KI fragen — und die Antwort prüfen", "Ask an AI — and check the answer"),
+        "intro": ("KI klingt sicher, liegt aber manchmal falsch. Prüfe wichtige Schritte mit einer zweiten Quelle.",
+                  "AI sounds confident but is sometimes wrong. Check important steps with a second source."),
+        "links": [
+            ("video", "Lügt ChatGPT? 4 Wege, um KI-Fehler zu vermeiden", "", "https://youtu.be/-ttJuqi8Rho", "Digitalzentrum Berlin · 5:21"),
+            ("web", "5 Tipps für KI im Schulalltag", "", "https://www.klicksafe.de/news/bleib-safe-5-tipps-fuer-ki-im-schulalltag", "klicksafe"),
+        ],
+    },
+    "alter": {
+        "cards": "D3",
+        "title": ("Wie alt ist das Gerät — und was steckt drin?", "How old is it — and what is inside?"),
+        "intro": ("Windows: Systeminformationen öffnen. Linux: im Terminal `hostnamectl` eintippen.",
+                  "Windows: open System Information. Linux: type `hostnamectl` in the terminal."),
+        "links": [
+            ("video", "Windows 10/11: Hardware des PCs anzeigen", "", "https://youtu.be/xrSbAHlmWEE", "NETZWELT · 0:43"),
+            ("video", "Informationen der verbauten Hardware anzeigen", "", "https://youtu.be/RIccX4OWCR8", "IT Tweak · 1:18"),
+        ],
+    },
+    "aufruesten": {
+        "cards": "D10",
+        "title": ("Mehr RAM oder eine SSD einbauen", "Fit more RAM or an SSD"),
+        "intro": ("Eine SSD macht alte Laptops oft viel schneller. Nur mit Erlaubnis und vorher Backup.",
+                  "An SSD often makes old laptops much faster. Only with permission and after a backup."),
+        "links": [
+            ("video", "Alten Laptop aufrüsten", "", "https://youtu.be/lm_gOlHIP2M", "Conrad TechnikHelden · 9:18"),
+            ("video", "Alten Laptop auf SSD umrüsten", "", "https://youtu.be/6vseysPL0RA", "Bastelkiste · 12:34"),
+        ],
+    },
+    "daten-loeschen": {
+        "cards": "D13 · D15",
+        "title": ("Vor dem Weitergeben: Daten sicher löschen", "Before passing it on: wipe data safely"),
+        "intro": ("Erst sichern, dann löschen — und nur mit OK der Besitzerin/des Besitzers.",
+                  "Back up first, then wipe — and only with the owner's OK."),
+        "links": [
+            ("video", "PC verkaufen – Daten löschen und zurücksetzen", "", "https://youtu.be/NBRQh9WsC6U", "Maxico · 13:45"),
+            ("video", "Festplatte sicher löschen", "", "https://youtu.be/7eY5iD6nN_0", "connect · 2:24"),
+        ],
+    },
+    "wertstoffhof": {
+        "cards": "D14",
+        "title": ("Wertstoffhof statt Hausmüll", "Recycling centre, not the bin"),
+        "intro": ("Elektrogeräte gehören nie in den Hausmüll. In München nehmen die Wertstoffhöfe sie kostenlos an.",
+                  "Electronics never go in the household bin. Munich's recycling centres take them for free."),
+        "links": [
+            ("web", "Wertstoffhöfe in München", "AWM", "https://www.awm-muenchen.de/abfall-entsorgen/abgabestellen/wertstoffhoefe", ""),
+            ("video", "Sauber informiert: Wertstoffhof", "", "https://youtu.be/hwUfEHvNIKs", "AWM München · 3:04"),
+            ("video", "Elektro-Schrott ist wertvoll", "", "https://youtu.be/P-S6RWA4bLo", "AWM München · 0:52"),
         ],
     },
     "projekte": {
@@ -125,7 +245,7 @@ QR_TOPICS = {
         ],
     },
     "hilfe": {
-        "cards": "",
+        "cards": "C14 · D11",
         "title": ("Hilfe in München", "Help in Munich"),
         "intro": ("Repair-Shops, Repair-Cafés und mehr auf der Karte von Circular Munich.",
                   "Repair shops, repair cafés and more on Circular Munich's map."),
@@ -763,6 +883,7 @@ def build_measure() -> Path:
 MC_W, MC_H = 135.0, 85.0      # landscape, 2 x 2 on landscape A4 with printer margins
 MC_X0, MC_Y0 = (297.0 - 2 * 135.0) / 2, 26.0
 MC_BAND = 12.0
+LANE_W = 12.0  # pledge-dot lane along the right border of action cards
 
 TIERS = {  # tier -> (DE, EN, band colour, band text colour)
     "talk": ("Reden", "talk", RIVER, INK),
@@ -867,7 +988,9 @@ def draw_qr(page: Page, x: float, y: float, s: float, topic: str) -> None:
     m = s / (n + 2)  # one-module quiet zone inside the box
     d = "".join(f"M{x + (c + 1) * m:.3f},{y + (r + 1) * m:.3f}h{m:.3f}v{m:.3f}h-{m:.3f}z"
                 for r, row in enumerate(rows) for c, v in enumerate(row) if v)
-    page.add(f'<rect x="{x}" y="{y}" width="{s}" height="{s}" fill="#fff"/><path d="{d}" fill="{INK}"/>')
+    # wrapped in a link so the code is clickable when the PDF is shared online
+    page.add(f'<a xlink:href="{html.escape(qr_url(topic))}"><rect x="{x}" y="{y}" width="{s}" height="{s}" fill="#fff"/>'
+             f'<path d="{d}" fill="{INK}"/></a>')
 
 
 def draw_action_card(page: Page, c: MCard, x: float, y: float) -> None:
@@ -882,7 +1005,8 @@ def draw_action_card(page: Page, c: MCard, x: float, y: float) -> None:
     page.text(x + MC_W - 5, y + 8, de_t.upper(), 9.5, weight=800, fill=band_text, anchor="end", spacing=0.6,
               en=en_t if en_t.lower() != de_t.lower() else "", en_fill=band_text)
 
-    pad, side = 6.0, 32.0
+    pad = 6.0
+    side = LANE_W + 30 if c.qr else LANE_W + 3
     text_w = MC_W - pad - side
     note_h = 0.0
     if c.note:
@@ -911,12 +1035,18 @@ def draw_action_card(page: Page, c: MCard, x: float, y: float) -> None:
     if c.qr:
         draw_qr(page, rx + 3, y + MC_BAND + 3, 26, c.qr)
     draw_logo_pill(page, x + MC_W / 2 + 4, y + MC_BAND / 2, c.id)
-    # pledge-dot corner; centred in the side column when there is no QR
-    cx = x + MC_W - side / 2
-    cy = y + MC_H - 13 if c.qr else y + MC_BAND + (MC_H - MC_BAND) / 2 + 6
-    page.add(f'<circle cx="{cx}" cy="{cy}" r="8" fill="#fff" stroke="{INK}" stroke-width="0.4" stroke-dasharray="1.3 1"/>')
-    page.text(cx, cy - 13, "Mein Punkt", 6.5, weight=700, anchor="middle")
-    page.text(cx, cy - 10.2, "(my dot)", 5.2, fill=EN_GREY, anchor="middle")
+    draw_pledge_lane(page, x + MC_W - LANE_W, y + MC_BAND, MC_H - MC_BAND)
+
+
+def draw_pledge_lane(page: Page, lx: float, top: float, h: float) -> None:
+    """Dot lane right of the dashed line at lx; label runs vertically on the line."""
+    page.add(f'<line x1="{lx}" y1="{top + 2.5}" x2="{lx}" y2="{top + h - 2.5}" stroke="{INK}" '
+             f'stroke-width="0.4" stroke-dasharray="1.3 1"/>')
+    cy = top + h / 2
+    page.add(f'<g transform="rotate(-90 {lx:.3f} {cy:.3f})">')
+    page.add(f'<rect x="{lx - 17:.3f}" y="{cy - 2.4:.3f}" width="34" height="4.8" fill="#fff"/>')
+    page.text(lx, cy + 1.2, "MEIN PUNKT", 7, weight=800, anchor="middle", spacing=0.6, en="my dot")
+    page.add('</g>')
 
 
 def draw_logo_pill(page: Page, cx: float, cy: float, key: str) -> None:
@@ -1014,18 +1144,14 @@ def draw_joker_card(page: Page, x: float, y: float) -> None:
     page.text(x + 15.5, y + 8.4, "JOKER", 11, weight=800, fill="#FFFFFF", spacing=0.8,
               en="wild card", en_fill="#C9D3DA")
 
-    pad, side = 6.0, 32.0
+    pad = 6.0
     page.text(x + pad, y + MC_BAND + 8, "Eure eigene Aktion:", 13, weight=700, en="your own action")
     for i in range(4):
         ly = y + MC_BAND + 19 + i * 11
-        page.add(f'<line x1="{x + pad}" y1="{ly}" x2="{x + MC_W - side - 2}" y2="{ly}" stroke="{CUT}" stroke-width="0.35"/>')
+        page.add(f'<line x1="{x + pad}" y1="{ly}" x2="{x + MC_W - LANE_W - 4}" y2="{ly}" stroke="{CUT}" stroke-width="0.35"/>')
 
-    rx = x + MC_W - side
     draw_logo_pill(page, x + MC_W - 18, y + MC_BAND / 2, f"joker{x:.0f}-{y:.0f}")
-    cx, cy = x + MC_W - side / 2, y + MC_BAND + (MC_H - MC_BAND) / 2 + 6
-    page.add(f'<circle cx="{cx}" cy="{cy}" r="8" fill="#fff" stroke="{INK}" stroke-width="0.4" stroke-dasharray="1.3 1"/>')
-    page.text(cx, cy - 13, "Mein Punkt", 6.5, weight=700, anchor="middle")
-    page.text(cx, cy - 10.2, "(my dot)", 5.2, fill=EN_GREY, anchor="middle")
+    draw_pledge_lane(page, x + MC_W - LANE_W, y + MC_BAND, MC_H - MC_BAND)
 
 
 def card_sheets(cards: list[MCard], title: tuple[str, str], sub: tuple[str, str], draw,
@@ -1081,29 +1207,31 @@ M1_ENDINGS = [
 ]
 
 M1_ACTIONS = [
-    MCard("C1", "Frag Oma/Opa, welches Windows auf ihrem PC läuft.", "Ask which Windows is on their PC.", "talk"),
+    MCard("C1", "Frag Oma/Opa, welches Windows auf ihrem PC läuft.", "Ask which Windows is on their PC.", "talk",
+          qr="windows-version"),
     MCard("C2", "Erklär jemandem zu Hause, was im Oktober 2027 passiert.",
-          "Explain what happens in October 2027.", "talk"),
-    MCard("C3", "Schau nach, ob der PC noch Updates bekommt.", "Check whether it still gets updates.", "check"),
+          "Explain what happens in October 2027.", "talk", qr="win10-ende"),
+    MCard("C3", "Schau nach, ob der PC noch Updates bekommt.", "Check whether it still gets updates.", "check",
+          qr="updates"),
     MCard("C4", "Finde heraus, ob der PC überhaupt Windows 11 kann.",
-          "Find out whether it could run Windows 11.", "check"),
+          "Find out whether it could run Windows 11.", "check", qr="win11-check"),
     MCard("C5", "Erzähl es einer Person außerhalb dieses Raums.", "Tell one person outside this room.", "talk"),
-    MCard("C6", "Sichere zuerst Omas Fotos.", "Back up Oma's photos first.", "safety"),
+    MCard("C6", "Sichere zuerst Omas Fotos.", "Back up Oma's photos first.", "safety", qr="backup"),
     MCard("C7", "Lade ein Linux-Image herunter — z.B. Linux Mint.", "Download a Linux image.", "do", qr="iso"),
     MCard("C8", "Mach aus einem alten USB-Stick einen Live-Stick.", "Turn an old USB stick into a live stick.",
           "do", qr="stick", note=LIVE_USB_WARNING),
     MCard("C9", "Finde heraus, mit welcher Taste dein Computer ins Boot-Menü kommt.",
           "Find your computer's boot-menu key.", "do", qr="boot"),
     MCard("C10", "Setz dich mit Oma hin und zeig ihr den Live-Stick — nichts wird verändert.",
-          "Sit with Oma and show her the live stick.", "do"),
+          "Sit with Oma and show her the live stick.", "do", qr="live"),
     MCard("C11", "Frag eine KI, was man mit diesem PC machen kann — und prüfe die Antwort.",
-          "Ask an AI what can be done with this PC — and check the answer.", "learn"),
+          "Ask an AI what can be done with this PC — and check the answer.", "learn", qr="ki-pruefen"),
     MCard("C12", "Such ein Tutorial und schau es dir an.", "Find a tutorial and watch it.", "learn", qr="lernen"),
     MCard("C13", "Frag jemanden in der Schule, der sich auskennt.", "Ask someone at school who knows.", "learn"),
     MCard("C14", "Bring den PC in einen Repair-Shop und frag, was möglich ist.",
-          "Take the PC to a repair shop and ask.", "shop"),
+          "Take the PC to a repair shop and ask.", "shop", qr="hilfe"),
     MCard("C15", "Installiere Linux — zusammen mit einer erwachsenen Person, nach dem Backup und mit Erlaubnis.",
-          "Install Linux — with an adult, after a backup and with permission.", "do"),
+          "Install Linux — with an adult, after a backup and with permission.", "do", qr="installieren"),
 ]
 
 
@@ -1147,27 +1275,30 @@ M2_ACTIONS = [
           "Hunt the house for an unused device.", "find", lot="A"),
     MCard("D2", "Frag Nachbarn oder Oma, ob noch was im Schrank liegt.", "Ask a neighbour or Oma.", "find", lot="A"),
     MCard("D3", "Finde heraus, wie alt es ist und was drin steckt.", "Find out its age and what is inside.",
-          "diagnose", lot="A"),
+          "diagnose", lot="A", qr="alter"),
     MCard("D4", "Lern-Karte: Linux lernen", "Learn Linux", "learn", lot="A", qr="lernen"),
     MCard("D5", "Lern-Karte: Von USB booten", "Learn how to boot from USB", "learn", lot="A", qr="boot"),
     # Lot B — safety and practical action
     MCard("D6", "Sichere die Daten, bevor du irgendwas machst.", "Back up the data before anything else.",
-          "safety", lot="B", note=SAFETY_RULES),
+          "safety", lot="B", note=SAFETY_RULES, qr="backup"),
     MCard("D7", "Mach aus einem alten USB-Stick einen bootfähigen Linux-Stick.",
           "Turn an old USB stick into a bootable Linux stick.", "revive", lot="B", qr="stick", note=LIVE_USB_WARNING),
     MCard("D8", "Probier einen Live-USB-Stick daran aus.", "Try a live USB stick on it.", "revive", lot="B",
-          note=SAFETY_RULES),
+          note=SAFETY_RULES, qr="live"),
     MCard("D9", "Installiere Linux — zusammen mit einem Erwachsenen.", "Install Linux together with an adult.",
-          "revive", lot="B", note=SAFETY_RULES),
-    MCard("D10", "Bau mehr RAM oder eine SSD ein.", "Fit more RAM or an SSD.", "revive", lot="B", note=SAFETY_RULES),
+          "revive", lot="B", note=SAFETY_RULES, qr="installieren"),
+    MCard("D10", "Bau mehr RAM oder eine SSD ein.", "Fit more RAM or an SSD.", "revive", lot="B", note=SAFETY_RULES,
+          qr="aufruesten"),
     MCard("D11", "Bring es zu einem Repair-Shop oder Repair-Café von unserer Liste.",
-          "Take it to a listed shop or café.", "shop", lot="B", note=SAFETY_RULES),
+          "Take it to a listed shop or café.", "shop", lot="B", note=SAFETY_RULES, qr="hilfe"),
     MCard("D12", "Gib es an ein jüngeres Geschwisterkind oder an Oma weiter.",
           "Pass it to a younger sibling or to Oma.", "family", lot="B"),
-    MCard("D13", "Verkauf es oder verschenk es (eBay, Kleinanzeigen).", "Sell it or give it away.", "passon", lot="B"),
+    MCard("D13", "Verkauf es oder verschenk es (eBay, Kleinanzeigen).", "Sell it or give it away.", "passon", lot="B",
+          qr="daten-loeschen"),
     MCard("D14", "Bring ein wirklich totes Gerät zum Wertstoffhof — nicht in den Hausmüll.",
-          "Take a truly dead device to the Wertstoffhof.", "recycle", lot="B"),
-    MCard("D15", "Verkaufe brauchbare Einzelteile (RAM, Festplatte).", "Sell usable parts.", "recover", lot="B"),
+          "Take a truly dead device to the Wertstoffhof.", "recycle", lot="B", qr="wertstoffhof"),
+    MCard("D15", "Verkaufe brauchbare Einzelteile (RAM, Festplatte).", "Sell usable parts.", "recover", lot="B",
+          qr="daten-loeschen"),
     # Lot C — optional projects, revealed last
     MCard("D16", "Entertainment-Projekte", "entertainment projects", "project", lot="C", qr="unterhaltung",
           sub=("Batocera / RetroPie · Jellyfin / Navidrome · OBS", "retro games · media server · streaming")),
@@ -1211,6 +1342,7 @@ a.btn{display:block;padding:12px 14px;border-radius:10px;background:var(--bg);co
 a.btn:hover{border-color:var(--teal)}a.btn b{display:block}.meta{font-size:.8rem;color:var(--grey)}
 .tag{display:inline-block;font-size:.7rem;font-weight:700;padding:1px 7px;border-radius:6px;margin-right:6px;color:#fff;background:#E03131}
 .tag.web{background:var(--teal)}
+code{font-family:'Noto Sans Mono',monospace;background:#E6EEF3;padding:1px 5px;border-radius:4px;color:var(--teal);font-weight:700}
 footer{text-align:center;font-size:.75rem;color:var(--grey);padding:20px 12px 30px}footer img{height:34px;vertical-align:middle;margin:0 6px}
 """
 
@@ -1233,9 +1365,10 @@ def build_pages() -> Path:
             items.append(f'<li><a class="btn" href="{e(url)}"{target}>'
                          f'<b>{tag}{e(de)}{en_html}</b>{meta}</a></li>')
         cards = f'<div class="cards">Karte {e(t["cards"])}</div>' if t["cards"] else ""
+        code = lambda s: re.sub(r"`([^`]+)`", r"<code>\1</code>", e(s))
         sections.append(
             f'<section id="{key}">{cards}<h2>{e(t["title"][0])} <span class="en">({e(t["title"][1])})</span></h2>'
-            f'<p>{e(t["intro"][0])} <span class="en">({e(t["intro"][1])})</span></p><ul>{"".join(items)}</ul></section>')
+            f'<p>{code(t["intro"][0])} <span class="en">({code(t["intro"][1])})</span></p><ul>{"".join(items)}</ul></section>')
     page = f"""<!doctype html>
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>IsarPunk — Links aus dem Workshop</title><meta name="robots" content="noindex">
