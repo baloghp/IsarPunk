@@ -803,7 +803,7 @@ class MCard:
     en: str
     kind: str                 # tier key, "ending" or "start"
     qr: str | None = None     # QR_TOPICS key
-    cm: bool = False          # Circular Munich mark (inner-loop endings only)
+    cm: bool = False          # inner-loop ending: shows the circularity icon
     note: tuple[str, str] | None = None   # boxed warning / safety text
     lot: str = ""             # Mission 2 reveal lot (A, B, C)
     sub: tuple[str, str] | None = None    # extra line under the text (e.g. project names)
@@ -910,13 +910,42 @@ def draw_action_card(page: Page, c: MCard, x: float, y: float) -> None:
     rx = x + MC_W - side
     if c.qr:
         draw_qr(page, rx + 3, y + MC_BAND + 3, 26, c.qr)
-    else:
-        page.add(embed_svg(BRAND_MARK, f"bm-{c.id}", rx + 5, y + MC_BAND + 6, 22, 16))
-    # pledge-dot corner
-    cx, cy = x + MC_W - side / 2, y + MC_H - 13
+    draw_logo_pill(page, x + MC_W / 2 + 4, y + MC_BAND / 2, c.id)
+    # pledge-dot corner; centred in the side column when there is no QR
+    cx = x + MC_W - side / 2
+    cy = y + MC_H - 13 if c.qr else y + MC_BAND + (MC_H - MC_BAND) / 2 + 6
     page.add(f'<circle cx="{cx}" cy="{cy}" r="8" fill="#fff" stroke="{INK}" stroke-width="0.4" stroke-dasharray="1.3 1"/>')
     page.text(cx, cy - 13, "Mein Punkt", 6.5, weight=700, anchor="middle")
     page.text(cx, cy - 10.2, "(my dot)", 5.2, fill=EN_GREY, anchor="middle")
+
+
+def draw_logo_pill(page: Page, cx: float, cy: float, key: str) -> None:
+    """White pill with the Circular Munich and IsarPunk marks, for card headers."""
+    w, h = 25.0, 8.6
+    x, y = cx - w / 2, cy - h / 2
+    page.add(f'<rect x="{x:.3f}" y="{y:.3f}" width="{w}" height="{h}" rx="{h / 2}" fill="#fff"/>')
+    page.add(embed_svg(CM_MARK, f"pcm-{key}", x + 3.2, y + 1.1, 6.4, 6.4))
+    page.add(embed_svg(BRAND_MARK, f"pbm-{key}", x + 11.2, y + 0.6, 11, 7.4))
+
+
+def draw_cycle(page: Page, cx: float, cy: float, r: float, color: str) -> None:
+    """Circularity icon: two clockwise arrows forming a loop."""
+    import math
+
+    def pt(a: float, rad: float = r) -> tuple[float, float]:
+        t = math.radians(a)
+        return cx + rad * math.sin(t), cy - rad * math.cos(t)
+
+    sw, head = r * 0.3, r * 0.42
+    for start, end in ((25, 150), (205, 330)):
+        (x1, y1), (x2, y2) = pt(start), pt(end)
+        page.add(f'<path d="M{x1:.3f},{y1:.3f} A{r},{r} 0 0 1 {x2:.3f},{y2:.3f}" fill="none" '
+                 f'stroke="{color}" stroke-width="{sw:.3f}" stroke-linecap="round"/>')
+        t = math.radians(end)
+        tx, ty = math.cos(t), math.sin(t)          # clockwise tangent
+        (ox, oy), (ix, iy) = pt(end, r + head), pt(end, r - head)
+        tip = (x2 + tx * head * 1.3, y2 + ty * head * 1.3)
+        page.add(f'<polygon points="{ox:.3f},{oy:.3f} {tip[0]:.3f},{tip[1]:.3f} {ix:.3f},{iy:.3f}" fill="{color}"/>')
 
 
 def draw_flag(page: Page, x: float, y: float, cell: float = 1.8) -> None:
@@ -938,16 +967,16 @@ def draw_ending_card(page: Page, c: MCard, x: float, y: float) -> None:
     draw_flag(page, x + 7, y + 3.4)
     page.text(x + 17, y + 9.6, "ZIEL", 12, weight=800, spacing=1.2, en="ending")
     page.text(x + MC_W - 7, y + 9.8, c.id, 14, weight=800, anchor="end")
-    pad, top, foot = 10.0, band + 2, 18.0
+    draw_logo_pill(page, x + MC_W / 2 + 6, y + 7.2, c.id)
+    # good (inner-loop) endings carry the circularity icon; others have no mark
+    pad, top, foot = 10.0, band + 2, (19.0 if c.cm else 5.0)
     size, de_lines, en_lines = fit_box(c.de, c.en, MC_W - 2 * pad, MC_H - top - foot,
                                        (19, 18, 17, 16, 15, 14, 13, 12))
     block = block_height(size, de_lines, en_lines)
     draw_text_block(page, x + MC_W / 2, y + top + (MC_H - top - foot - block) / 2, size, de_lines, en_lines,
                     anchor="middle")
     if c.cm:
-        page.add(embed_svg(CM_MARK, f"cm-{c.id}", x + MC_W / 2 - 6.5, y + MC_H - 17, 13, 13))
-    else:
-        page.add(embed_svg(BRAND_MARK, f"bm-{c.id}", x + MC_W / 2 - 7, y + MC_H - 15.5, 14, 10.5))
+        draw_cycle(page, x + MC_W / 2, y + MC_H - 11, 5.2, GREEN)
 
 
 def draw_start_card(page: Page, c: MCard, x: float, y: float, w: float, h: float, label: tuple[str, str]) -> None:
@@ -957,15 +986,13 @@ def draw_start_card(page: Page, c: MCard, x: float, y: float, w: float, h: float
     page.text(x + 8, y + 11.2, c.id, 18, weight=800, fill=SUN)
     page.text(x + w - 8, y + 11.2, label[0], 15, weight=800, fill="#FFFFFF", anchor="end", spacing=1.5,
               en=label[1], en_fill="#BFD9E4")
-    pad, side = 12.0, 36.0
-    box_w, box_h = w - pad - side, h - 16 - 2 * 6
+    draw_logo_pill(page, x + w / 2, y + 8, f"{c.id}{y:.0f}")
+    pad = 12.0
+    box_w, box_h = w - 2 * pad, h - 16 - 2 * 6
     size, de_lines, en_lines = fit_box(c.de, c.en, box_w, box_h, (26, 24, 22, 20, 18, 16))
     block = block_height(size, de_lines, en_lines)
     draw_text_block(page, x + pad, y + 16 + 6 + (box_h - block) / 2, size, de_lines, en_lines,
                     fill="#FFFFFF", en_fill="#BFD9E4")
-    bx, by = x + w - side + 2, y + 16 + (h - 16 - 26) / 2
-    page.add(f'<rect x="{bx}" y="{by}" width="30" height="26" rx="4" fill="#fff"/>')
-    page.add(embed_svg(BRAND_MARK, f"bm-{c.id}{y:.0f}", bx + 2, by + 2.5, 26, 21))
 
 
 def draw_star(page: Page, cx: float, cy: float, r: float, fill: str) -> None:
@@ -994,8 +1021,8 @@ def draw_joker_card(page: Page, x: float, y: float) -> None:
         page.add(f'<line x1="{x + pad}" y1="{ly}" x2="{x + MC_W - side - 2}" y2="{ly}" stroke="{CUT}" stroke-width="0.35"/>')
 
     rx = x + MC_W - side
-    page.add(embed_svg(BRAND_MARK, f"bm-joker{x:.0f}-{y:.0f}", rx + 5, y + MC_BAND + 6, 22, 16))
-    cx, cy = x + MC_W - side / 2, y + MC_H - 13
+    draw_logo_pill(page, x + MC_W - 18, y + MC_BAND / 2, f"joker{x:.0f}-{y:.0f}")
+    cx, cy = x + MC_W - side / 2, y + MC_BAND + (MC_H - MC_BAND) / 2 + 6
     page.add(f'<circle cx="{cx}" cy="{cy}" r="8" fill="#fff" stroke="{INK}" stroke-width="0.4" stroke-dasharray="1.3 1"/>')
     page.text(cx, cy - 13, "Mein Punkt", 6.5, weight=700, anchor="middle")
     page.text(cx, cy - 10.2, "(my dot)", 5.2, fill=EN_GREY, anchor="middle")

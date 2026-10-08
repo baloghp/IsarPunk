@@ -131,7 +131,7 @@ The workshop PDF is required and projectable. Follow its existing order using th
 | A21 | Steam         | Steam Deck; reappears at the stations       |
 | A22 | Word          | Reappears on F2                             |
 
-Starter, goal, and ending cards must be visually distinct from action cards. Apply the Circular Munich mark only to inner-loop endings: O1, O2, and H1–H5. The app pool should be refreshed each school year.
+Starter, goal, and ending cards must be visually distinct from action cards. Every mission card carries the Circular Munich and IsarPunk logos in its header. Inner-loop endings (O1, O2, and H1–H5) additionally carry a circularity icon; the other endings carry no icon. The app pool should be refreshed each school year.
 
 ### Beat 2 — Measure In (5–15)
 
@@ -266,9 +266,9 @@ Each of the four teams gets its own A2 board.
 | -- | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | S1 | **Omas PC läuft Windows 10. Der Sicherheits-Countdown bis Oktober 2027 läuft. Sie weiß noch nichts davon.** | Oma's PC runs Windows 10. The security countdown to October 2027 is running. She does not know yet. |
 
-**Endings O1–O6 — four laminated A6 sets, one per team; no pledge dots.** The Circular Munich mark appears on O1 and O2 only.
+**Endings O1–O6 — four laminated A6 sets, one per team; no pledge dots.** The circularity icon appears on O1 and O2 only.
 
-| ID | DE                                                                                  | EN                                                    | Type     | CM mark |
+| ID | DE                                                                                  | EN                                                    | Type     | Circularity icon |
 | -- | ----------------------------------------------------------------------------------- | ----------------------------------------------------- | -------- | ------- |
 | O1 | Omas PC läuft mit Linux — sicher — und sie benutzt ihn weiter.                   | Runs Linux safely; she keeps using it.                | Success  | yes     |
 | O2 | Ein Repair-Shop hat Omas PC umgestellt.                                             | A repair shop switched it over.                       | Referral | yes     |
@@ -328,9 +328,9 @@ One A2 board per team.
 
 Every team uses S2. The endings below are possible destinations, not a ranking or required route.
 
-**Endings H1–H8 — four laminated A6 sets, no pledge dots.** Apply the Circular Munich mark to H1–H5 only.
+**Endings H1–H8 — four laminated A6 sets, no pledge dots.** Apply the circularity icon to H1–H5 only.
 
-| ID | DE                                                                                             | EN                                                                          | Type              | CM mark |
+| ID | DE                                                                                             | EN                                                                          | Type              | Circularity icon |
 | -- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ----------------- | ------- |
 | H1 | Das Gerät läuft wieder — mit Linux — und jemand benutzt es.                                | Works again with Linux; someone uses it.                                    | Reuse             | yes     |
 | H2 | Ein Repair-Shop hat es repariert oder umgestellt.                                              | A shop repaired or switched it.                                             | Referral          | yes     |
