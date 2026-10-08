@@ -9,6 +9,9 @@ Thumbs.db
 .cursor/
 node_modules/
 
+# Print intermediates
+Print/build/
+
 # Secrets
 .env
 .env.*

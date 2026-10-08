@@ -56,7 +56,7 @@ Use a simple help code: `0` = self-started, `1` = one hint, `2` = repeated expla
 Also capture these checks:
 
 - [ ] USB boot reaches a usable desktop; no installation begins
-- [ ] F1 tasks are completed, including finding Terminal and running `fastfetch`
+- [ ] F1 tasks are completed, including finding Terminal and running `hostnamectl` (check it shows the firmware date on both live systems)
 - [ ] F2 tasks are completed using the offline apps
 - [ ] Both station groups get hands-on time and the planned swap works
 - [ ] Mission 1 produces a coherent path and one action pledge per person

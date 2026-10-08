@@ -190,7 +190,7 @@ The sheets are prompts, not worksheets to grade. They give hands something to do
 **Station A — coach these two blocks, do not skip them:**
 
 1. **Find the boot-setup key and switch to USB boot.** This is the real first wall for anyone who tries it at home later. Hint the key once; the students press it and pick the stick.
-2. **Find the terminal and run** `fastfetch`**.** Give the command away — the discovery is finding Terminal and typing something, not memorising flags. The output answers how old the laptop is and what is inside it.
+2. **Find the terminal and run** `hostnamectl`**.** Give the command away — the discovery is finding Terminal and typing something, not memorising flags. It ships with every systemd distro (no install, no sudo); the output shows the model, the operating system and the firmware date, which answers how old the laptop is. Bonus for fast groups: `free -h` (memory) and `lscpu` (processor).
 
 Show Mint first because the desktop feels familiar, then Bazzite for the gaming and Steam Deck connection. Let students hold a stick; the boot wait is content, not dead time. Nothing is being installed, and saying so is half the lesson.
 
@@ -203,7 +203,7 @@ Show Mint first because the desktop feels familiar, then Bazzite for the gaming 
 **F1 — Distro tasting (Station A), reusable prompt sheet.**
 
 - Find the boot-setup key, choose USB boot, and start the live system. Nothing is installed.
-- How old is this laptop, and what is inside it? Open Terminal and type `fastfetch`.
+- How old is this laptop, and what is inside it? Open Terminal and type `hostnamectl`.
 - What is different between these two desktops? Name one thing about each.
 - Find the games software on **Bazzite**.
 - Is anything being installed right now? *(No — it runs from the stick.)*
@@ -431,7 +431,7 @@ As the discussion continues, hand out the take-home package and say one sentence
 
 The facilitator keeps a shop crib with the same names for in-flight naming during Mission 2.
 
-**QR targets:** all codes point to an IsarPunk-controlled page, with German material first.
+**QR targets:** all codes point to an IsarPunk-controlled page, with German material first: the GitHub Pages link page `https://baloghp.github.io/IsarPunk/#<topic>`, generated from `QR_TOPICS` in `Print/build_print.py`. Swap videos there; printed codes stay valid.
 
 | On card  | Opens                                                                    |
 | -------- | ------------------------------------------------------------------------ |
