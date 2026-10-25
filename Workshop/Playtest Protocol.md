@@ -16,7 +16,7 @@
 Use working drafts; do not laminate or order final quantities yet.
 
 - [ ] Two pre-2018 laptops: one for USB boot / distro tasting, one with the offline Linux install and apps
-- [ ] Mint and Bazzite live USBs, plus at least one known-good spare
+- [ ] Mint and Garuda Dr460nized live USBs, plus at least one known-good spare
 - [ ] Test both machines without network; confirm power, boot keys, displays, audio, and the apps needed for F1/F2
 - [ ] Draft Set A layer-sort cards; Measure In/Out sheets using the current deck's B1–B5 and E1–E3 rows
 - [ ] Draft S1, O, C, S2, H, and D card sets, grouped for the intended reveal sequence

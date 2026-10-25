@@ -31,7 +31,7 @@
 - [ ] DE native review of all card text
 - [ ] Print + laminate reusables (Sets A, S, O, H); print Measure ×2, C, D, F1/F2, take-home
 - [ ] Buy personal colour dots, A2 boards, markers
-- [ ] Flash Mint + Bazzite sticks; prepare both machines (offline preload)
+- [ ] Flash Mint + Garuda Dr460nized sticks; prepare both machines (offline preload)
 - [ ] Partner names on take-home + shop crib
 - [ ] Playtest scheduled → then freeze card IDs
 
@@ -96,7 +96,7 @@
 
 | Item | Owner | Ready? |
 |------|-------|--------|
-| Live USBs ×3–4 (Mint · Bazzite · spares) | Peter | |
+| Live USBs ×3–4 (Mint · Garuda Dr460nized · spares) | Peter | |
 | Two old laptops (~2015 hero + loaded second machine) | Peter | |
 | Card sets A, S, O, C, H, D printed (DE) — specs in [Workshop Concept](../Workshop/Workshop%20Concept.md) | Peter | |
 | Measure sheet ×2 (stamped B1) | Peter | |

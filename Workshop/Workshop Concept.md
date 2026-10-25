@@ -192,7 +192,7 @@ The sheets are prompts, not worksheets to grade. They give hands something to do
 1. **Find the boot-setup key and switch to USB boot.** This is the real first wall for anyone who tries it at home later. Hint the key once; the students press it and pick the stick.
 2. **Find the terminal and run** `hostnamectl`**.** Give the command away — the discovery is finding Terminal and typing something, not memorising flags. It ships with every systemd distro (no install, no sudo); the output shows the model, the operating system and the firmware date, which answers how old the laptop is. Bonus for fast groups: `free -h` (memory) and `lscpu` (processor).
 
-Show Mint first because the desktop feels familiar, then Bazzite for the gaming and Steam Deck connection. Let students hold a stick; the boot wait is content, not dead time. Nothing is being installed, and saying so is half the lesson.
+Show Mint first because the desktop feels familiar, then Garuda Dr460nized as the gaming-focused alternative. Let students hold a stick; the boot wait is content, not dead time. Nothing is being installed, and saying so is half the lesson.
 
 **Station B** is already booted and just fun — a race through familiar categories that lands on the cost punchline.
 
@@ -205,11 +205,10 @@ Show Mint first because the desktop feels familiar, then Bazzite for the gaming 
 - Find the boot-setup key, choose USB boot, and start the live system. Nothing is installed.
 - How old is this laptop, and what is inside it? Open Terminal and type `hostnamectl`.
 - What is different between these two desktops? Name one thing about each.
-- Find the games software on **Bazzite**.
 - Is anything being installed right now? *(No — it runs from the stick.)*
 - What did this operating system cost? *(Nothing.)*
 
-Show Mint first, then Bazzite. Prepare a known-good USB and a machine-specific boot-key hint; rotate who uses the keyboard.
+Show Mint first, then Garuda Dr460nized. Prepare a known-good USB and a machine-specific boot-key hint; rotate who uses the keyboard.
 
 **F2 — Treasure hunt (Station B), reusable prompt sheet.**
 
@@ -513,7 +512,7 @@ The Measure sheet captures immediate response and confidence shifts; it does not
 | Adapters and power       | Bring the required video adapter, power supply, and extension lead if the room layout needs one                   |
 | Machine A                | Hero laptop (~2015), boots from USB                                                                               |
 | Machine B                | Pre-2018 laptop with offline Linux install, apps, and Steam                                                       |
-| Live USBs                | 3–4 sticks: Mint, Bazzite, and known-good spares                                                                 |
+| Live USBs                | 3–4 sticks: Mint, Garuda Dr460nized, and known-good spares                                                       |
 | Boards and tools         | Eight A2 boards total, markers, tape, and arrows; quantities for cards and sheets are specified under their beats |
 | Personal identifiers     | 24 distinct colours or figures, with initials only as a last-resort way to distinguish shared identifiers         |
 | Timer and observer notes | Visible timer plus a place to record beat timings and problems during the playtest                                |
